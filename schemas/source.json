@@ -39,6 +39,10 @@
         "filenameInZip": {
             "type": "string",
             "description": "Name of source file in zip file"
+        },
+        "layerName": {
+            "type": "string",
+            "description": "Name of layer to open, only applicable in multi-layer formats like gdb."
         }
     },
     "required": ["adminLevel", "attribution", "filetype", "name", "properties", "url"],

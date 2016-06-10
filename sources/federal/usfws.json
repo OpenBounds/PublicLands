@@ -1,0 +1,22 @@
+{
+    "name": "U.S. Fish and Wildlife Service",
+    "attribution": "U.S. Fish and Wildlife Service",
+    "properties": {
+        "name": "ORGNAME",
+        "name2": "CMPXNAME",
+        "adminAgency": {"static": "U.S. Fish and Wildlife Service"},
+        "type": "RSL_TYPE"
+    },
+    "adminLevel": "federal",
+    "filetype": "gdb",
+    "url": "http://ecos.fws.gov/ServCatFiles/reference/holding/58381/FWSCadastral.gdb.zip",
+    "filenameInZip": "FWSCadastral.gdb",
+    "layerName": "FWSInterest",
+    "filter": [
+        {
+            "expression": "match",
+            "key": "RSL_TYPE",
+            "value": "(NWR|WMA|WPA)"
+        }
+    ]
+}
