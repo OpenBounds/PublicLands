@@ -49,21 +49,24 @@
             "enum": ["and", "or"]
         },
         "filter": {
-            "type": "object",
-            "properties": {
-                "expression": {
-                    "type": "string",
-                    "enum": ["not null", "=", "!=", "match"]
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "expression": {
+                        "type": "string",
+                        "enum": ["not null", "=", "!=", "match"]
+                    },
+                    "key": {
+                        "type": "string"
+                    },
+                    "value": {
+                        "type": ["string", "number"]
+                    }
                 },
-                "key": {
-                    "type": "string"
-                },
-                "value": {
-                    "type": ["string", "number"]
-                }
-            },
-            "required": ["expression", "key"],
-            "additionalProperties": false
+                "required": ["expression", "key"],
+                "additionalProperties": false
+            }
         }
     },
     "required": ["adminLevel", "attribution", "filetype", "name", "properties", "url"],
