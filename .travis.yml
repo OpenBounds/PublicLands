@@ -1,0 +1,5 @@
+language: python
+python:
+  - "2.7"
+install: "pip install -r Processing/requirements-validate.txt"
+script: python Processing/validate.py schemas/source.json sources
