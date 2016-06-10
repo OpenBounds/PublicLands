@@ -1,0 +1,59 @@
+{
+    "title": "OpenBounds Public Land Data Source",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Descriptive name of this dataset",
+            "pattern": "^[\\w ]+$"
+        },
+        "attribution": {
+            "type": "string",
+            "description": "Source file attribution"
+        },
+        "properties": {
+            "type": "object",
+            "properties": {
+                "id": {"type": "string"},
+                "name": {"type": "string"},
+                "featureType": {"$ref": "#/definitions/propertyMapping"},
+                "adminAgency": {"$ref": "#/definitions/propertyMapping"},
+                "adminAgency2": {"$ref": "#/definitions/propertyMapping"}
+            },
+            "required": ["id", "name"]
+        },
+        "adminLevel": {
+            "type": "string",
+            "description": "Administrative level",
+            "enum": ["federal", "state", "county", "local", "tribal", "other"]
+        },
+        "filetype": {
+            "type": "string",
+            "description": "Source file type",
+            "enum": [ "shp", "gdb", "kml", "geojson"]
+        },
+        "url": {
+            "type": "string",
+            "description": "Source file URL",
+            "patter": "^((https|http|ftp|s3):\/\/)?([\\da-zA-Z\\.-]+)\\.([a-zA-Z]{2,16})([\/\\w \\.-\\?\\&]*)*$"
+        },
+        "filenameInZip": {
+            "type": "string",
+            "description": "Name of source file in zip file"
+        }
+    },
+    "required": ["adminLevel", "attribution", "filetype", "name", "properties", "url"],
+    "definitions": {
+        "propertyMapping": {
+            "oneOf": [
+                {"type": "string"},
+                {
+                    "type": "object",
+                    "properties": {
+                        "static": {"type":"string"}
+                    },
+                    "required": ["static"]
+                }
+            ]
+        }
+    }
+}
