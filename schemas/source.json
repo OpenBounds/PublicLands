@@ -4,7 +4,7 @@
         "name": {
             "type": "string",
             "description": "Descriptive name of this dataset",
-            "pattern": "^[\\w ]+$"
+            "pattern": "^[\\w\\. ]+$"
         },
         "attribution": {
             "type": "string",
@@ -14,6 +14,7 @@
             "type": "object",
             "properties": {
                 "name": {"$ref": "#/definitions/propertyMapping"},
+                "name2": {"$ref": "#/definitions/propertyMapping"},
                 "featureType": {"$ref": "#/definitions/propertyMapping"},
                 "adminAgency": {"$ref": "#/definitions/propertyMapping"},
                 "adminAgency2": {"$ref": "#/definitions/propertyMapping"}
