@@ -13,8 +13,7 @@
         "properties": {
             "type": "object",
             "properties": {
-                "id": {"type": "string"},
-                "name": {"type": "string"},
+                "name": {"$ref": "#/definitions/propertyMapping"},
                 "featureType": {"$ref": "#/definitions/propertyMapping"},
                 "adminAgency": {"$ref": "#/definitions/propertyMapping"},
                 "adminAgency2": {"$ref": "#/definitions/propertyMapping"}
