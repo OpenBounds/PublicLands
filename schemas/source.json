@@ -39,6 +39,27 @@
         "filenameInZip": {
             "type": "string",
             "description": "Name of source file in zip file"
+        },
+        "filterOperator": {
+            "type": "string",
+            "enum": ["and", "or"]
+        },
+        "filter": {
+            "type": "object",
+            "properties": {
+                "expression": {
+                    "type": "string",
+                    "enum": ["not null", "=", "!=", "match"]
+                },
+                "key": {
+                    "type": "string"
+                },
+                "value": {
+                    "type": ["string", "number"]
+                }
+            },
+            "required": ["expression", "key"],
+            "additionalProperties": false
         }
     },
     "required": ["adminLevel", "attribution", "filetype", "name", "properties", "url"],
@@ -51,7 +72,8 @@
                     "properties": {
                         "static": {"type":"string"}
                     },
-                    "required": ["static"]
+                    "required": ["static"],
+                    "additionalProperties": false
                 }
             ]
         }
