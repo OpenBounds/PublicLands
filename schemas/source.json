@@ -18,7 +18,7 @@
                 "adminAgency": {"$ref": "#/definitions/propertyMapping"},
                 "adminAgency2": {"$ref": "#/definitions/propertyMapping"}
             },
-            "required": ["id", "name"]
+            "required": ["name"]
         },
         "adminLevel": {
             "type": "string",
