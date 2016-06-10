@@ -1,0 +1,11 @@
+{
+    "name": "West Virginia State Forests",
+    "attribution": "WV Division of Forestry",
+    "properties": {
+        "name": "NAME",
+        "adminAgency": {"static": "WV Division of Forestry"}
+    },
+    "adminLevel": "state",
+    "filetype": "shp",
+    "url": "ftp://ftp.wvgis.wvu.edu/pub/Clearinghouse/Boundaries/wvStateForestBoundaries_wvdof_092015_utm83.zip"
+}
