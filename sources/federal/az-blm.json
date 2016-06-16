@@ -6,9 +6,14 @@
 		"adminAgency" : {"static" : "U.S. Bureau of Land Management"}
 		},
 		"adminLevel" : "federal",
+<<<<<<< HEAD
 		"filetype" : "gdb",
 		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
 		"filenameInZip": "az_surf_mgmt.gdb", 
+=======
+		"filetype" : "shp",
+		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
+>>>>>>> 4c8c6b3b1898315f79b072c3de8c9fb7ea8dce21
 		"layerName": "AZ_SMA",
     "filter": [
        {

@@ -6,10 +6,8 @@
 		"adminAgency" : {"static": "U.S. Department of Defense"}
 		},
 		"adminLevel" : "federal",
-		"filetype" : "gdb",
+		"filetype" : "shp",
 		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
-		"filenameInZip": "az_surf_mgmt.gdb", 
-		"layerName": "AZ_SMA",
     "filter": [
        {
            "expression": "match",
