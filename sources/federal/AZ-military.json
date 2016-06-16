@@ -8,7 +8,6 @@
 		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
-		"layerName": "AZ_SMA",
     "filter": [
        {
            "expression": "match",
