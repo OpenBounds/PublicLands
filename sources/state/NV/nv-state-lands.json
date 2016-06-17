@@ -1,8 +1,8 @@
 {
-	"name" : "State-Owned Lands in Nevada",
+	"name" : "State Lands in Nevada",
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
-		"adminAgency" : {"static": "State of Nevada"}
+		"adminAgency" : {"static" : "State of Nevada"}
 		},
 		"adminLevel" : "state",
 		"filetype" : "shp",
