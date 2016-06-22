@@ -1,0 +1,24 @@
+{
+	"name" : "Federal Lands in Florida",
+	"attribution" : "Florida Natural Areas Inventory",
+	"properties" : {
+		"name" : "MANAME",
+		"adminAgency" : "MANAGING_A"
+		},
+		"adminLevel" : "federal",
+		"filetype" : "shp",
+		"url" : "ftp://ftp.fgdl.org/pub/state/flma_mar16.zip",
+    "filter": [
+       {
+           "expression": "match",
+           "key": "MATYPE2",
+           "value": "F"
+       },
+       {
+       		"expression" : "match",
+       		"key" : "MATYPE",
+       		"value" : "(FBLAC|FFSNF|FFSST)"
+       }		
+   ]
+
+}
