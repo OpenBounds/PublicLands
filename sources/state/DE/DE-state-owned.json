@@ -1,0 +1,21 @@
+{
+	"name" : "State-Owned Public Lands in Delaware",
+	"attribution" : "Delaware State Parks",
+	"properties" : {
+		"adminAgency" : "MANAGEMENT",
+		"name" : "NAME",
+		"type" : "USE",
+		"access" : {"static" : "yes"}
+		},
+		"adminLevel" : "state",
+		"filetype" : "shp",
+		"url" : "http://opendata.firstmap.delaware.gov/datasets/8fb7b97cc9484bd8bc30795f7f551b35_0.zip",
+    "filter": [
+       {
+           "expression": "match",
+           "key": "MANAGING_A",
+           "value": "(State|Bear Office|DelDOT|DPR|F&W|DWS|Forestry|Hist&Cult|OTS|S&W)"
+       }
+     ]     
+
+}

@@ -1,0 +1,21 @@
+{
+	"name" : "State Lands in Utah",
+	"attribution" : "U.S. Bureau of Land Management",
+	"properties" : {
+		"type" : "DESIG",
+		"adminAgency" : "ADMIN"
+		},
+		"adminLevel" : "state",
+		"filetype" : "gdb",
+		"url" : "http://www.blm.gov/style/medialib/blm/ut/support_services_uso.Par.58040.File.datat/LandOwnership_20160601.zip",
+		"filenameInZip": "Ownership_BLM.gdb",
+		"layerName" : "LandOwnership",
+    "filter": [
+       {
+           "expression": "match",
+           "key": "OWNER",
+           "value": "State"
+       }
+   ]
+
+}
