@@ -4,8 +4,8 @@
 	"properties" : {
 		"adminAgency" : "MANAGING_A",
 		"name" : "MANAME",
+        "adminLevel" : {"static": "state"}
 		},
-	"adminLevel" : "state",
 	"filetype" : "shp",
 	"url" : "ftp://ftp.fgdl.org/pub/state/flma_mar16.zip",
   "filter": [

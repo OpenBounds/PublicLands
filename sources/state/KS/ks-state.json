@@ -3,9 +3,9 @@
 	"attribution" : "Kansas Natural Heritage Inventory",
 	"properties" : {
 		"adminAgency" : "MANAGER",
-		"name" : "AREA_NAME"
+		"name" : "AREA_NAME",
+        "adminLevel" : {"static": "state"}
 		},
-		"adminLevel" : "state",
 		"filetype" : "shp",
 		"url" : "http://data.kansasgis.org/environmental_resources/shp/protected_areas/protected_areas.zip",
 	  "filter": [

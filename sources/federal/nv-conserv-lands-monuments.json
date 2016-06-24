@@ -4,7 +4,8 @@
 	"properties" : {
 		"name" : "NLCS_NAME",
 		"adminAgency" : {"static" : "U.S. Bureau of Land Management"},
-		"type" : "NLCS_TYPE"
+		"type" : "NLCS_TYPE",
+		"adminLevel" : {"static": "federal"}
 		},
 		"adminLevel" : "federal",
 		"filetype" : "shp",

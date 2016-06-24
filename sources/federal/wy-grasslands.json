@@ -4,9 +4,9 @@
 	"properties" : {
 		"adminAgency" : "HOLDAGENCY",
 		"name" : "SURFACE",
-		"type" : {"static" : "National Grassland"}
+		"type" : {"static" : "National Grassland"},
+        "adminLevel" : {"static": "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "http://pathfinder.geospatialhub.org/datasets/5bf76cf73d1c4baa8c124d60cf846d77_0.zip",
     "filter": [

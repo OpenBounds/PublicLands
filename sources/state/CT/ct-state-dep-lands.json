@@ -4,9 +4,9 @@
 	"properties" : {
 		"name" : "PROPERTY",
 		"type" : "IMS_LEGEND",
-		"adminAgency" : {"static" : "Connecticut Department of Environmental Protection"}
+		"adminAgency" : {"static" : "Connecticut Department of Environmental Protection"},
+		"adminLevel" : {"static": "state"}
 		},
-	"adminLevel" : "state",
 	"filetype" : "gdb",
 	"url" : "ftp://ftp.state.ct.us/pub/dep/gis/geodatabase_format_zip/Property_gdb.zip",
 	"filenameInZip" : "Property.gdb",

@@ -3,9 +3,9 @@
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
 		"name" : "DESC_",
-		"adminAgency" : "OWNER"
+		"adminAgency" : "OWNER",
+        "adminLevel" : {"static": "state"}
 		},
-		"adminLevel" : "state",
 		"filetype" : "shp",
 		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
     "filter": [

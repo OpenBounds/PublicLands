@@ -2,7 +2,8 @@
 	"name" : "U.S. Department of Defense-Owned Lands in Nevada",
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
-		"adminAgency" : {"static": "U.S. Department of Defense"}
+		"adminAgency" : {"static": "U.S. Department of Defense"},
+        "adminLevel" : {"static": "federal"}
 		},
 		"adminLevel" : "federal",
 		"filetype" : "shp",

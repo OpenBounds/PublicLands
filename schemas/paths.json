@@ -1,4 +1,5 @@
 {
     "sources":"sources/(state/[A-Z]{2}|federal)/[a-z-]+.json$",
+    "sources":"sources/(county-local/[A-Z]{2}|state/[A-Z]{2}|federal)/[A-Za-z-]+.json$",
     "generated":"generated/(state/[A-Z]{2}|federal)/[a-z-]+.geojson$"
 }

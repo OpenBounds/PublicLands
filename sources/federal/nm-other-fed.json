@@ -2,9 +2,9 @@
 	"name" : "Other Federal Lands in New Mexico",
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
-		"adminAgency" : {"static" : "Federal Government"}
+		"adminAgency" : {"static" : "Federal Government"},
+        "adminLevel" : {"static": "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
 		    "filter": [

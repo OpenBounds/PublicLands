@@ -4,9 +4,9 @@
 	"properties" : {
 		"adminAgency" : {"static" : "Minnesota Department of Natural Resources"},
 		"name" : "name",
-		"type" : {"static" : "Wildlife Management Area"}
+		"type" : {"static" : "Wildlife Management Area"},
+		"adminLevel" : {"static": "state"}
 		},
-		"adminLevel" : "state",
 		"filetype" : "shp",
 		"url" : "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_wildlife_mgmt_areas_pub/shp_bdry_dnr_wildlife_mgmt_areas_pub.zip"
 

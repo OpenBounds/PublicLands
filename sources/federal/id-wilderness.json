@@ -4,9 +4,9 @@
 	"properties" : {
 		"name" : "NLCS_NAME",
 		"type" : {"static": "Wilderness Area"},
-		"adminAgency" : {"static": "U.S. Bureau of Land Management"}
+		"adminAgency" : {"static": "U.S. Bureau of Land Management"},
+		"adminLevel" : {"static": "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/blm/BDY_NOC_NLCSWilderness_PUB_24K_POLY.shp"
 }

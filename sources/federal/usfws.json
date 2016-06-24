@@ -5,9 +5,9 @@
         "name": "ORGNAME",
         "name2": "CMPXNAME",
         "adminAgency": {"static": "U.S. Fish and Wildlife Service"},
-        "type": "RSL_TYPE"
+        "type": "RSL_TYPE",
+        "adminLevel" : {"static": "federal"}
     },
-    "adminLevel": "federal",
     "filetype": "gdb",
     "url": "http://ecos.fws.gov/ServCatFiles/reference/holding/58381/FWSCadastral.gdb.zip",
     "filenameInZip": "FWSCadastral.gdb",

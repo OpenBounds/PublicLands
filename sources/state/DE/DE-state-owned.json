@@ -5,9 +5,9 @@
 		"adminAgency" : "MANAGEMENT",
 		"name" : "NAME",
 		"type" : "USE",
-		"access" : {"static" : "yes"}
+		"access" : {"static" : "yes"},
+        "adminLevel" : {"static": "state"}
 		},
-		"adminLevel" : "state",
 		"filetype" : "shp",
 		"url" : "http://opendata.firstmap.delaware.gov/datasets/8fb7b97cc9484bd8bc30795f7f551b35_0.zip",
     "filter": [

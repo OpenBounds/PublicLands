@@ -3,9 +3,9 @@
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
 		"name" : "WLD_NAME",
-		"adminAgency" : {"static" : "U.S. Bureau of Land Management"}
+		"adminAgency" : {"static" : "U.S. Bureau of Land Management"},
+        "adminLevel" : {"static": "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "gdb",
 		"url" : "http://www.blm.gov/or/gis/files/web_corp/wilderness.zip",
 		"filenameInZip": "wilderness.gdb", 

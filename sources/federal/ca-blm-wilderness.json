@@ -4,9 +4,9 @@
 	"properties" : {
 		"name" : "NLCS_NAME",
 		"type" : {"static" : "Wilderness Area"},
-		"adminAgency" : {"static" : "U.S. Bureau of Land Management"}
+		"adminAgency" : {"static" : "U.S. Bureau of Land Management"},
+		"adminLevel" : {"static": "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "gdb",
 		"url" : "http://www.blm.gov/ca/gis/GeodatabasesZIP/nlcsWilderness_v10.gdb.zip",
 		"filenameInZip": "nlcsWilderness_v10.gdb",

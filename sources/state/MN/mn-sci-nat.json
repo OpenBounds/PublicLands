@@ -4,7 +4,8 @@
 	"properties" : {
 		"adminAgency" : "OWN_DESC",
 		"name" : "NAME",
-		"type" : "UNIT_TYPE"
+		"type" : "UNIT_TYPE",
+        "adminLevel" : {"static": "state"}
 		},
 		"adminLevel" : "state",
 		"filetype" : "shp",

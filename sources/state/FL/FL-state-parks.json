@@ -7,9 +7,9 @@
 		"type" : "CLASSIFY",
 		"access" : {"static" : "yes"},
 		"owner" : "OWNER",
-		"url" : "URL"
+		"url" : "URL",
+        "adminLevel" : {"static": "state"}
 		},
-		"adminLevel" : "state",
 		"filetype" : "shp",
 		"url" : "ftp://ftp.fgdl.org/pub/state/stpark_dec15.zip",
     "filter": [

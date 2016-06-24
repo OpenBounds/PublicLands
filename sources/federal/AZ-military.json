@@ -3,9 +3,9 @@
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
 		"name" : "DESC_",
-		"adminAgency" : {"static": "U.S. Department of Defense"}
+		"adminAgency" : {"static": "U.S. Department of Defense"},
+        "adminLevel" : {"static": "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
     "filter": [

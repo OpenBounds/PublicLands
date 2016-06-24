@@ -20,11 +20,6 @@
                 "adminAgency2": {"$ref": "#/definitions/propertyMapping"}
             }
         },
-        "adminLevel": {
-            "type": "string",
-            "description": "Administrative level",
-            "enum": ["federal", "state", "county", "local", "tribal", "other"]
-        },
         "filetype": {
             "type": "string",
             "description": "Source file type",
@@ -68,7 +63,7 @@
             }
         }
     },
-    "required": ["adminLevel", "attribution", "filetype", "name", "properties", "url"],
+    "required": ["attribution", "filetype", "name", "properties", "url"],
     "definitions": {
         "propertyMapping": {
             "oneOf": [

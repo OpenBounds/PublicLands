@@ -5,9 +5,9 @@
 		"adminAgency" : "OWNER",
 		"name" : "NAME",
 		"type" : "TYPE",
-		"access" : {"static" : "yes"}
+		"access" : {"static" : "yes"},
+        "adminLevel" : {"static": "county"}
 		},
-	"adminLevel" : "county",
 	"filetype" : "shp",
 	"url" : "ftp://ftp.fgdl.org/pub/state/gc_parksbnd_oct15.zip",
 	"filter": [

@@ -3,9 +3,9 @@
 	"attribution" : "Florida Natural Areas Inventory",
 	"properties" : {
 		"name" : "MANAME",
-		"adminAgency" : "MANAGING_A"
+		"adminAgency" : "MANAGING_A",
+    "adminLevel" : {"static": "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "ftp://ftp.fgdl.org/pub/state/flma_mar16.zip",
     "filter": [

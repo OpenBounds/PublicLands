@@ -5,9 +5,9 @@
 		"adminAgency" : "ManagedBy",
 		"name" : "DNRName",
 		"type" : "Desig",
-		"url" : "WebLink"
+		"url" : "WebLink",
+        "adminLevel" : {"static": "state"}
 		},
-		"adminLevel" : "state",
 		"filetype" : "shp",
 		"url" : "http://data.imap.maryland.gov/datasets/a5de633b6ebf450b94dcb08b519c3414_0.zip",
 	  "filter": [

@@ -3,7 +3,8 @@
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
 		"name" : "adm_name",
-		"adminAgency" : {"static": "Federal Government"}
+		"adminAgency" : {"static": "Federal Government"},
+        "adminLevel" : {"static": "federal"}
 		},
 		"adminLevel" : "federal",
 		"filetype" : "shp",

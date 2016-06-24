@@ -4,9 +4,9 @@
 	"properties" : {
 		"adminAgency" : {"static" : "Michigan Department of Natural Resources"},
 		"name" : "UNITNAME",
-		"type" : {"static" : "State Forest"}
+		"type" : {"static" : "State Forest"},
+        "adminLevel" : {"static": "state"}
 		},
-		"adminLevel" : "state",
 		"filetype" : "shp",
 		"url" : "http://gis.michigan.opendata.arcgis.com/datasets/dfe0bcec31184b57b9f0d96bc02d6548_1.zip",
 	  "filter": [

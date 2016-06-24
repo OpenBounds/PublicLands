@@ -2,9 +2,9 @@
 	"name" : "U.S. Bureau of Land Management Lands in New Mexico",
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
-		"adminAgency" : {"static" : "U.S. Bureau of Land Management"}
+		"adminAgency" : {"static" : "U.S. Bureau of Land Management"},
+        "adminLevel" : {"static": "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
 		    "filter": [

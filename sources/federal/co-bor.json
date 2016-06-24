@@ -3,7 +3,8 @@
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
 		"name" : "adm_name",
-		"adminAgency" : {"static": "U.S. Bureau of Reclamation"}
+		"adminAgency" : {"static": "U.S. Bureau of Reclamation"},
+        "adminLevel" : {"static": "federal"}
 		},
 		"adminLevel" : "federal",
 		"filetype" : "shp",
