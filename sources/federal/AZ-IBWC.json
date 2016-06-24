@@ -1,9 +1,8 @@
 {
-	"name" : "BLM Lands in Arizona",
+	"name" : "U.S. International Boundary and Water Commission Lands in Arizona",
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
-		"name" : "DESC_",
-		"adminAgency" : {"static" : "U.S. Bureau of Land Management"}
+		"adminAgency" : {"static" : "U.S. International Boundary and Water Commission"}
 		},
 		"adminLevel" : "federal",
 		"filetype" : "shp",
@@ -12,7 +11,7 @@
        {
            "expression": "match",
            "key": "CATEGORY",
-           "value": "BLM"
+           "value": "IBWC"
        }
    ]
 

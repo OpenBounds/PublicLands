@@ -1,0 +1,19 @@
+{
+	"name" : "U.S. National Park Service Lands in Colorado",
+	"attribution" : "U.S. Bureau of Land Management",
+	"properties" : {
+		"name" : "adm_name",
+		"adminAgency" : {"static": "U.S. National Park Service"}
+		},
+		"adminLevel" : "federal",
+		"filetype" : "shp",
+		"url" : "http://www.blm.gov/style/medialib/blm/co/programs/geographical_sciences/gis/metadata/gislayers.Par.95180.File.dat/co_lst_03092016.zip",
+    "filter": [
+       {
+           "expression": "match",
+           "key": "adm_manage",
+           "value": "NPS"
+       }
+   ]
+
+}

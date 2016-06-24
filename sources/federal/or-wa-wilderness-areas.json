@@ -1,0 +1,21 @@
+{
+	"name" : "National Wilderness Study Areas in Oregon and Washington",
+	"attribution" : "U.S. Bureau of Land Management",
+	"properties" : {
+		"name" : "WLD_NAME",
+		"adminAgency" : {"static" : "U.S. Bureau of Land Management"}
+		},
+		"adminLevel" : "federal",
+		"filetype" : "gdb",
+		"url" : "http://www.blm.gov/or/gis/files/web_corp/wilderness.zip",
+		"filenameInZip": "wilderness.gdb", 
+		"layerName": "WLD_POLY",
+    "filter": [
+       {
+           "expression": "!=",
+           "key": "WLD_NAME",
+           "value": "inholding"
+       }
+   ]
+
+}

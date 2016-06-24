@@ -1,9 +1,9 @@
 {
-	"name" : "BLM Lands in Arizona",
+	"name" : "U.S. National Park Service Lands in Arizona",
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
 		"name" : "DESC_",
-		"adminAgency" : {"static" : "U.S. Bureau of Land Management"}
+		"adminAgency" : {"static": "U.S. National Park Service"}
 		},
 		"adminLevel" : "federal",
 		"filetype" : "shp",
@@ -12,7 +12,7 @@
        {
            "expression": "match",
            "key": "CATEGORY",
-           "value": "BLM"
+           "value": "NPS"
        }
    ]
 

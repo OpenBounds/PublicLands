@@ -1,19 +1,17 @@
 {
-	"name" : "BLM Lands in Arizona",
+	"name" : "U.S. Bureau of Land Management Lands in New Mexico",
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
-		"name" : "DESC_",
 		"adminAgency" : {"static" : "U.S. Bureau of Land Management"}
 		},
 		"adminLevel" : "federal",
 		"filetype" : "shp",
-		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
-    "filter": [
+		"url" : "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
+		    "filter": [
        {
            "expression": "match",
-           "key": "CATEGORY",
+           "key": "own",
            "value": "BLM"
        }
    ]
-
 }

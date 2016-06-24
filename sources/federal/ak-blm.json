@@ -1,18 +1,17 @@
 {
-	"name" : "BLM Lands in Arizona",
+	"name" : "U.S. Bureau of Land Management Lands in Alaska",
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
-		"name" : "DESC_",
 		"adminAgency" : {"static" : "U.S. Bureau of Land Management"}
 		},
 		"adminLevel" : "federal",
 		"filetype" : "shp",
-		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
+		"url" : "http://sdms.ak.blm.gov/download/landstatus/genstat.zip",
     "filter": [
        {
            "expression": "match",
-           "key": "CATEGORY",
-           "value": "BLM"
+           "key": "STATUS_TYP",
+           "value": "Bureau of Land Management"
        }
    ]
 
