@@ -3,6 +3,7 @@
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
 		"name" : "NLCS_NAME",
+		"type" : "Wilderness Area",
 		"adminAgency" : {"static" : "U.S. Bureau of Land Management"}
 		},
 		"adminLevel" : "federal",
