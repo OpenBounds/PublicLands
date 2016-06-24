@@ -1,82 +1,123 @@
 {
-    "title": "OpenBounds Public Land Data Source",
-    "properties": {
-        "name": {
-            "type": "string",
-            "description": "Descriptive name of this dataset",
-            "pattern": "^[\\w\\.\\- ]+$"
-        },
-        "attribution": {
-            "type": "string",
-            "description": "Source file attribution"
-        },
-        "properties": {
-            "type": "object",
-            "properties": {
-                "name": {"$ref": "#/definitions/propertyMapping"},
-                "name2": {"$ref": "#/definitions/propertyMapping"},
-                "featureType": {"$ref": "#/definitions/propertyMapping"},
-                "adminAgency": {"$ref": "#/definitions/propertyMapping"},
-                "adminAgency2": {"$ref": "#/definitions/propertyMapping"}
-            }
-        },
-        "filetype": {
-            "type": "string",
-            "description": "Source file type",
-            "enum": [ "shp", "gdb", "kml", "geojson"]
-        },
-        "url": {
-            "type": "string",
-            "description": "Source file URL",
-            "pattern": "^((https|http|ftp|s3):\/\/)?([\\da-zA-Z\\.-]+)\\.([a-zA-Z]{2,16})([\/\\w \\.-\\?\\&]*)*$"
-        },
-        "filenameInZip": {
-            "type": "string",
-            "description": "Name of source file in zip file"
-        },
-        "layerName": {
-            "type": "string",
-            "description": "Name of layer to open, only applicable in multi-layer formats like gdb."
-        },
-        "filterOperator": {
-            "type": "string",
-            "enum": ["and", "or"]
-        },
-        "filter": {
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "expression": {
-                        "type": "string",
-                        "enum": ["not null", "=", "!=", "match"]
-                    },
-                    "key": {
-                        "type": "string"
-                    },
-                    "value": {
-                        "type": ["string", "number"]
-                    }
-                },
-                "required": ["expression", "key"],
-                "additionalProperties": false
-            }
-        }
+  "title": "OpenBounds Public Land Data Source",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Descriptive name of this dataset",
+      "pattern": "^[\\w\\.\\- ]+$"
     },
-    "required": ["attribution", "filetype", "name", "properties", "url"],
-    "definitions": {
-        "propertyMapping": {
-            "oneOf": [
-                {"type": "string"},
-                {
-                    "type": "object",
-                    "properties": {
-                        "static": {"type":"string"}
-                    },
-                    "required": ["static"],
-                    "additionalProperties": false
-                }
-            ]
+    "attribution": {
+      "type": "string",
+      "description": "Source file attribution"
+    },
+    "properties": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "$ref": "#/definitions/propertyMapping"
+        },
+        "name2": {
+          "$ref": "#/definitions/propertyMapping"
+        },
+        "featureType": {
+          "$ref": "#/definitions/propertyMapping"
+        },
+        "adminAgency": {
+          "$ref": "#/definitions/propertyMapping"
+        },
+        "adminAgency2": {
+          "$ref": "#/definitions/propertyMapping"
         }
+      }
+    },
+    "filetype": {
+      "type": "string",
+      "description": "Source file type",
+      "enum": [
+        "shp",
+        "gdb",
+        "kml",
+        "geojson"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "description": "Source file URL",
+      "pattern": "^((https|http|ftp|s3)://)?([\\da-zA-Z\\.-]+)\\.([a-zA-Z]{2,16})([/\\w \\.-\\?\\&]*)*$"
+    },
+    "filenameInZip": {
+      "type": "string",
+      "description": "Name of source file in zip file"
+    },
+    "layerName": {
+      "type": "string",
+      "description": "Name of layer to open, only applicable in multi-layer formats like gdb."
+    },
+    "filterOperator": {
+      "type": "string",
+      "enum": [
+        "and",
+        "or"
+      ]
+    },
+    "filter": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "expression": {
+            "type": "string",
+            "enum": [
+              "not null",
+              "=",
+              "!=",
+              "match"
+            ]
+          },
+          "key": {
+            "type": "string"
+          },
+          "value": {
+            "type": [
+              "string",
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "expression",
+          "key"
+        ],
+        "additionalProperties": false
+      }
     }
+  },
+  "required": [
+    "attribution",
+    "filetype",
+    "name",
+    "properties",
+    "url"
+  ],
+  "definitions": {
+    "propertyMapping": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "static": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "static"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    }
+  }
 }
