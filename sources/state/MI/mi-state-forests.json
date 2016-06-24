@@ -1,19 +1,25 @@
 {
-	"name" : "Michigan State Forests",
-	"attribution" : "Michigan Department of Natural Resources",
-	"properties" : {
-		"adminAgency" : {"static" : "Michigan Department of Natural Resources"},
-		"name" : "UNITNAME",
-		"type" : {"static" : "State Forest"},
-        "adminLevel" : {"static": "state"}
-		},
-		"filetype" : "shp",
-		"url" : "http://gis.michigan.opendata.arcgis.com/datasets/dfe0bcec31184b57b9f0d96bc02d6548_1.zip",
-	  "filter": [
-       {
-           "expression": "match",
-           "key": "MANAGEMENT",
-           "value": "State Forests"
-       }
-     ]
+  "name": "Michigan State Forests",
+  "attribution": "Michigan Department of Natural Resources",
+  "properties": {
+    "adminAgency": {
+      "static": "Michigan Department of Natural Resources"
+    },
+    "name": "UNITNAME",
+    "type": {
+      "static": "State Forest"
+    },
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://gis.michigan.opendata.arcgis.com/datasets/dfe0bcec31184b57b9f0d96bc02d6548_1.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "MANAGEMENT",
+      "value": "State Forests"
+    }
+  ]
 }

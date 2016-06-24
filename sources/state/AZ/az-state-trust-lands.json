@@ -1,19 +1,22 @@
 {
-	"name" : "Arizona State Trust Lands",
-	"attribution" : "U.S. Bureau of Land Management",
-	"properties" : {
-		"type" : "DESC_",
-		"adminAgency" : {"static" : "State of Arizona"},
-        "adminLevel" : {"static": "state"}
-		},
-		"filetype" : "shp",
-		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
-    "filter": [
-       {
-           "expression": "match",
-           "key": "CATEGORY",
-           "value": "State"
-       }
-   ]
-
+  "name": "Arizona State Trust Lands",
+  "attribution": "U.S. Bureau of Land Management",
+  "properties": {
+    "type": "DESC_",
+    "adminAgency": {
+      "static": "State of Arizona"
+    },
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "CATEGORY",
+      "value": "State"
+    }
+  ]
 }

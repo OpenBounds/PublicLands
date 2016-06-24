@@ -1,12 +1,18 @@
 {
-	"name" : "Kentucky Wildlife Management Areas",
-	"attribution" : "Kentucky Department of Fish and Wildlife Resources",
-	"properties" : {
-		"adminAgency" : {"static" : "Kentucky Department of Fish and Wildlife Resources"},
-		"name" : "AREANAME",
-		"type" : {"static" : "Wildlife Management Area"},
-		"adminLevel" : {"static": "state"}
-		},
-		"filetype" : "shp",
-		"url" : "http://app.fw.ky.gov/kfwis/kygeonet/Wildlife_Management_Areas.zip"
+  "name": "Kentucky Wildlife Management Areas",
+  "attribution": "Kentucky Department of Fish and Wildlife Resources",
+  "properties": {
+    "adminAgency": {
+      "static": "Kentucky Department of Fish and Wildlife Resources"
+    },
+    "name": "AREANAME",
+    "type": {
+      "static": "Wildlife Management Area"
+    },
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://app.fw.ky.gov/kfwis/kygeonet/Wildlife_Management_Areas.zip"
 }

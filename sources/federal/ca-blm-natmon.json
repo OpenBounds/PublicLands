@@ -1,14 +1,18 @@
 {
-	"name" : "National Monuments in California",
-	"attribution" : "U.S. Bureau of Land Management",
-	"properties" : {
-		"name" : "NLCS_NAME",
-		"type" : "NLCS_TYPE",
-		"adminAgency" : {"static" : "U.S. Bureau of Land Management"},
-		"adminLevel" : {"static": "federal"}
-		},
-		"filetype" : "gdb",
-		"url" : "http://www.blm.gov/ca/gis/GeodatabasesZIP/nlcsNatMonuments_v10.gdb.zip",
-		"filenameInZip": "nlcsNatMonuments_v10.gdb",
-		"layerName": "nlcs_nm_nca_poly"
+  "name": "National Monuments in California",
+  "attribution": "U.S. Bureau of Land Management",
+  "properties": {
+    "name": "NLCS_NAME",
+    "type": "NLCS_TYPE",
+    "adminAgency": {
+      "static": "U.S. Bureau of Land Management"
+    },
+    "adminLevel": {
+      "static": "federal"
+    }
+  },
+  "filetype": "gdb",
+  "url": "http://www.blm.gov/ca/gis/GeodatabasesZIP/nlcsNatMonuments_v10.gdb.zip",
+  "filenameInZip": "nlcsNatMonuments_v10.gdb",
+  "layerName": "nlcs_nm_nca_poly"
 }

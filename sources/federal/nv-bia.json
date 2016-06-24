@@ -1,23 +1,26 @@
 {
-	"name" : "U.S. Bureau of Indian Affairs Lands in Nevada",
-	"attribution" : "U.S. Bureau of Land Management",
-	"properties" : {
-		"adminAgency" : {"static": "U.S. Bureau of Indian Affairs"},
-    "adminLevel" : {"static": "federal"}
-		},
-		"filetype" : "shp",
-		"url" : "http://www.blm.gov/style/medialib/blm/nv/gis/shp_files.Par.56125.File.dat/NV_Land_Ownership_shp.zip",
-    "filter": [
-       {
-           "expression": "match",
-           "key": "ABBR",
-           "value": "BIA"
-       },
-       {
-           "expression": "!=",
-           "key": "name",
-           "value": "Private"
-       }
-   ]
-
+  "name": "U.S. Bureau of Indian Affairs Lands in Nevada",
+  "attribution": "U.S. Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "static": "U.S. Bureau of Indian Affairs"
+    },
+    "adminLevel": {
+      "static": "federal"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.blm.gov/style/medialib/blm/nv/gis/shp_files.Par.56125.File.dat/NV_Land_Ownership_shp.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "ABBR",
+      "value": "BIA"
+    },
+    {
+      "expression": "!=",
+      "key": "name",
+      "value": "Private"
+    }
+  ]
 }

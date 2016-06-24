@@ -1,25 +1,29 @@
 {
-	"name" : "Municipal Parks and Recreational Facilities in Florida",
-	"attribution" : "University of Florida GeoPlan Center",
-	"properties" : {
-		"adminAgency" : "OWNER",
-		"name" : "NAME",
-		"type" : "TYPE",
-		"access" : {"static" : "yes"},
-    "adminLevel" : {"static": "county"}
-		},
-	"filetype" : "shp",
-	"url" : "ftp://ftp.fgdl.org/pub/state/gc_parksbnd_oct15.zip",
+  "name": "Municipal Parks and Recreational Facilities in Florida",
+  "attribution": "University of Florida GeoPlan Center",
+  "properties": {
+    "adminAgency": "OWNER",
+    "name": "NAME",
+    "type": "TYPE",
+    "access": {
+      "static": "yes"
+    },
+    "adminLevel": {
+      "static": "county"
+    }
+  },
+  "filetype": "shp",
+  "url": "ftp://ftp.fgdl.org/pub/state/gc_parksbnd_oct15.zip",
   "filter": [
-       {
-           "expression": "match",
-           "key": "OPERATING",
-           "value": "(MUNICIPALITY|AIRPORT AUTHORITY|ISLAND AUTHORITY)"
-       },     
-       {
-           "expression": "match",
-           "key": "OP_CLASS",
-           "value": "PUBLIC"
-       }
-     ]     
+    {
+      "expression": "match",
+      "key": "OPERATING",
+      "value": "(MUNICIPALITY|AIRPORT AUTHORITY|ISLAND AUTHORITY)"
+    },
+    {
+      "expression": "match",
+      "key": "OP_CLASS",
+      "value": "PUBLIC"
+    }
+  ]
 }

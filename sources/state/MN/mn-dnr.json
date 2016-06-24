@@ -1,14 +1,18 @@
 {
-	"name" : "Minnesota Lands Managed by the State Department of Natural Resources",
-	"attribution" : "Minnesota Department of Natural Resources",
-	"properties" : {
-		"adminAgency" : {"static" : "Minnesota Department of Natural Resources, Wildlife Division"},
-		"name" : "UNIT_NAME",
-		"type" : "UNIT_TYPE",
-		"access" : "ACCESS_WO_",
-		"adminLevel" : {"static": "state"}
-		},
-		"filetype" : "shp",
-		"url" : "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_managed_areas/shp_bdry_dnr_managed_areas.zip",
-	  "filenameInZip" : "dnr_management_units.shp"
+  "name": "Minnesota Lands Managed by the State Department of Natural Resources",
+  "attribution": "Minnesota Department of Natural Resources",
+  "properties": {
+    "adminAgency": {
+      "static": "Minnesota Department of Natural Resources, Wildlife Division"
+    },
+    "name": "UNIT_NAME",
+    "type": "UNIT_TYPE",
+    "access": "ACCESS_WO_",
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_dnr_managed_areas/shp_bdry_dnr_managed_areas.zip",
+  "filenameInZip": "dnr_management_units.shp"
 }
