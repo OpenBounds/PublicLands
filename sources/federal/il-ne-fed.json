@@ -1,0 +1,19 @@
+{
+	"name" : "Federal Lands in NE Illinois",
+	"attribution" : "Great Lakes Information Network",
+	"properties" : {
+		"adminAgency" : "MANAG_AGEN",
+		"name" : "SITE_NAME",
+		"type" : "CATEGORY"
+		},
+		"adminLevel" : "federal",
+		"filetype" : "shp",
+		"url" : "http://www.greenmapping.org/data/esri/GLIN_Managed_Lands-esri.zip",
+	  "filter": [
+       {
+           "expression": "match",
+           "key": "MANAG_AGEN",
+           "value": ".*U.S."
+       }
+     ]
+}

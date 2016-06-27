@@ -1,0 +1,21 @@
+{
+	"name" : "Federally-Managed Scientific and Natural Areas in Minnesota",
+	"attribution" : "Minnesota Department of Natural Resources",
+	"properties" : {
+		"adminAgency" : "OWN_DESC",
+		"name" : "NAME",
+		"type" : "UNIT_TYPE"
+		},
+		"adminLevel" : "federal",
+		"filetype" : "shp",
+		"url" : "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_scientific_and_nat_areas/shp_bdry_scientific_and_nat_areas.zip",
+		"filenameInZip" : "scientific_and_natural_area_boundaries.shp",
+			  "filter": [
+       {
+           "expression": "match",
+           "key": "OWN_DESC",
+           "value": "(.*U.S.|.*National Park|.*Bureau)"
+       }
+     ]
+
+}
