@@ -1,0 +1,21 @@
+{
+  "name": "Sonoma County Public Lands",
+  "attribution": "Sonoma County ISD-GIS",
+  "properties": {
+    "adminAgency": "Agency",
+    "name": "Name",
+    "type": "Type",
+    "adminLevel": {
+      "static": "county"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://sonomacountyopendata.sonomamap.opendata.arcgis.com/datasets/d0e2c20924e948cf839f7d5c975d9fb7_0.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "Agency",
+      "value": "(^COUNTY|SONOMA COUNTY REGIONAL PARKS|SONOMA COUNTY WATER AGENCY)"
+    }
+  ]
+}

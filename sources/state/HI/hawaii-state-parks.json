@@ -1,0 +1,21 @@
+{
+  "name": "State Parks in Hawaii",
+  "attribution": "Office of Planning, State of Hawaii",
+  "properties": {
+    "adminAgency": "OWN",
+    "name": "NAME",
+    "type": "TYPE",
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://files.hawaii.gov/dbedt/op/gis/data/parkplys_n83.shp.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "OWN",
+      "value": "(State|State DHHL)"
+    }
+  ]
+}

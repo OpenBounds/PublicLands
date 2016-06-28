@@ -1,0 +1,21 @@
+{
+  "name": "State Lands in Nevada",
+  "attribution": "U.S. Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "static": "State of Nevada"
+    },
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.blm.gov/style/medialib/blm/nv/gis/shp_files.Par.56125.File.dat/NV_Land_Ownership_shp.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "ABBR",
+      "value": "NVST"
+    }
+  ]
+}

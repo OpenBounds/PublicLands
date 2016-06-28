@@ -1,0 +1,18 @@
+{
+  "name": "Michigan State Parks",
+  "attribution": "Michigan Department of Natural Resources",
+  "properties": {
+    "adminAgency": {
+      "static": "Michigan Department of Natural Resources"
+    },
+    "name": "FACILITY",
+    "type": {
+      "static": "State Park"
+    },
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://gis.michigan.opendata.arcgis.com/datasets/7bfdeaa5811c44a6b2fa9a0e7166af65_5.zip"
+}

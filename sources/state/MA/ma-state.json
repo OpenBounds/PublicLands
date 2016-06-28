@@ -1,0 +1,21 @@
+{
+  "name": "State-Protected and Recreational Open Space in Massachusetts",
+  "attribution": "Massachusetts Dept. of Fish and Game",
+  "properties": {
+    "adminAgency": "FEE_OWNER",
+    "name": "SITE_NAME",
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://wsgw.mass.gov/data/gispub/shape/open_spc/openspace.zip",
+  "filenameInZip": "OPENSPACE_POLY.shp",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "OWNER_TYPE",
+      "value": "(S|NULL|3)"
+    }
+  ]
+}

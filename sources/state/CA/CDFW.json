@@ -1,0 +1,16 @@
+{
+  "name": "California Department of Fish and Wildlife Owned and Operated Lands",
+  "attribution": "California Department of Fish and Wildlife",
+  "properties": {
+    "name": "PROP_NAME",
+    "type": "PROP_TYPE",
+    "adminAgency": {
+      "static": "California Department of Fish and Wildlife"
+    },
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "ftp://ftp.dfg.ca.gov/BDB/GIS/CDFW_Lands/CDFW_Owned_and_Operated_Lands_Generalized.zip"
+}
