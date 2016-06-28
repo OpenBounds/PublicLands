@@ -1,18 +1,22 @@
 {
-	"name" : "Areas Managed by the Michigan Department of Natural Resources Wildlife Division",
-	"attribution" : "Michigan Department of Natural Resources",
-	"properties" : {
-		"adminAgency" : {"static" : "Michigan Department of Natural Resources, Wildlife Division"},
-		"name" : "UNITNAME"
-		},
-		"adminLevel" : "state",
-		"filetype" : "shp",
-		"url" : "http://gis.michigan.opendata.arcgis.com/datasets/dfe0bcec31184b57b9f0d96bc02d6548_1.zip",
-	  "filter": [
-       {
-           "expression": "match",
-           "key": "MANAGEMENT",
-           "value": "Wildlife"
-       }
-     ]
+  "name": "Areas Managed by the Michigan Department of Natural Resources Wildlife Division",
+  "attribution": "Michigan Department of Natural Resources",
+  "properties": {
+    "adminAgency": {
+      "static": "Michigan Department of Natural Resources, Wildlife Division"
+    },
+    "name": "UNITNAME",
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://gis.michigan.opendata.arcgis.com/datasets/dfe0bcec31184b57b9f0d96bc02d6548_1.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "MANAGEMENT",
+      "value": "Wildlife"
+    }
+  ]
 }

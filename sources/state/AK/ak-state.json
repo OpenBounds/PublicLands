@@ -1,18 +1,19 @@
 {
-	"name" : "State-Owned Lands in Alaska",
-	"attribution" : "U.S. Bureau of Land Management",
-	"properties" : {
-		"adminAgency" : "STATUS_TYP"
-		},
-		"adminLevel" : "state",
-		"filetype" : "shp",
-		"url" : "http://sdms.ak.blm.gov/download/landstatus/genstat.zip",
-    "filter": [
-       {
-           "expression": "match",
-           "key": "STATUS_TYP",
-           "value": ".*State"
-       }
-   ]
-
+  "name": "State-Owned Lands in Alaska",
+  "attribution": "U.S. Bureau of Land Management",
+  "properties": {
+    "adminAgency": "STATUS_TYP",
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://sdms.ak.blm.gov/download/landstatus/genstat.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "STATUS_TYP",
+      "value": ".*State"
+    }
+  ]
 }

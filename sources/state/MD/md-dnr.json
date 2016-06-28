@@ -1,20 +1,22 @@
 {
-	"name" : "DNR-Owned Properties in Maryland",
-	"attribution" : "Maryland Department of Natural Resources",
-	"properties" : {
-		"adminAgency" : "ManagedBy",
-		"name" : "DNRName",
-		"type" : "Desig",
-		"url" : "WebLink"
-		},
-		"adminLevel" : "state",
-		"filetype" : "shp",
-		"url" : "http://data.imap.maryland.gov/datasets/a5de633b6ebf450b94dcb08b519c3414_0.zip",
-	  "filter": [
-       {
-           "expression": "!=",
-           "key": "DNRType",
-           "value": ".*Easement"
-       }
-     ]
+  "name": "DNR-Owned Properties in Maryland",
+  "attribution": "Maryland Department of Natural Resources",
+  "properties": {
+    "adminAgency": "ManagedBy",
+    "name": "DNRName",
+    "type": "Desig",
+    "url": "WebLink",
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://data.imap.maryland.gov/datasets/a5de633b6ebf450b94dcb08b519c3414_0.zip",
+  "filter": [
+    {
+      "expression": "!=",
+      "key": "DNRType",
+      "value": ".*Easement"
+    }
+  ]
 }

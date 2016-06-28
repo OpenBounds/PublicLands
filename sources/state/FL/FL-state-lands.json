@@ -1,19 +1,20 @@
 {
-	"name" : "State-Managed Lands in Florida",
-	"attribution" : "Florida Natural Areas Inventory",
-	"properties" : {
-		"adminAgency" : "MANAGING_A",
-		"name" : "MANAME",
-		},
-	"adminLevel" : "state",
-	"filetype" : "shp",
-	"url" : "ftp://ftp.fgdl.org/pub/state/flma_mar16.zip",
+  "name": "State-Managed Lands in Florida",
+  "attribution": "Florida Natural Areas Inventory",
+  "properties": {
+    "adminAgency": "MANAGING_A",
+    "name": "MANAME",
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "ftp://ftp.fgdl.org/pub/state/flma_mar16.zip",
   "filter": [
-       {
-           "expression": "match",
-           "key": "MATYPE",
-           "value": "(SWWUW|SWWPR|SWURT|SWJRT|SUFUF|SUFLE|SUCUC|SUUUU|SRPDU|SFWWE|SFWMP|SFWDU|SFIFI|SFAFA|SDFSF)"
-       }
-     ]     
-
+    {
+      "expression": "match",
+      "key": "MATYPE",
+      "value": "(SWWUW|SWWPR|SWURT|SWJRT|SUFUF|SUFLE|SUCUC|SUUUU|SRPDU|SFWWE|SFWMP|SFWDU|SFIFI|SFAFA|SDFSF)"
+    }
+  ]
 }

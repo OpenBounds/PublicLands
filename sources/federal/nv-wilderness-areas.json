@@ -1,0 +1,18 @@
+{
+  "name": "National Wilderness Areas in Nevada",
+  "attribution": "U.S. Bureau of Land Management",
+  "properties": {
+    "name": "NLCS_NAME",
+    "type": {
+      "static": "Wilderness Area"
+    },
+    "adminAgency": {
+      "static": "U.S. Bureau of Land Management"
+    },
+    "adminLevel": {
+      "static": "federal"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.blm.gov/style/medialib/blm/nv/gis/shp_files.Par.32925.File.dat/NV_Wilderness_Areas_shp.zip"
+}

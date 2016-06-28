@@ -1,0 +1,19 @@
+{
+  "name": "Federally-Managed Lands in Idaho",
+  "attribution": "Bureau of Land Management (BLM), Idaho State Office",
+  "properties": {
+    "adminAgency": "AGNCY_NAME",
+    "adminLevel": {
+      "static": "federal"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/blm/RLTY_SMA_PUB_24K_POLY.shp",
+  "filter": [
+    {
+      "expression": "!=",
+      "key": "AGNCY_NAME",
+      "value": "(HSTRCWTR|IR|PRIVATE|STATE|STATEFG|STATEPR)"
+    }
+  ]
+}

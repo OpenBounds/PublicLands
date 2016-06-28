@@ -1,23 +1,28 @@
 {
-	"name" : "State Parks in Florida",
-	"attribution" : "Florida Department of Environmental Protection Division of Recreation and Parks",
-	"properties" : {
-		"adminAgency" : {"static" : "Florida Division of Recreation and Parks"},
-		"name" : "SITE_NAME",
-		"type" : "CLASSIFY",
-		"access" : {"static" : "yes"},
-		"owner" : "OWNER",
-		"url" : "URL"
-		},
-		"adminLevel" : "state",
-		"filetype" : "shp",
-		"url" : "ftp://ftp.fgdl.org/pub/state/stpark_dec15.zip",
-    "filter": [
-       {
-           "expression": "!=",
-           "key": "PUBLIC_ACC",
-           "value": "CLOSED"
-       }
-     ]     
-
+  "name": "State Parks in Florida",
+  "attribution": "Florida Department of Environmental Protection Division of Recreation and Parks",
+  "properties": {
+    "adminAgency": {
+      "static": "Florida Division of Recreation and Parks"
+    },
+    "name": "SITE_NAME",
+    "type": "CLASSIFY",
+    "access": {
+      "static": "yes"
+    },
+    "owner": "OWNER",
+    "url": "URL",
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "ftp://ftp.fgdl.org/pub/state/stpark_dec15.zip",
+  "filter": [
+    {
+      "expression": "!=",
+      "key": "PUBLIC_ACC",
+      "value": "CLOSED"
+    }
+  ]
 }

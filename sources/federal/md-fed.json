@@ -1,0 +1,13 @@
+{
+	"name" : "Federal Lands in Maryland",
+	"attribution" : "MD iMAP, DNR, MDP",
+	"properties" : {
+		"adminAgency" : "Agency",
+		"name" : "NAME",
+		"type" : "Type",
+		"url" : "WebLink"
+		},
+		"adminLevel" : "federal",
+		"filetype" : "shp",
+		"url" : "http://data.imap.maryland.gov/datasets/e8c94de89d6f4319bef28897c6a89581_0.zip",
+}

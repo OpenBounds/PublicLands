@@ -1,0 +1,21 @@
+{
+  "name": "Locally-Owned Lands in Sonoma County",
+  "attribution": "Sonoma County ISD-GIS",
+  "properties": {
+    "adminAgency": "Agency",
+    "name": "Name",
+    "type": "Type",
+    "adminLevel": {
+      "static": "local"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://sonomacountyopendata.sonomamap.opendata.arcgis.com/datasets/d0e2c20924e948cf839f7d5c975d9fb7_0.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "Agency",
+      "value": "(^CITY|^TOWN)"
+    }
+  ]
+}

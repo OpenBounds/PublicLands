@@ -1,20 +1,22 @@
 {
-	"name" : "BLM Lands in Arizona",
-	"attribution" : "U.S. Bureau of Land Management",
-	"properties" : {
-		"name" : "DESC_",
-		"adminAgency" : {"static" : "U.S. Bureau of Land Management"}
-		},
-		"adminLevel" : "federal",
-		"filetype" : "shp",
-		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
-		"layerName": "AZ_SMA",
-    "filter": [
-       {
-           "expression": "match",
-           "key": "CATEGORY",
-           "value": "BLM"
-       }
-   ]
-
+  "name": "BLM Lands in Arizona",
+  "attribution": "U.S. Bureau of Land Management",
+  "properties": {
+    "name": "DESC_",
+    "adminAgency": {
+      "static": "U.S. Bureau of Land Management"
+    },
+    "adminLevel": {
+      "static": "federal"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "CATEGORY",
+      "value": "BLM"
+    }
+  ]
 }

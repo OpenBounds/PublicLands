@@ -1,0 +1,17 @@
+{
+  "name": "Other areas in Oregon and Washington administered by the U.S. Bureau of Land Management",
+  "attribution": "U.S. Bureau of Land Management",
+  "properties": {
+    "name": "OND_NAME",
+    "adminAgency": {
+      "static": "U.S. Bureau of Land Management"
+    },
+    "type": "OND_TYPE",
+    "adminLevel": {
+      "static": "federal"
+    }
+  },
+  "filetype": "gdb",
+  "url": "http://www.blm.gov/or/gis/files/web_corp/other_national_designations.zip",
+  "filenameInZip": "other_national_designations.gdb"
+}
