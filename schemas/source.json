@@ -4,7 +4,7 @@
     "name": {
       "type": "string",
       "description": "Descriptive name of this dataset",
-      "pattern": "^[\\w\\.\\- ]+$"
+      "pattern": "^[\\w\\.\\- ,]+$"
     },
     "attribution": {
       "type": "string",
