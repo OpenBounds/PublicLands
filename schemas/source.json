@@ -116,6 +116,22 @@
             "static"
           ],
           "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "key": {
+              "type": "string"
+            },
+            "mapping": {
+              "type": "object"
+            }
+          },
+          "required": [
+            "key",
+            "mapping"
+          ],
+          "additionalProperties": false
         }
       ]
     }

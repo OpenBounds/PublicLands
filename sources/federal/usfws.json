@@ -7,7 +7,14 @@
     "adminAgency": {
       "static": "U.S. Fish and Wildlife Service"
     },
-    "type": "RSL_TYPE",
+    "type": {
+      "key": "RSL_TYPE",
+      "mapping": {
+        "NWR": "wildlife refuge",
+        "WMA": "wildlife management area",
+        "WPA": "waterfowl production area"
+      }
+    },
     "adminLevel": {
       "static": "federal"
     }
