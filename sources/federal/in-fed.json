@@ -1,24 +1,26 @@
 {
-	"name" : "Federal Lands in Indiana",
-	"attribution" : "Indiana Natural Heritage Data Center, Indiana Department of Natural Resources",
-	"properties" : {
-		"adminAgency" : "MANAGER",
-		"name" : "UNITNAME",
-		"access" : {"static" : "yes"}
-		},
-		"adminLevel" : "federal",
-		"filetype" : "shp",
-		"url" : "http://maps.indiana.edu/download/Environment/Managed_Lands_IDNR.zip",
-	  "filter": [
-       {
-           "expression": "match",
-           "key": "ACCESS_",
-           "value": "OPEN PER REGULATIONS"
-       },
-       {
-           "expression": "match",
-           "key": "MANAGER",
-           "value": ".*U.S."
-       }
-     ]
+  "name": "Federal Lands in Indiana",
+  "attribution": "Indiana Natural Heritage Data Center, Indiana Department of Natural Resources",
+  "properties": {
+    "adminAgency": "MANAGER",
+    "name": "UNITNAME",
+    "access": {
+      "static": "yes"
+    }
+  },
+  "adminLevel": "federal",
+  "filetype": "shp",
+  "url": "http://maps.indiana.edu/download/Environment/Managed_Lands_IDNR.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "ACCESS_",
+      "value": "OPEN PER REGULATIONS"
+    },
+    {
+      "expression": "match",
+      "key": "MANAGER",
+      "value": ".*U.S."
+    }
+  ]
 }
