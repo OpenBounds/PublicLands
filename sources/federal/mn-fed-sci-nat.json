@@ -2,7 +2,14 @@
 	"name" : "Federally-Managed Scientific and Natural Areas in Minnesota",
 	"attribution" : "Minnesota Department of Natural Resources",
 	"properties" : {
-		"adminAgency" : "OWN_DESC",
+		"adminAgency" : {
+			"key" : "OWN_DESC",
+				"mapping" : {
+					"National Park Service (Voyageurs National Park)" : "National Park Service",
+					"U.S. Forest Service (National Forest)" : "Forest Service",
+					"U.S. Government (Other Federal Lands)" : "Federal Government"
+					}
+				},
 		"name" : "NAME",
 		"type" : "UNIT_TYPE"
 		},
@@ -16,6 +23,12 @@
            "key": "OWN_DESC",
            "value": "(.*U.S.|.*National Park|.*Bureau)"
        }
+       {
+           "expression": "!=",
+           "key": "OWN_DESC",
+           "value": ".*Bureau of Indian"
+       }
+
      ]
 
 }

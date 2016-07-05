@@ -2,7 +2,18 @@
 	"name" : "Federal Lands in Indiana",
 	"attribution" : "Indiana Natural Heritage Data Center, Indiana Department of Natural Resources",
 	"properties" : {
-		"adminAgency" : "MANAGER",
+		"adminAgency" : {
+			"key" : "MANAGER",
+			"mapping" : {
+				"U.S. NATIONAL PARK SERVICE/GRC" : "National Park Service",
+				"U.S. NATIONAL PARK SERVICE/IDNL" : "National Park Service",
+				"U.S. ARMY CORPS OF ENGINEERS" : "Army Corps of Engineers",
+				"U.S. DEPT. OF DEFENSE" : "Department of Defense",
+				"U.S. FISH AND WILDLIFE SERVICE" : "Fish & Wildlife Service",
+				"U.S. FOREST SERVICE" : "Forest Service",
+				"U.S. NATIONAL PARK SERVICE" : "National Park Service"
+				}
+			},
 		"name" : "UNITNAME",
 		"access" : {"static" : "yes"}
 		},

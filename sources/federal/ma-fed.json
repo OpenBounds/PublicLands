@@ -2,7 +2,18 @@
 	"name" : "Federally-Protected and Recreational Open Space in Massachusetts",
 	"attribution" : "Massachusetts Dept. of Fish and Game",
 	"properties" : {
-		"adminAgency" : "FEE_OWNER",
+		"adminAgency" : {
+		"key" : "MANAGER",
+			"mapping" : {
+				"United States Coast Guard" : "Coast Guard",
+				"United States Department of Defense" : "Department of Defense",
+				"United States Air Force" : "Air Force",
+				"United StatesDepartment of the Interior" : "Department of the Interior",
+				"UNITED STATES DEPARTMENT OF VETERANS ADMINISTRATION" : "Department of Veterans Affairs",
+				"NMFS" : "National Marine Fisheries Service"
+			}
+		},
+		"owner" : "FEE_OWNER",
 		"name" : "SITE_NAME"
 		},
 		"adminLevel" : "federal",
@@ -12,8 +23,13 @@
 			  "filter": [
        {
            "expression": "match",
-           "key": "OWNER_TYPE",
-           "value": "F"
+           "key": "MANAGER",
+           "value": "(.*United States|.*National)"
+       }
+       {
+           "expression": "!=",
+           "key": "MANAGER",
+           "value": "NULL"
        }
      ]
 

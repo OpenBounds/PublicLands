@@ -2,7 +2,16 @@
 	"name" : "Federally-Managed Areas in Kansas",
 	"attribution" : "Kansas Natural Heritage Inventory",
 	"properties" : {
-		"adminAgency" : "MANAGER",
+		"adminAgency" : {
+			"key" : "MANAGER",
+			"mapping" : {
+				"U.S. Army Corps of Engineers" : "Army Corps of Engineers",
+				"U.S. Dept of Army" : "Army",
+				"U.S. Fish & Wildlife Service" : "Fish & Wildlife Service",
+				"U.S. Forest Service" : "Forest Service"
+				}
+			},
+		"owner" : "OWNER",
 		"name" : "AREA_NAME"
 		},
 		"adminLevel" : "federal",

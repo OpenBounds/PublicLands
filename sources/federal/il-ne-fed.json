@@ -2,7 +2,13 @@
 	"name" : "Federal Lands in NE Illinois",
 	"attribution" : "Great Lakes Information Network",
 	"properties" : {
-		"adminAgency" : "MANAG_AGEN",
+		"adminAgency" : {
+			"key" : "MANAG_AGEN",
+				"mapping" : {
+					"U.S. Department of Energy" : "Department of Energy",			
+					"U.S. Forest Service" : "Forest Service"
+				}
+			},	
 		"name" : "SITE_NAME",
 		"type" : "CATEGORY"
 		},

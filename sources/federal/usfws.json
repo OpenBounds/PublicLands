@@ -1,11 +1,11 @@
 {
-  "name": "U.S. Fish and Wildlife Service",
-  "attribution": "U.S. Fish and Wildlife Service",
+  "name": "Fish & Wildlife Service Lands",
+  "attribution": "Fish & Wildlife Service",
   "properties": {
     "name": "ORGNAME",
     "name2": "CMPXNAME",
     "adminAgency": {
-      "static": "U.S. Fish and Wildlife Service"
+      "static": "Fish & Wildlife Service"
     },
     "type": "RSL_TYPE",
     "adminLevel": {
