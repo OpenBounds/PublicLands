@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/OpenBounds/PublicLands.svg?branch=master)](https://travis-ci.org/OpenBounds/PublicLands) 
+
 # PublicLands
 A repository of boundaries of public land in the USA
 

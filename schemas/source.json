@@ -4,7 +4,7 @@
     "name": {
       "type": "string",
       "description": "Descriptive name of this dataset",
-      "pattern": "^[\\w\\.\\- ]+$"
+      "pattern": "^[\\w\\.\\- ,]+$"
     },
     "attribution": {
       "type": "string",
@@ -43,7 +43,7 @@
     "url": {
       "type": "string",
       "description": "Source file URL",
-      "pattern": "^((https|http|ftp|s3)://)?([\\da-zA-Z\\.-]+)\\.([a-zA-Z]{2,16})([/\\w \\.-\\?\\&]*)*$"
+      "pattern": "^(https|http|ftp|s3)://[\\da-zA-Z\\.-]+\\.[a-zA-Z]{2,16}/[/\\w \\.\\-\\?\\&\\:\\=\\%]+$"
     },
     "filenameInZip": {
       "type": "string",
@@ -114,6 +114,22 @@
           },
           "required": [
             "static"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "key": {
+              "type": "string"
+            },
+            "mapping": {
+              "type": "object"
+            }
+          },
+          "required": [
+            "key",
+            "mapping"
           ],
           "additionalProperties": false
         }
