@@ -1,0 +1,20 @@
+{
+	"name" : "Illinois Lands Jointly Managed by the State Fish and Wildlife Service and the Tennessee Valley Authority",
+	"attribution" : "Illinois Department of Natural Resources",
+	"properties" : {
+		"adminAgency" : {"static" : "Illinois Department of Natural Resources"},
+		"adminAgency2" : {"static" : "Tennessee Valley Authority"},
+		"name" : "NAME"
+		},
+		"adminLevel" : "state",
+		"filetype" : "shp",
+		"url" : "http://www.greenmapping.org/data/esri/STFWA-esri.zip",
+	  "filter": [
+       {
+           "expression": "match",
+           "key": "NAME",
+           "value": ".*TVA"
+       }
+     ]
+
+}

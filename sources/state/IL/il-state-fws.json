@@ -1,0 +1,20 @@
+{
+	"name" : "State Fish and Wildlife Service Lands in Illinois",
+	"attribution" : "Illinois Department of Natural Resources",
+	"properties" : {
+		"adminAgency" : {"static" : "Illinois Department of Natural Resources"},
+		"name" : "NAME"
+		},
+		"adminLevel" : "state",
+		"filetype" : "shp",
+		"url" : "http://www.greenmapping.org/data/esri/STFWA-esri.zip",
+	  "filter": [
+       {
+           "expression": "!=",
+           "key": "NAME",
+           "value": "Ten Mile Creek (TVA)"
+       }
+     ]
+
+
+}

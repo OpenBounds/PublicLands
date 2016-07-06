@@ -1,0 +1,24 @@
+{
+	"name" : "State-Conserved Lands in Maine",
+	"attribution" : "Maine Department of Agriculture, Conservation and Forestry",
+	"properties" : {
+		"adminAgency" : "HOLD1_NAME",
+		"name" : "PARCEL_NAM",
+		"type" : "DESIGNATIO"
+		},
+		"adminLevel" : "state",
+		"filetype" : "shp",
+		"url" : "http://www.maine.gov/megis/catalog/shps/state/conserved_landss.zip",
+	  "filter": [
+       {
+           "expression": "match",
+           "key": "HOLD1_TYPE",
+           "value": "State"
+       },
+              {
+           "expression": "!=",
+           "key": "DESIGNATIO",
+           "value": ".*Easement"
+       }
+     ]
+}
