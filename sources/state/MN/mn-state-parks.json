@@ -1,6 +1,6 @@
 {
 	"name" : "State Parks, Recreation Areas, and Waysides in Minnesota",
-	"attribution" : "Michigan Department of Natural Resources",
+	"attribution" : "Minnesota Department of Natural Resources",
 	"properties" : {
 		"adminAgency" : {"static" : "Minnesota Department of Natural Resources"},
 		"name" : "LEGISLATIV",
