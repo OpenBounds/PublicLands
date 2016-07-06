@@ -1,8 +1,8 @@
 {
-	"name" : "U.S. Department of Agriculture Lands in New Mexico",
-	"attribution" : "U.S. Bureau of Land Management",
+	"name" : "Department of Agriculture Lands in New Mexico",
+	"attribution" : "Bureau of Land Management",
 	"properties" : {
-		"adminAgency" : {"static" : "U.S. Department of Agriculture"}
+		"adminAgency" : {"static" : "Department of Agriculture"}
 		},
 		"adminLevel" : "federal",
 		"filetype" : "shp",

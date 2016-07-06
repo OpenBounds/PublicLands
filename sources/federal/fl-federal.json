@@ -3,7 +3,22 @@
 	"attribution" : "Florida Natural Areas Inventory",
 	"properties" : {
 		"name" : "MANAME",
-		"adminAgency" : "MANAGING_A"
+		"adminAgency" : {
+			"key" : "MANAGING_A",
+			"mapping" : {
+				"US DEPT. OF DEFENSE, AIR FORCE" : "Air Force",
+				"US DEPT. OF THE INTERIOR, BUREAU OF LAND MANAGEMENT" : "Bureau of Land Management",
+				"US DEPT. OF TRANSPORTATION, COAST GUARD" : "Coast Guard",
+				"US DEPT. OF AGRICULTURE (UNSPECIFIED)" : "Department of Agriculture",
+				"US DEPT. OF COMMERCE" : "Department of Commerce",
+				"US DEPT. OF AGRICULTURE, FOREST SERVICE" : "Forest Service",
+				"US DEPT. OF THE INTERIOR, FISH AND WILDLIFE SERVICE" : "Fish & Wildlife Service",
+				"US DEPT. OF DEFENSE, MARINE CORPS" : "Marine Corps",
+				"US DEPT. OF THE INTERIOR, NATIONAL PARK SERVICE" : "National Park Service",
+				"US DEPT. OF AGRICULTURE, NATURAL RESOURCES CONSERVATION SERVICE" : "Department of Agriculture",
+				"US DEPT. OF DEFENSE, NAVY" : "Navy"
+				}
+			}
 		},
 		"adminLevel" : "federal",
 		"filetype" : "shp",
@@ -13,12 +28,7 @@
            "expression": "match",
            "key": "MATYPE2",
            "value": "F"
-       },
-       {
-       		"expression" : "match",
-       		"key" : "MATYPE",
-       		"value" : "(FBLAC|FFSNF|FFSST)"
-       }		
+       }
    ]
 
 }

@@ -1,9 +1,9 @@
 {
 	"name" : "National Conservation Areas and Monuments in Nevada",
-	"attribution" : "U.S. Bureau of Land Management",
+	"attribution" : "Bureau of Land Management",
 	"properties" : {
 		"name" : "NLCS_NAME",
-		"adminAgency" : {"static" : "U.S. Bureau of Land Management"},
+		"adminAgency" : {"static" : "Bureau of Land Management"},
 		"type" : "NLCS_TYPE"
 		},
 		"adminLevel" : "federal",

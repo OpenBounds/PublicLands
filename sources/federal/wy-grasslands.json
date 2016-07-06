@@ -1,9 +1,9 @@
 {
 	"name" : "National Grasslands in Wyoming",
-	"attribution" : "U.S. Bureau of Land Management",
+	"attribution" : "Bureau of Land Management",
 	"properties" : {
-		"adminAgency" : "HOLDAGENCY",
-		"name" : "SURFACE",
+		"adminAgency" : {"static" : "Forest Service"},
+		"name" : {"static" : "Bankhead Jones National Grassland"},
 		"type" : {"static" : "National Grassland"}
 		},
 		"adminLevel" : "federal",

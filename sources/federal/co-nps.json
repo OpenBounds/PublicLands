@@ -1,9 +1,9 @@
 {
-	"name" : "U.S. National Park Service Lands in Colorado",
-	"attribution" : "U.S. Bureau of Land Management",
+	"name" : "National Park Service Lands in Colorado",
+	"attribution" : "Bureau of Land Management",
 	"properties" : {
 		"name" : "adm_name",
-		"adminAgency" : {"static": "U.S. National Park Service"}
+		"adminAgency" : {"static": "National Park Service"}
 		},
 		"adminLevel" : "federal",
 		"filetype" : "shp",

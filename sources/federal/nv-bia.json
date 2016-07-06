@@ -1,8 +1,8 @@
 {
-	"name" : "U.S. Bureau of Indian Affairs Lands in Nevada",
-	"attribution" : "U.S. Bureau of Land Management",
+	"name" : "Bureau of Indian Affairs Lands in Nevada",
+	"attribution" : "Bureau of Land Management",
 	"properties" : {
-		"adminAgency" : {"static": "U.S. Bureau of Indian Affairs"}
+		"adminAgency" : {"static": "Bureau of Indian Affairs"}
 		},
 		"adminLevel" : "federal",
 		"filetype" : "shp",

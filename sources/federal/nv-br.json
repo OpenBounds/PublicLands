@@ -1,8 +1,8 @@
 {
-	"name" : "U.S. Bureau of Reclamation Lands in Nevada",
-	"attribution" : "U.S. Bureau of Land Management",
+	"name" : "Bureau of Reclamation Lands in Nevada",
+	"attribution" : "Bureau of Land Management",
 	"properties" : {
-		"adminAgency" : {"static": "U.S. Bureau of Reclamation"}
+		"adminAgency" : {"static": "Bureau of Reclamation"}
 		},
 		"adminLevel" : "federal",
 		"filetype" : "shp",

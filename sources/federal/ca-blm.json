@@ -1,8 +1,8 @@
 {
-	"name" : "U.S. Bureau of Land Management Lands in California",
-	"attribution" : "U.S. Bureau of Land Management",
+	"name" : "Bureau of Land Management Lands in California",
+	"attribution" : "Bureau of Land Management",
 	"properties" : {
-		"adminAgency" : {"static" : "U.S. Bureau of Land Management"}
+		"adminAgency" : {"static" : "Bureau of Land Management"}
 		},
 		"adminLevel" : "federal",
 		"filetype" : "gdb",
