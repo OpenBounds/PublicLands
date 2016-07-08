@@ -5,9 +5,7 @@
     "adminAgency": "OWN_DESC",
     "name": "NAME",
     "type": "UNIT_TYPE",
-    "adminLevel": {
-      "static": "state"
-    }
+	"adminLevel": {"static": "state"}
   },
   "filetype": "shp",
   "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_scientific_and_nat_areas/shp_bdry_scientific_and_nat_areas.zip",
