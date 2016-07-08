@@ -1,0 +1,14 @@
+{
+	"name" : "New York Department of Environmental Conservation Lands",
+	"attribution" : "New York Department of Environmental Conservation",
+	"properties" : {
+		"adminAgency" : {"static" : "New York Department of Environmental Conservation"},
+		"name" : "FACILITY",
+		"type" : "CATEGORY",
+		"access" : {"static" : "yes"},
+		"url" : "URL",
+		"adminLevel" : {"static" : "state"}
+		},
+		"filetype" : "shp",
+		"url" : "http://gis.ny.gov/gisdata/data/ds_1114/DEC_lands.zip"
+}

@@ -1,0 +1,19 @@
+{
+	"name" : "Tennessee Wildlife Resources Agency Lands",
+	"attribution" : "Tennessee Wildlife Resources Agency",
+	"properties" : {
+		"adminAgency" : "MANAGEMENT",
+		"name" : "NAME",
+		"type" : "Other",
+		"adminLevel" : {"static" : "state"}
+		},
+		"filetype" : "shp",
+		"url" : "https://www.tn.gov/assets/entities/twra/gis/attachments/TWRA_HuntableLands_December2015.zip",
+					  "filter": [
+       {
+           "expression": "match",
+           "key": "MANAGEMENT",
+           "value": "(TDA|.*TWRA|TNARNG|TRDA)"
+       }
+     ]
+}

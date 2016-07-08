@@ -4,9 +4,9 @@
 	"properties" : {
 		"adminAgency" : "HOLD1_NAME",
 		"name" : "PARCEL_NAM",
-		"type" : "DESIGNATIO"
+		"type" : "DESIGNATIO",
+		"adminLevel" : {"static" : "state"}
 		},
-		"adminLevel" : "state",
 		"filetype" : "shp",
 		"url" : "http://www.maine.gov/megis/catalog/shps/state/conserved_landss.zip",
 	  "filter": [

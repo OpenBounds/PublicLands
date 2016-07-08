@@ -3,9 +3,9 @@
 	"attribution" : "Illinois Department of Natural Resources",
 	"properties" : {
 		"adminAgency" : {"static" : "Illinois Department of Natural Resources"},
-		"name" : "NAME"
+		"name" : "NAME",
+		"adminLevel" : {"static" : "state"}
 		},
-		"adminLevel" : "state",
 		"filetype" : "shp",
 		"url" : "http://www.greenmapping.org/data/esri/STFWA-esri.zip",
 	  "filter": [

@@ -4,9 +4,7 @@
   "properties": {
     "adminAgency": "MANAGER",
     "name": "AREA_NAME",
-    "adminLevel": {
-      "static": "state"
-    }
+    "adminLevel": {"static": "state"}
   },
   "filetype": "shp",
   "url": "http://data.kansasgis.org/environmental_resources/shp/protected_areas/protected_areas.zip",

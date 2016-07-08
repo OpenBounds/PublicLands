@@ -1,0 +1,21 @@
+{
+	"name" : "Texas State Natural Areas",
+	"attribution" : "Texas Parks & Wildlife",
+	"properties" : {
+		"adminAgency" : {"static" : "Texas Parks & Wildlife"},
+		"adminLevel" : {"static" : "state"},
+		"name" : "LoName",
+		"type" : {"static" : "State Natural Area"},
+		"access" : "Availabili",
+		"useType" : "UseType"
+		},
+		"filetype" : "shp",
+		"url" : "http://tpwd.texas.gov/gis/data/baselayers/state-park-boundaries-zip",
+					  "filter": [
+       {
+           "expression": "match",
+           "key": "BndryType",
+           "value": ".*SNA"
+       }
+     ]
+}

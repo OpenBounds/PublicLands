@@ -1,0 +1,24 @@
+{
+	"name" : "Lands Protected by the Rhode Island Division of Fish and Wildlife",
+	"attribution" : "Rhode Island Department of Environmental Management",
+	"properties" : {
+		"adminAgency" : {"static" : "Rhode Island Department of Environmental Management, Division of Fish & Wildlife"},
+		"name" : "NAME",
+		"access" : {"static" : "yes"},
+		"adminLevel" : {"static" : "state"}
+		},
+		"filetype" : "shp",
+		"url" : "http://www.rigis.org/geodata/env/staCons14.zip",
+					  "filter": [
+       {
+           "expression": "!=",
+           "key": "Pub_Access",
+           "value": "NO"
+       },
+        {
+           "expression": "match",
+           "key": "DEM_DIV",
+           "value": "Fish & Wildlife"
+       }
+     ]
+}

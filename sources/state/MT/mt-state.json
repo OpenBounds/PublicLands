@@ -1,0 +1,19 @@
+{
+	"name" : "State-Managed Lands in Montana",
+	"attribution" : "Montana Natural Heritage Program",
+	"properties" : {
+		"adminAgency" : "MANAGER",
+		"name" : "MANAME",
+		"type" : "UNITTYPE",
+		"adminLevel" : {"static" : "state"}
+		},
+		"filetype" : "shp",
+		"url" : "http://ftp.geoinfo.msl.mt.gov/data/Spatial/NonMSDI/Shapefiles/stew_ManagedAreas.zip",
+			  "filter": [
+       {
+           "expression": "match",
+           "key": "INSTTYPE",
+           "value": "State"
+       }
+     ]
+}

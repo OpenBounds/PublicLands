@@ -4,12 +4,8 @@
   "properties": {
     "adminAgency": "MANAGER",
     "name": "UNITNAME",
-    "access": {
-      "static": "yes"
-    },
-    "adminLevel": {
-      "static": "state"
-    }
+    "access": {"static": "yes"},
+    "adminLevel": {"static": "state"}
   },
   "filetype": "shp",
   "url": "http://maps.indiana.edu/download/Environment/Managed_Lands_IDNR.zip",

@@ -4,9 +4,9 @@
 	"properties" : {
 		"adminAgency" : {"static" : "Kentucky Department of Parks"},
 		"name" : "PUBLIC_NAM",
-		"type" : {"static" : "State Park"}
+		"type" : {"static" : "State Park"},
+		"adminLevel" : {"static" : "state"}
 		},
-		"adminLevel" : "state",
 		"filetype" : "shp",
 		"url" : "ftp://ftp.kymartian.ky.gov/kyparks/Kentucky%20State%20Park%20Boundaries.zip"
 

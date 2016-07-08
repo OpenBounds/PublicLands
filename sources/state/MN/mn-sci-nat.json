@@ -9,7 +9,6 @@
       "static": "state"
     }
   },
-  "adminLevel": "state",
   "filetype": "shp",
   "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_scientific_and_nat_areas/shp_bdry_scientific_and_nat_areas.zip",
   "filenameInZip": "scientific_and_natural_area_boundaries.shp",

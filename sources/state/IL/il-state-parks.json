@@ -4,9 +4,9 @@
 	"properties" : {
 		"adminAgency" : {"static" : "Illinois Department of Natural Resources"},
 		"name" : "NAME",
-		"type" : {"static" : "State Park"}
+		"type" : {"static" : "State Park"},
+		"adminLevel" : {"static" : "state"}
 		},
-		"adminLevel" : "state",
 		"filetype" : "shp",
 		"url" : "http://www.greenmapping.org/data/esri/STPARKS-esri.zip"
 }

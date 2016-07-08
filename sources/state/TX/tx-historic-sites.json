@@ -1,0 +1,21 @@
+{
+	"name" : "Texas State Historic Sites",
+	"attribution" : "Texas Parks & Wildlife",
+	"properties" : {
+		"adminAgency" : {"static" : "Texas Parks & Wildlife"},
+		"adminLevel" : {"static" : "state"},
+		"name" : "LoName",
+		"type" : {"static" : "State Historic Site"},
+		"access" : "Availabili",
+		"useType" : "UseType"
+		},
+		"filetype" : "shp",
+		"url" : "http://tpwd.texas.gov/gis/data/baselayers/state-park-boundaries-zip",
+					  "filter": [
+       {
+           "expression": "match",
+           "key": "BndryType",
+           "value": ".*SHS"
+       }
+     ]
+}

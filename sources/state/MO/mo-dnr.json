@@ -1,0 +1,12 @@
+{
+	"name" : "Missouri Department of Natural Resources Lands",
+	"attribution" : "Missouri Department of Natural Resources",
+	"properties" : {
+		"adminAgency" : {"static" : "Missouri Department of Natural Resources"},
+		"name" : "LOC_NAME",
+		"url" : "URL",
+		"adminLevel" : {"static" : "state"}
+		},
+		"filetype" : "shp",
+		"url" : "ftp://msdis.missouri.edu/pub/Administrative_Political_Boundaries/MO_2016_Dept_of_Natural_Resources_Land_Boundaries_shp.zip"
+}

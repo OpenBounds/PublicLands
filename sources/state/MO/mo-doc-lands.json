@@ -1,0 +1,11 @@
+{
+	"name" : "Missouri Department of Conservation Lands",
+	"attribution" : "Missouri Department of Conservation",
+	"properties" : {
+		"adminAgency" : {"static" : "Missouri Department of Conservation"},
+		"name" : "AREA_NAME",
+		"adminLevel" : {"static" : "state"}
+		},
+		"filetype" : "shp",
+		"url" : "ftp://msdis.missouri.edu/pub/Environment_Conservation/MO_2011_Department_of_Conservation_Lands_shp.zip"
+}

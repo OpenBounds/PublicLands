@@ -1,0 +1,20 @@
+{
+	"name" : "Lands Managed by the Ohio Department of Natural Resources",
+	"attribution" : "Ohio Department of Natural Resources",
+	"properties" : {
+		"adminAgency" : {"static" : "Ohio Department of Natural Resources"},
+		"name" : "NAME",
+		"type" : "PROP_TYPE",
+		"division" : "Division",
+		"adminLevel" : {"static" : "state"}
+		},
+		"filetype" : "shp",
+		"url" : "http://apps.ohiodnr.gov/geodata/Statewide/DNR_Lands_2014.zip",
+			  "filter": [
+       {
+           "expression": "!=",
+           "key": "OWN_TYPE",
+           "value": "(ConservEase|Easement|FlowageEasement)"
+       }
+     ]
+}
