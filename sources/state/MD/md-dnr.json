@@ -6,9 +6,7 @@
     "name": "DNRName",
     "type": "Desig",
     "url": "WebLink",
-    "adminLevel": {
-      "static": "state"
-    }
+	"adminLevel": {"static": "state"}
   },
   "filetype": "shp",
   "url": "http://data.imap.maryland.gov/datasets/a5de633b6ebf450b94dcb08b519c3414_0.zip",

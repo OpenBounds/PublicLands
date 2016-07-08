@@ -5,9 +5,7 @@
     "adminAgency": "OWN",
     "name": "NAME",
     "type": "TYPE",
-    "adminLevel": {
-      "static": "state"
-    }
+	"adminLevel": {"static": "state"}
   },
   "filetype": "shp",
   "url": "http://files.hawaii.gov/dbedt/op/gis/data/parkplys_n83.shp.zip",

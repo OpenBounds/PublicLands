@@ -6,9 +6,7 @@
     "adminAgency": {
       "static": "WV Division of Forestry"
     },
-    "adminLevel": {
-      "static": "state"
-    }
+	"adminLevel": {"static": "state"}
   },
   "filetype": "shp",
   "url": "ftp://ftp.wvgis.wvu.edu/pub/Clearinghouse/Boundaries/wvStateForestBoundaries_wvdof_092015_utm83.zip"

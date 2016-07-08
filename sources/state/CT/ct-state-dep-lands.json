@@ -7,9 +7,7 @@
     "adminAgency": {
       "static": "Connecticut Department of Environmental Protection"
     },
-    "adminLevel": {
-      "static": "state"
-    }
+	"adminLevel": {"static": "state"}
   },
   "filetype": "gdb",
   "url": "ftp://ftp.state.ct.us/pub/dep/gis/geodatabase_format_zip/Property_gdb.zip",

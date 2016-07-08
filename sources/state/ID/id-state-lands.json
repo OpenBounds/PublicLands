@@ -3,10 +3,8 @@
   "attribution": "Bureau of Land Management (BLM), Idaho State Office",
   "properties": {
     "adminAgency": "AGNCY_NAME",
-    "adminLevel": {
-      "static": "state"
-    }
-  },
+	"adminLevel": {"static": "state"}
+	  },
   "filetype": "shp",
   "url": "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/blm/RLTY_SMA_PUB_24K_POLY.shp",
   "filter": [

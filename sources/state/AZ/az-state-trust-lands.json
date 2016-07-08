@@ -6,9 +6,7 @@
     "adminAgency": {
       "static": "State of Arizona"
     },
-    "adminLevel": {
-      "static": "state"
-    }
+	"adminLevel": {"static": "state"}
   },
   "filetype": "shp",
   "url": "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",

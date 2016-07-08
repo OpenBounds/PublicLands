@@ -9,9 +9,7 @@
     "type": {
       "static": "Wildlife Management Area"
     },
-    "adminLevel": {
-      "static": "state"
-    }
+	"adminLevel": {"static": "state"}
   },
   "filetype": "shp",
   "url": "http://app.fw.ky.gov/kfwis/kygeonet/Wildlife_Management_Areas.zip"
