@@ -7,13 +7,14 @@
 				"mapping" : {
 					"National Park Service (Voyageurs National Park)" : "National Park Service",
 					"U.S. Forest Service (National Forest)" : "Forest Service",
-					"U.S. Government (Other Federal Lands)" : "Federal Government"
+					"U.S. Government (Other Federal Lands)" : "Federal Government",
+					"Bureau of Land Management" : "Bureau of Land Management"
 					}
 				},
 		"name" : "NAME",
-		"type" : "UNIT_TYPE"
+		"type" : "UNIT_TYPE",
+		"adminLevel" : {"static" : "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_scientific_and_nat_areas/shp_bdry_scientific_and_nat_areas.zip",
 		"filenameInZip" : "scientific_and_natural_area_boundaries.shp",
@@ -22,11 +23,11 @@
            "expression": "match",
            "key": "OWN_DESC",
            "value": "(.*U.S.|.*National Park|.*Bureau)"
-       }
+       },
        {
            "expression": "!=",
            "key": "OWN_DESC",
-           "value": ".*Bureau of Indian"
+           "value": "Bureau of Indian Affairs (Tribal/Resettlement, Allocated and Government Lands)"
        }
 
      ]

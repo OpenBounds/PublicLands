@@ -6,15 +6,18 @@
 			"key" : "MANAGER",
 			"mapping" : {
 				"U.S. Army Corps of Engineers" : "Army Corps of Engineers",
+				"U.S  Army Corps of Engineers" : "Army Corps of Engineers",
 				"U.S. Dept of Army" : "Army",
+				"U.S. Dept  of Army" : "Army",
+				"U.S. Dept. of Army" : "Army",
 				"U.S. Fish & Wildlife Service" : "Fish & Wildlife Service",
+				"U.S. Fish and Wildlife Service" : "Fish & Wildlife Service",
 				"U.S. Forest Service" : "Forest Service"
 				}
 			},
-		"owner" : "OWNER",
-		"name" : "AREA_NAME"
+		"name" : "AREA_NAME",
+		"adminLevel" : {"static" : "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "http://data.kansasgis.org/environmental_resources/shp/protected_areas/protected_areas.zip",
 	  "filter": [

@@ -11,20 +11,25 @@
 					"SERC" : "Smithsonian Environmental Research Center",
 					"U.S. MILITARY" : "Department of Defense",
 					"U.S. PARK SERV" : "National Park Service",
+					"U.S. PARK SERV." : "National Park Service",
 					"U.S.A" : "Federal Government",
-					"U.S.A-Utility" : "Federal Government",
+					"U.S.A." : "Federal Government",
+					"U.S.A.-Utility" : "Federal Government",
+					"U.S.A.- Utility" : "Federal Government",
 					"U.S.D.A." : "Department of Agriculture",
 					"U.S.F.W" : "Fish & Wildlife Service",
+					"U.S.F.W." : "Fish & Wildlife Service",
 					"US DEPT OF AG" : "Department of Agriculture",
 					"US Dept. Trans." : "Department of Transportation",
-					"US Fire Admin" : "Fire Administration"
+					"US Fire Admin" : "Fire Administration",
+					"US Fire Admin." : "Fire Administration"
 					}			
 			},
 		"name" : "NAME",
 		"type" : "Type",
-		"url" : "WebLink"
+		"url" : "WebLink",
+		"adminLevel" : {"static" : "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "http://data.imap.maryland.gov/datasets/e8c94de89d6f4319bef28897c6a89581_0.zip"
 }

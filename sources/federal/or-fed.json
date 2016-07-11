@@ -1,0 +1,33 @@
+{
+	"name" : "Federal Lands in Oregon",
+	"attribution" : "Bureau of Land Management",
+	"properties" : {
+		"adminAgency" : {
+			"key" : "LandManager",
+				"mapping" : {
+					"FAA" : "Federal Aviation Administration",
+					"GSA" : "General Services Administration",
+					"BPA" : "Bonneville Power Administration",
+					"USACE" : "Army Corps of Engineers",
+					"USBR" : "Bureau of Reclamation",
+					"USCG" : "Coast Guard",
+					"USDA" : "Department of Agriculture",
+					"USFS" : "Forest Service",
+					"BLM" : "Bureau of Land Management",
+					"FWS" : "Fish & Wildlife Service",
+					"DOE" : "Department of Energy",
+					"DOD" : "Department of Defense"
+				}
+		},
+		"adminLevel" : {"static" : "federal"}
+	},
+		"filetype" : "gdb",
+		"url" : "http://www.odf.state.or.us/gis/data/Ownership/2015_LandManagementDraft.gdb.zip",
+				"filter" : [
+       				{
+           			"expression": "match",
+           			"key": "LandManager",
+           			"value": "(BLM|BPA|DOD|DOE|USFS|FAA|FWS|GSA|USACE|USBR|USCG|USDA)"
+       				}
+     			]
+}

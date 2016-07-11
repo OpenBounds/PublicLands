@@ -15,9 +15,9 @@
 				}
 			},
 		"name" : "UNITNAME",
-		"access" : {"static" : "yes"}
+		"access" : {"static" : "yes"},
+		"adminLevel" : {"static" : "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "http://maps.indiana.edu/download/Environment/Managed_Lands_IDNR.zip",
 	  "filter": [
@@ -29,7 +29,7 @@
        {
            "expression": "match",
            "key": "MANAGER",
-           "value": ".*U.S."
+           "value": "U.S."
        }
      ]
 }

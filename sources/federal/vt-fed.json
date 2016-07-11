@@ -1,0 +1,30 @@
+{
+	"name" : "Federal Lands in Vermont",
+	"attribution" : "University of Vermont, Spatial Analysis Lab",
+	"properties" : {
+		"adminAgency" : {
+			"key" : "PPAGENCY",
+				"mapping" : {
+					"30000" : "United States Government", 
+					"31000" : "Fish & Wildlife Service", 
+					"31100" : "National Park Service", 
+					"32000" : "Forest Service", 
+					"32100" : "Natural Resources Conservation Service", 
+					"32200" : "Farm Services Agency", 
+					"33000" : "Army Corps of Engineers", 
+					"33050" : "Army"
+				}
+		},
+		"adminLevel" : {"static" : "federal"}
+		},
+	"filetype" : "shp",
+	"url" : "http://maps.vcgi.vermont.gov/gisdata/vcgi/packaged_zips/CadastralPublands_CONSPUB.zip",
+    	"filter": [
+       {
+           "expression": "match",
+           "key": "PPAGENCY",
+           "value": "(^30|^31|^32|^33)"
+       }
+     ]
+     
+}
