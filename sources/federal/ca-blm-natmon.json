@@ -4,9 +4,9 @@
 	"properties" : {
 		"name" : "NLCS_NAME",
 		"type" : "NLCS_TYPE",
-		"adminAgency" : {"static" : "Bureau of Land Management"}
+		"adminAgency" : {"static" : "Bureau of Land Management"},
+		"adminLevel" : {"static" : "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "gdb",
 		"url" : "http://www.blm.gov/ca/gis/GeodatabasesZIP/nlcsNatMonuments_v10.gdb.zip",
 		"filenameInZip": "nlcsNatMonuments_v10.gdb",

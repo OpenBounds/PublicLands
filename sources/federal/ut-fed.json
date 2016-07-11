@@ -1,0 +1,29 @@
+{
+	"name" : "Federal Lands in Utah",
+	"attribution" : "Bureau of Land Management",
+	"properties" : {
+		"adminAgency" : {
+			"key" : "ADMIN",
+			"mapping" : {
+				"BLM" : "Bureau of Land Management",
+				"BR" : "Bureau of Reclamation",
+				"DOD" : "Department of Defense",
+				"DOE" : "Department of Energy",
+				"NPS" : "National Park Service",
+				"USFS" : "Forest Service",
+				"USFWS" : "Fish & Wildlife Service"
+			}
+		},	
+		"type" : "DESIG",
+		"adminLevel" : {"static" : "federal"}
+		},
+		"filetype" : "gdb",
+		"url" : "http://www.blm.gov/style/medialib/blm/ut/support_services_uso.Par.58040.File.dat/LandOwnership_20160601.zip",
+		    "filter": [
+       {
+           "expression": "match",
+           "key": "ADMIN",
+           "value": "(BLM|BR|DOD|DOE|NPS|USFS|USFWS)"
+       }
+   ]
+}

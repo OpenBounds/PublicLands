@@ -2,9 +2,9 @@
 	"name" : "Department of Energy Lands in New Mexico",
 	"attribution" : "Bureau of Land Management",
 	"properties" : {
-		"adminAgency" : {"static" : "Department of Energy"}
+		"adminAgency" : {"static" : "Department of Energy"},
+		"adminLevel" : {"static" : "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
 		    "filter": [

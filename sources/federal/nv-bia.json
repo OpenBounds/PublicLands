@@ -2,9 +2,9 @@
 	"name" : "Bureau of Indian Affairs Lands in Nevada",
 	"attribution" : "Bureau of Land Management",
 	"properties" : {
-		"adminAgency" : {"static": "Bureau of Indian Affairs"}
+		"adminAgency" : {"static": "Bureau of Indian Affairs"},
+		"adminLevel" : {"static" : "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "http://www.blm.gov/style/medialib/blm/nv/gis/shp_files.Par.56125.File.dat/NV_Land_Ownership_shp.zip",
     "filter": [

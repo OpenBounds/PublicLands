@@ -2,10 +2,9 @@
 	"name" : "BLM Lands in Arizona",
 	"attribution" : "Bureau of Land Management",
 	"properties" : {
-		"name" : "DESC_",
-		"adminAgency" : {"static" : "Bureau of Land Management"}
+		"adminAgency" : {"static" : "Bureau of Land Management"},
+		"adminLevel" : {"static" : "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
     "filter": [

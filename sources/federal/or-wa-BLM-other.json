@@ -4,9 +4,8 @@
 	"properties" : {
 		"name" : "OND_NAME",
 		"adminAgency" : {"static" : "Bureau of Land Management"},
-		"type" : "OND_TYPE"
+		"adminLevel" : {"static" : "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "gdb",
 		"url" : "http://www.blm.gov/or/gis/files/web_corp/other_national_designations.zip",
 		"filenameInZip": "other_national_designations.gdb"
