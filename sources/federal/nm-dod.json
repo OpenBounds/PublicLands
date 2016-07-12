@@ -3,7 +3,8 @@
 	"attribution" : "Bureau of Land Management",
 	"properties" : {
 		"adminAgency" : {"static" : "Department of Defense"},
-		"adminLevel" : {"static" : "federal"}
+		"adminLevel" : {"static" : "federal"},
+		"type" : {"static" : "military installation"}
 		},
 		"filetype" : "shp",
 		"url" : "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",

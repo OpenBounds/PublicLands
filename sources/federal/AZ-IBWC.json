@@ -4,7 +4,8 @@
 	"attribution" : "Bureau of Land Management",
 	"properties" : {
 		"adminAgency" : {"static" : "International Boundary and Water Commission"},
-		"adminLevel" : {"static" : "federal"}
+		"adminLevel" : {"static" : "federal"},
+		"type" : {"static" : "international boundary region"}
 		},
 		"filetype" : "shp",
 		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",

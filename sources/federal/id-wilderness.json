@@ -3,7 +3,7 @@
 	"attribution" : "Bureau of Land Management",
 	"properties" : {
 		"name" : "NLCS_NAME",
-		"type" : {"static": "Wilderness Area"},
+		"type" : {"static": "wilderness area"},
 		"adminAgency" : {"static": "Bureau of Land Management"},
 		"adminLevel" : {"static" : "federal"}
 		},
