@@ -1,0 +1,19 @@
+{
+	"name" : "South Carolina State Wildlife Refuges",
+	"attribution" : "South Carolina Department of Natural Resources and U.S. Geological Survey",
+	"properties" : {
+		"adminAgency" : {"static" : "South Carolina Department of Natural Resources, Wildlife and Freshwater Fisheries Division"},
+		"name" : "REFNAME",
+		"type" : {"static" : "State Wildlife Refuge"},
+		"adminLevel" : {"static" : "state"}
+		},
+		"filetype" : "shp",
+		"url" : "ftp://ftpdata.dnr.sc.gov/gisdata/ref/DLG_Refuge.zip",
+					  "filter": [
+       {
+           "expression": "match",
+           "key": "REFTYPE",
+           "value": "STATE"
+       }
+     ]
+}

@@ -1,0 +1,52 @@
+{
+	"name" : "State Natural Areas in Vermont",
+	"attribution" : "University of Vermont, Spatial Analysis Lab",
+	"properties" : {
+		"adminAgency" : {
+			"key" : "PPAGENCY",
+				"mapping" : {
+				"40000" : "State of Vermont",
+				"42000" : "Vermont Division for Historical Preservation", 
+				"43000" : "Vermont Department of Agriculture, Foods, and Markets", 
+				"44100" : "University of Vermont", 
+				"44200" : "Johnson State College", 
+				"44300" : "Castleton State College", 
+				"45000" : "Vermont Agency of Natural Resources", 
+				"45050" : "Vermont Agency of Natural Resources", 
+				"45100" : "Vermont Agency of Natural Resources, Department of Fish and Wildlife", 
+				"45110" : "Vermont Agency of Natural Resources, Department of Fish and Wildlife",
+				"45120" : "Vermont Agency of Natural Resources, Department of Fish and Wildlife", 
+				"45130" : "Vermont Agency of Natural Resources, Department of Fish and Wildlife", 
+				"45140" : "Vermont Agency of Natural Resources, Department of Fish and Wildlife", 
+				"45160" : "Vermont Agency of Natural Resources, Department of Fish and Wildlife", 
+				"45170" : "Vermont Agency of Natural Resources, Department of Fish and Wildlife", 
+				"45180" : "Vermont Agency of Natural Resources, Department of Fish and Wildlife", 
+				"45200" : "Vermont Department of Forests, Parks and Recreation", 
+				"45210" : "Vermont Department of Forests, Parks and Recreation", 
+				"45220" : "Vermont Department of Forests, Parks and Recreation", 
+				"45300" : "Vermont Department of Environmental Conservation", 
+				"46000" : "Vermont Agency of Transportation", 
+				"47000" : "Vermont Housing and Conservation Board", 
+				"48000" : "Vermont Department Buildings and General Services", 
+				"49000" : "Vermont Department of the Military"
+				},
+				"type" : {"static" : "Natural Area"}
+			},
+		"adminLevel" : {"static" : "state"},
+		"name" : "NAME"
+		},
+		"filetype" : "shp",
+		"url" : "http://maps.vcgi.vermont.gov/gisdata/vcgi/packaged_zips/CadastralPublands_CONSPUB.zip",
+		"filter": [
+       {
+           "expression": "match",
+           "key": "NAME",
+           "value": ".*NATURAL AREA"
+       },
+       {
+           "expression": "match",
+           "key": "PPAGENCY",
+           "value": "(^40|^42|^43|^44|^45|^46|^47|^48|^49)"
+       }
+     ]
+}
