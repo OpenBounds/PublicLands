@@ -18,16 +18,21 @@
 				"US DEPT. OF AGRICULTURE, NATURAL RESOURCES CONSERVATION SERVICE" : "Department of Agriculture",
 				"US DEPT. OF DEFENSE, NAVY" : "Navy"
 				}
-			}
+			},	
+		"adminLevel" : {"static" : "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "ftp://ftp.fgdl.org/pub/state/flma_mar16.zip",
-    "filter": [
+    	"filter": [
        {
            "expression": "match",
            "key": "MATYPE2",
            "value": "F"
+       },
+       {
+           "expression": "!=",
+           "key": "MANAME",
+           "value": "(.*TRACT|.*EASEMENT)"
        }
    ]
 

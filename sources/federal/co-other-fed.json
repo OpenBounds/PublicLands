@@ -3,9 +3,9 @@
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
 		"name" : "adm_name",
-		"adminAgency" : {"static": "Federal Government"}
+		"adminAgency" : {"static": "Federal Government"},
+		"adminLevel" : {"static" : "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "http://www.blm.gov/style/medialib/blm/co/programs/geographical_sciences/gis/metadata/gislayers.Par.95180.File.dat/co_lst_03092016.zip",
     "filter": [
@@ -13,6 +13,11 @@
            "expression": "match",
            "key": "adm_manage",
            "value": "OTHER"
+       },
+       {
+           "expression": "!=",
+           "key": "adm_name",
+           "value": "Archuleta County"
        }
    ]
 

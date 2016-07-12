@@ -3,9 +3,9 @@
 	"name" : "International Boundary and Water Commission Lands in Arizona",
 	"attribution" : "Bureau of Land Management",
 	"properties" : {
-		"adminAgency" : {"static" : "International Boundary and Water Commission"}
+		"adminAgency" : {"static" : "International Boundary and Water Commission"},
+		"adminLevel" : {"static" : "federal"}
 		},
-		"adminLevel" : "federal",
 		"filetype" : "shp",
 		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
     "filter": [
