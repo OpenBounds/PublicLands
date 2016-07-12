@@ -4,16 +4,31 @@
 	"properties" : {
 		"name" : "adm_name",
 		"adminAgency" : {"static": "National Park Service"},
-		"adminLevel" : {"static" : "federal"}
-		},
-		"filetype" : "shp",
-		"url" : "http://www.blm.gov/style/medialib/blm/co/programs/geographical_sciences/gis/metadata/gislayers.Par.95180.File.dat/co_lst_03092016.zip",
+		"adminLevel" : {"static" : "federal"},
+		"type" : {
+			"key" : "adm_name",
+				"mapping" : {
+					"'Black Canyon of the Gunnison National Park" : "park",
+					"NULL" : "unknown",
+					"Colorado National Monument" : "monument",
+					"Dinosaur National Monument" : "monument",
+					"Florissant Fossil Beds National Monument" : "monument",
+					"Great Sand Dunes National Park" : "park",
+					"Hovenweep National Monument" : "monument",
+					"Mesa Verde National Park" : "park",
+					"Rocky Mountain National Park" : "park",
+					"Sand Creek Massacre National Historic Site" : "historic site",
+					"Yucca House National Monument" : "monument"
+				}
+		}
+	},	
+	"filetype" : "shp",
+	"url" : "http://www.blm.gov/style/medialib/blm/co/programs/geographical_sciences/gis/metadata/gislayers.Par.95180.File.dat/co_lst_03092016.zip",
     "filter": [
        {
-           "expression": "match",
-           "key": "adm_manage",
-           "value": "NPS"
+           "expression" : "match",
+           "key" : "adm_manage",
+           "value" : "NPS"
        }
    ]
-
 }

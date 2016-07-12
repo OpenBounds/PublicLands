@@ -4,10 +4,17 @@
 	"properties" : {
 		"name" : "adm_name",
 		"adminAgency" : {"static": "Bureau of Reclamation"},
-		"adminLevel" : {"static" : "federal"}
-		},
-		"filetype" : "shp",
-		"url" : "http://www.blm.gov/style/medialib/blm/co/programs/geographical_sciences/gis/metadata/gislayers.Par.95180.File.dat/co_lst_03092016.zip",
+		"adminLevel" : {"static" : "federal"},
+		"type" : {
+			"key" : "adm_name",
+				"mapping" : {
+					"'Bodo State Wildlife Area" : "wildlife area",
+					"NULL" : "unknown"
+				}
+		}
+	},
+	"filetype" : "shp",
+	"url" : "http://www.blm.gov/style/medialib/blm/co/programs/geographical_sciences/gis/metadata/gislayers.Par.95180.File.dat/co_lst_03092016.zip",
     "filter": [
        {
            "expression": "match",
@@ -15,5 +22,4 @@
            "value": "BOR"
        }
    ]
-
 }

@@ -17,10 +17,42 @@
 				"US DEPT. OF THE INTERIOR, NATIONAL PARK SERVICE" : "National Park Service",
 				"US DEPT. OF AGRICULTURE, NATURAL RESOURCES CONSERVATION SERVICE" : "Department of Agriculture",
 				"US DEPT. OF DEFENSE, NAVY" : "Navy"
+				},
+		"type" : {
+			"key" : "MATYPE",
+				"mapping" : {
+					"FAFAB" : "military installation",
+					"FAFAR" : "military installation",
+					"FAFAS" : "military installation",
+					"FAFRB" : "military installation",
+					"FAFSI" : "military installation",
+					"FAFTS" : "military installation",
+					"FBLAC" : "unknown",
+					"FCGCS" : "military installation",
+					"FDAAR" : "unknown",
+					"FDAHR" : "unknown",
+					"FDAPC" : "unknown",
+					"FDCDC" : "unknown",
+					"FFSEF" : "forest",
+					"FFSNF" : "forest",
+					"FFSRN" : "other",
+					"FFSST" : "scenic trail",
+					"FFWFH" : "fish hatchery",
+					"FFWPN" : "natural area",
+					"FFWRN" : "natural area",
+					"FFWWR" : "wildlife refuge",
+					"FMCSF" : "military installation",
+					"FNPNM" : "monument",
+					"FNPNP" : "park",
+					"FNVBT" : "military installation",
+					"FNVNF" : "military installation",
+					"FNVNS" : "military installation",
+					"FNVRA" : "military installation",
+					"FNVTF" : "military installation"			
 				}
-			},	
-		"adminLevel" : {"static" : "federal"}
-		},
+		},		
+	"adminLevel" : {"static" : "federal"}
+	},	
 		"filetype" : "shp",
 		"url" : "ftp://ftp.fgdl.org/pub/state/flma_mar16.zip",
     	"filter": [

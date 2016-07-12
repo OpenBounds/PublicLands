@@ -4,8 +4,21 @@
 	"properties" : {
 		"name" : "adm_name",
 		"adminAgency" : {"static": "Bureau of Land Management"},
-		"adminLevel" : {"static" : "federal"}
-		},
+		"adminLevel" : {"static" : "federal"},
+		"type" : {
+			"key" : "adm_name",
+				"mapping" : {
+					"Black Canyon of the Gunnison National Park" : "park",
+					"Comanche National Grassland" : "grassland",
+					"Jerry Creek State Wildlife Area" : "wildlife area",
+					"Long Mesa State Park" : "park",
+					"Mesa Verde National Park" : "park",
+					"Oak Ridge/Lake Avery State Wildlife Area" : "wildlife area",
+					"Piceance State Wildlife Area'" : "wildlife area",
+					"NULL" : "unknown"
+				}
+		}
+	},	
 		"filetype" : "shp",
 		"url" : "http://www.blm.gov/style/medialib/blm/co/programs/geographical_sciences/gis/metadata/gislayers.Par.95180.File.dat/co_lst_03092016.zip",
     "filter": [
@@ -13,6 +26,11 @@
            "expression": "match",
            "key": "adm_manage",
            "value": "BLM"
+       },
+        {
+           "expression": "!=",
+           "key": "adm_name",
+           "value": ".*Ute"
        }
    ]
 

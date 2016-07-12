@@ -4,7 +4,34 @@
   "properties": {
     "name": "DESC_",
     "adminAgency": {"static": "National Park Service"},
-    "adminLevel" : {"static" : "federal"}
+    "adminLevel" : {"static" : "federal"},
+    "type" : {
+    	"key" : "DESC_",
+    		"mapping" : {
+    			"Canyon De Chelly N.M" : "monument",
+    			"Glen Canyon N.R.A" : "recreation area",
+    			"Petrified Forest N.P" : "park",
+    			"Marble Canyon N.M" : "monument",
+    			"Pipe Spring N.M" : "monument",
+    			"Navajo N.M" : "monument",
+    			"Hubble Post N.H.S" : "historic site",
+    			"Grand Canyon N.P" : "park",
+    			"Lake Mead N.R.A" : "recreation area",
+    			"Casa Grande N.M" : "monument",
+    			"Tumacacori N.M" : "monument",
+    			"Fort-Bowie N.H.S" : "historic site",
+    			"Saguaro N.M" : "monument",
+    			"Coronado N.M" : "monument",
+    			"Organ Pipe N.M" : "monument",
+    			"Tonto N.M" : "monument",
+    			"Sunset Crater N.M" : "monument",
+    			"Wupatki N.M" : "monument",
+    			"Walnut Canyon N.M" : "monument",
+    			"Tuzigoot N.M" : "monument",
+    			"Montezuma Well" : "monument",
+    			"Chiricahua N.M" : "monument"
+    		}
+    }
   },
   "filetype": "shp",
   "url": "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
