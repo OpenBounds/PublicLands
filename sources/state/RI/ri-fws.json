@@ -4,17 +4,12 @@
 	"properties" : {
 		"adminAgency" : {"static" : "Rhode Island Department of Environmental Management, Division of Fish & Wildlife"},
 		"name" : "NAME",
-		"access" : {"static" : "yes"},
+		"access" : "Pub_Access",
 		"adminLevel" : {"static" : "state"}
 		},
-		"filetype" : "shp",
-		"url" : "http://www.rigis.org/geodata/env/staCons14.zip",
-					  "filter": [
-       {
-           "expression": "!=",
-           "key": "Pub_Access",
-           "value": "NO"
-       },
+	"filetype" : "shp",
+	"url" : "http://www.rigis.org/geodata/env/staCons14.zip",
+	"filter": [
         {
            "expression": "match",
            "key": "DEM_DIV",
