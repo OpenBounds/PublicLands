@@ -4,7 +4,8 @@
 	"properties" : {
 		"name" : "adm_name",
 		"adminAgency" : {"static" : "State of Colorado"},
-		"adminLevel" : {"static" : "state"}
+		"adminLevel" : {"static" : "state"},
+		"type" : {"static" : "unknown"}
 		},
 		"filetype" : "shp",
 		"url" : "http://www.blm.gov/style/medialib/blm/co/programs/geographical_sciences/gis/metadata/gislayers.Par.95180.File.dat/co_lst_03092016.zip",
@@ -15,5 +16,4 @@
            "value": "STA"
        }
    ]
-
 }

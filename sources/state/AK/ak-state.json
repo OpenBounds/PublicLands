@@ -3,7 +3,8 @@
   "attribution": "U.S. Bureau of Land Management",
   "properties": {
     "adminAgency": {"static": "State of Alaska"},
-    "adminLevel": {"static": "state"}
+    "adminLevel": {"static": "state"},
+    "type" : {"static" : "unknown"}
   },
   "filetype": "shp",
   "url": "http://sdms.ak.blm.gov/download/landstatus/genstat.zip",
