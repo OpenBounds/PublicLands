@@ -6,9 +6,7 @@
       "static": "Michigan Department of Natural Resources"
     },
     "name": "UNITNAME",
-    "type": {
-      "static": "State Forest"
-    },
+    "type": {"static": "forest"},
 	"adminLevel": {"static": "state"}
   },
   "filetype": "shp",

@@ -1,12 +1,11 @@
 {
-  "name": "State and Local Parks in Arizona",
+  "name": "Arizona State Parks",
   "attribution": "U.S. Bureau of Land Management",
   "properties": {
     "name": "DESC_",
     "adminAgency": "OWNER",
-    "adminLevel": {
-      "static": "state"
-    }
+	"adminLevel": {"static": "state"},
+	"type" : {"static": "park"}
   },
   "filetype": "shp",
   "url": "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
@@ -15,6 +14,11 @@
       "expression": "match",
       "key": "CATEGORY",
       "value": "Local or State Parks"
-    }
+    },
+    {
+      "expression": "match",
+      "key": "DESC_",
+      "value": "(.*SP|.*SHP)"
+    },
   ]
 }

@@ -4,12 +4,12 @@
 	"properties" : {
 		"adminAgency" : {"static" : "South Carolina Forestry Commission"},
 		"name" : "FORNAME",
-		"type" : {"static" : "State Forest"},
+		"type" : {"static" : "forest"},
 		"adminLevel" : {"static" : "state"}
 		},
-		"filetype" : "shp",
-		"url" : "ftp://ftpdata.dnr.sc.gov/gisdata/for/DLG_Forest.zip",
-					  "filter": [
+	"filetype" : "shp",
+	"url" : "ftp://ftpdata.dnr.sc.gov/gisdata/for/DLG_Forest.zip",
+	"filter": [
        {
            "expression": "match",
            "key": "FORNAME",

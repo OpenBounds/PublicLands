@@ -4,18 +4,13 @@
 	"properties" : {
 		"adminAgency" : {"static" : "Rhode Island Division of Parks & Recreation"},
 		"name" : "NAME",
-		"type" : {"static" : "State Beach"},
-		"access" : {"static" : "yes"},
-		"adminLevel" : {"static" : "state"}
+		"type" : {"static" : "beach"},
+		"adminLevel" : {"static" : "state"},
+		"access" : "Pub_Access"
 		},
-		"filetype" : "shp",
-		"url" : "http://www.rigis.org/geodata/env/staCons14.zip",
-					  "filter": [
-       {
-           "expression": "!=",
-           "key": "Pub_Access",
-           "value": "NO"
-       },
+	"filetype" : "shp",
+	"url" : "http://www.rigis.org/geodata/env/staCons14.zip",
+	"filter": [
         {
            "expression": "match",
            "key": "NAME",

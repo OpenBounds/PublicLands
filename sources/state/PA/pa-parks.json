@@ -4,10 +4,10 @@
 	"properties" : {
 		"adminAgency" : {"static" : "Pennsylvania Department of Conservation and Natural Resources"},
 		"name" : "PARK_NAME",
-		"type" : "TYPE",
+		"type" : {"static" : "park"},
 		"url" : "WEBLINK",
 		"adminLevel" : {"static" : "state"}
 		},
-		"filetype" : "shp",
-		"url" : "http://www.pasda.psu.edu/data/dcnr/DCNR_StateParks201511.zip"
+	"filetype" : "shp",
+	"url" : "http://www.pasda.psu.edu/data/dcnr/DCNR_StateParks201511.zip"
 }

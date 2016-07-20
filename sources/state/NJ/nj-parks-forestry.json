@@ -4,7 +4,26 @@
 	"properties" : {
 		"adminAgency" : {"static" : "New Jersey Department of Environmental Protection, Division of Parks & Forestry"},
 		"name" : "MAP_LABEL",
-		"type" : "USE_LABEL",
+		"type" : {
+			"key" : "USE",
+				"mapping" : {
+					"SP" : "park",
+					"TRAIL" : "trail",
+					"SF" : "forest",
+					"MISC" : "other",
+					"NA/SP" : "natural area",
+					"HS" : "historic site",
+					"NA" : "natural area",
+					"RA" : "recreation area",
+					"MARINA" : "other",
+					"GC" : "other",
+					"NURSERY" : "other",
+					"CEMETERY" : "other",
+					"NULL" : "other",
+					"AIR FIELD" : "other",
+					"FIRE TOWER" : "other"	
+				}
+		},	
 		"adminLevel" : {"static" : "state"}
 		},
 		"filetype" : "shp",
@@ -14,16 +33,6 @@
            "expression": "match",
            "key": "OWNER",
            "value": "PF"
-       },
-       {
-           "expression": "!=",
-           "key": "USE",
-           "value": "TRAIL"
-       },
-       {
-           "expression": "!=",
-           "key": "USE_LABEL",
-           "value": "(Cemetery|Golf Course)"
        }
      ]
 }

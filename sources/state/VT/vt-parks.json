@@ -5,11 +5,11 @@
 		"adminAgency" : {"static" : "Vermont Department of Forests, Parks, and Recreation"},
 		"adminLevel" : {"static" : "state"},
 		"name" : "NAME",
-		"type" : {"static" : "State Park"}
+		"type" : {"static" : "park"}
 		},
-		"filetype" : "shp",
-		"url" : "http://maps.vcgi.vermont.gov/gisdata/vcgi/packaged_zips/CadastralPublands_CONSPUB.zip",
-					  "filter": [
+	"filetype" : "shp",
+	"url" : "http://maps.vcgi.vermont.gov/gisdata/vcgi/packaged_zips/CadastralPublands_CONSPUB.zip",
+	"filter": [
        {
            "expression": "match",
            "key": "NAME",

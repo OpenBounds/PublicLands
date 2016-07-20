@@ -4,7 +4,7 @@
 	"properties" : {
 		"adminAgency" : {"static" : "Pennsylvania Department of Conservation and Natural Resources"},
 		"name" : "SF_Name",
-		"type" : {"static" : "State Park"},
+		"type" : {"static" : "forest"},
 		"adminLevel" : {"static" : "state"}
 		},
 		"filetype" : "shp",

@@ -1,0 +1,24 @@
+{
+	"name" : "Huntable State Forests in Tennessee",
+	"attribution" : "Tennessee Wildlife Resources Agency",
+	"properties" : {
+		"adminAgency" : "MANAGEMENT",
+		"name" : "NAME",
+		"type" : {"static" : "forest"},
+		"adminLevel" : {"static" : "state"}
+		},
+	"filetype" : "shp",
+	"url" : "https://www.tn.gov/assets/entities/twra/gis/attachments/TWRA_HuntableLands_December2015.zip",
+	"filter": [
+       	{
+           "expression": "match",
+           "key": "MANAGEMENT",
+           "value": "(TDA|.*TWRA|TNARNG|TRDA)"
+       	},
+       	{
+           "expression": "match",
+           "key": "NAME",
+           "value": ".*SF"
+       	}
+     ]
+}

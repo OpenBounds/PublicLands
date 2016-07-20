@@ -5,13 +5,13 @@
 		"adminAgency" : {"static" : "Texas Parks & Wildlife"},
 		"adminLevel" : {"static" : "state"},
 		"name" : "LoName",
-		"type" : {"static" : "State Park"},
+		"type" : {"static" : "park"},
 		"access" : "Availabili",
 		"useType" : "UseType"
 		},
-		"filetype" : "shp",
-		"url" : "http://tpwd.texas.gov/gis/data/baselayers/state-park-boundaries-zip",
-					  "filter": [
+	"filetype" : "shp",
+	"url" : "http://tpwd.texas.gov/gis/data/baselayers/state-park-boundaries-zip",
+	"filter": [
        {
            "expression": "match",
            "key": "BndryType",

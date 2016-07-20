@@ -1,0 +1,19 @@
+{
+	"name" : "Missouri State Recreation Areas",
+	"attribution" : "Missouri Department of Natural Resources",
+	"properties" : {
+		"adminAgency" : {"static" : "Missouri Department of Natural Resources"},
+		"name" : "WA_NAME",
+		"type" : {"static" : "recreation area"},
+		"adminLevel" : {"static" : "state"}
+		},
+	"filetype" : "shp",
+	"url" : "ftp://msdis.missouri.edu/pub/Environment_Conservation/MO_2011_Department_of_Conservation_Lands_shp.zip",
+	"filter" : [
+		{
+			"expression" : "match",
+			"key" : "AREA_NAME",
+			"value" : ".*RECREATION"
+		}
+	]
+}

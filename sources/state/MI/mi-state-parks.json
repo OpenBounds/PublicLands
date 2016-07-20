@@ -2,13 +2,9 @@
   "name": "Michigan State Parks",
   "attribution": "Michigan Department of Natural Resources",
   "properties": {
-    "adminAgency": {
-      "static": "Michigan Department of Natural Resources"
-    },
+    "adminAgency": {"static": "Michigan Department of Natural Resources"},
     "name": "FACILITY",
-    "type": {
-      "static": "State Park"
-    },
+    "type": {"static": "park"},
 	"adminLevel": {"static": "state"}
   },
   "filetype": "shp",

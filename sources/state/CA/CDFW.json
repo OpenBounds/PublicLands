@@ -3,9 +3,21 @@
   "attribution": "California Department of Fish and Wildlife",
   "properties": {
     "name": "PROP_NAME",
-    "type": "PROP_TYPE",
+    "type": {
+      "key" : "PROP_TYPE",
+      	"mapping" : {
+      		"Ecological Reserve" : "reserve",
+      		"Fish Hatchery" : "fish hatchery",
+      		"Miscellaneous" : "other",
+      		"Public Access" : "other",
+      		"Undesignated" : "undesignated",
+      		"Wildlife Area" : "wildlife area"
+      	}
+     }, 	
     "adminAgency": {"static": "California Department of Fish and Wildlife"},
-    "adminLevel" : {"static" : "state"}
+    "adminLevel" : {"static" : "state"},
+    "url" : "LINK",
+    "access" : "ACCESS"
   },
   "filetype": "shp",
   "url": "ftp://ftp.dfg.ca.gov/BDB/GIS/CDFW_Lands/CDFW_Owned_and_Operated_Lands_Generalized.zip"

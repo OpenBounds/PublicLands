@@ -1,0 +1,23 @@
+{
+	"name" : "State Parks in Oregon",
+	"attribution" : "Bureau of Land Management",
+	"properties" : {
+		"adminAgency" : "LandManager",
+		"adminLevel" : {"static" : "state"},
+		"type" : {"static" : "park"}
+		},
+		"filetype" : "gdb",
+		"url" : "http://www.odf.state.or.us/gis/data/Ownership/2015_LandManagementDraft.gdb.zip",
+			  "filter": [
+       			{
+           		"expression": "match",
+           		"key": "LandManager",
+           		"value": "(ODF|ODFW|ODOT|ODSL|OPRD|OR|OSU)"
+       			},
+       			{
+           		"expression": "match",
+           		"key": "LM1Jurisdiction",
+           		"value": "(.*Park|SSV|PARK|park|Parks|S.P.)"
+       			}
+     		]
+}

@@ -13,11 +13,12 @@
 				}	
 			},	
 		"adminLevel" : {"static" : "state"},			
-		"name" : "Name"
+		"name" : "Name",
+		"type" : {"static" : "wildlife management area"}
 		},
-		"filetype" : "shp",
-		"url" : "http://tpwd.texas.gov/gis/data/baselayers/wildlife-management-areas",
-					  "filter": [
+	"filetype" : "shp",
+	"url" : "http://tpwd.texas.gov/gis/data/baselayers/wildlife-management-areas",
+	"filter": [
        {
            "expression": "match",
            "key": "Owner",

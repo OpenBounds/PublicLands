@@ -5,7 +5,7 @@
 		"adminAgency" : {"static" : "Wisconsin Department of Natural Resources"},
 		"adminLevel" : {"static" : "state"},
 		"name" : "PROP_NAME",
-		"type" : {"static" : "State Forest"}
+		"type" : {"static" : "forest"}
 		},
 	"filetype" : "shp",
 	"url" : "ftp://ftp.wi.gov/DNR/public/Lands/DNR_PROPERTY_06_2016_EXT.zip",

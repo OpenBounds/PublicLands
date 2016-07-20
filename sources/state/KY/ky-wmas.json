@@ -6,9 +6,7 @@
       "static": "Kentucky Department of Fish and Wildlife Resources"
     },
     "name": "AREANAME",
-    "type": {
-      "static": "Wildlife Management Area"
-    },
+    "type": {"static": "wildlife management area"},
 	"adminLevel": {"static": "state"}
   },
   "filetype": "shp",
