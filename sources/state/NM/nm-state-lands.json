@@ -3,7 +3,8 @@
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
 		"adminAgency" : {"static" : "State of New Mexico"},
-		"adminLevel" : {"static" : "state"}
+		"adminLevel" : {"static" : "state"},
+		"type" : {"static" : "unknown"}
 		},
 	"filetype" : "shp",
 	"url" : "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
@@ -14,5 +15,4 @@
            "value": "S"
        }
    ]
-
 }
