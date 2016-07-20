@@ -4,11 +4,12 @@
 	"properties" : {
 		"adminAgency" : {"static" : "Wisconsin Department of Natural Resources"},
 		"adminLevel" : {"static" : "state"},
-		"name" : "PROP_NAME"
+		"name" : "PROP_NAME",
+		"type" : {"static" : "unknown"}
 		},
-		"filetype" : "shp",
-		"url" : "ftp://ftp.wi.gov/DNR/public/Lands/LeasedLand.zip",
-		"filter": [
+	"filetype" : "shp",
+	"url" : "ftp://ftp.wi.gov/DNR/public/Lands/LeasedLand.zip",
+	"filter": [
        {
            "expression": "!=",
            "key": "PROP_NAME",
