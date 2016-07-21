@@ -1,0 +1,20 @@
+{
+  "name": "State Wildlife Sanctuaries in Indiana",
+  "attribution": "Indiana Natural Heritage Data Center, Indiana Department of Natural Resources",
+  "properties": {
+    "adminAgency": "MANAGER",
+    "name": "UNITNAME",
+    "access": "ACCESS_",
+    "adminLevel": {"static": "state"},
+    "type" : {"static" : "sanctuary"}
+  },
+  "filetype": "shp",
+  "url": "http://maps.indiana.edu/download/Environment/Managed_Lands_IDNR.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "UNITNAME",
+      "value": ".*Sanctuary"
+    }
+  ]
+}
