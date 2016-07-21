@@ -1,0 +1,19 @@
+{
+	"name" : "South Dakota State Natural Areas",
+	"attribution" : "South Dakota Game, Fish and Parks",
+	"properties" : {
+		"adminAgency" : {"static" : "South Dakota Game, Fish and Parks"},
+		"name" : "TRACTNO",
+		"type" : {"static" : "natural area"},
+		"adminLevel" : {"static" : "state"}
+		},
+	"filetype" : "shp",
+	"url" : "http://arcgis2.sd.gov/server/data/sd_Parks.zip",
+	"filter": [
+       {
+           "expression": "match",
+           "key": "TRACTNO",
+           "value": ".*NatureArea"
+       }
+     ]
+}
