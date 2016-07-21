@@ -4,7 +4,16 @@
 	"properties" : {
 		"adminAgency" : {"static" : "New Jersey Department of Environmental Protection, Division of Fish & Wildlife"},
 		"name" : "MAP_LABEL",
-		"type" : "USE_LABEL",
+		"type" : {
+			"key" : "USE",
+				"mapping" : {
+					"WMA" : "wildlife management area",
+					"ANGLER ACC" : "other",
+					"FISH HATCH" : "fish hatchery",
+					"BOAT ACC" : "other",
+					"WMA/LEASED" : "wildlife management area"
+				}
+		},		
 		"adminLevel" : {"static" : "state"}
 		},
 		"filetype" : "shp",

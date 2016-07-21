@@ -5,10 +5,11 @@
 		"adminAgency" : {"static" : "Illinois Department of Natural Resources"},
 		"adminAgency2" : {"static" : "Tennessee Valley Authority"},
 		"name" : "NAME",
-		"adminLevel" : {"static" : "state"}
+		"adminLevel" : {"static" : "state"},
+		"type" : {"static" : "wildlife area"}
 		},
-		"filetype" : "shp",
-		"url" : "http://www.greenmapping.org/data/esri/STFWA-esri.zip",
+	"filetype" : "shp",
+	"url" : "http://www.greenmapping.org/data/esri/STFWA-esri.zip",
 	  "filter": [
        {
            "expression": "match",
@@ -16,5 +17,4 @@
            "value": ".*TVA"
        }
      ]
-
 }

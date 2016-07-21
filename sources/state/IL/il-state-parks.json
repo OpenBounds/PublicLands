@@ -4,7 +4,7 @@
 	"properties" : {
 		"adminAgency" : {"static" : "Illinois Department of Natural Resources"},
 		"name" : "NAME",
-		"type" : {"static" : "State Park"},
+		"type" : {"static" : "park"},
 		"adminLevel" : {"static" : "state"}
 		},
 		"filetype" : "shp",

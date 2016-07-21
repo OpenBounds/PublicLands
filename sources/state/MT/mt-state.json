@@ -4,16 +4,29 @@
 	"properties" : {
 		"adminAgency" : "MANAGER",
 		"name" : "MANAME",
-		"type" : "UNITTYPE",
+		"type" : {
+			"key" : "UNITTYPE",
+				"mapping" : {
+					"State Park" : "park",
+					"Wildlife Management Area" : "wildlife management area",
+					"wildlife habitat protection area" : "habitat area",
+					"Fishing Access Site" : "other",
+					"State Forest" : "state forest",
+					"Experimental (agricultural or biological research)" : "other",
+					"National Wildlife Refuge" : "refuge",
+					"Wildlife Habitat Protection Area" : "habitat area",
+					"Natural Area" : "natural area"
+				}
+		},		
 		"adminLevel" : {"static" : "state"}
 		},
-		"filetype" : "shp",
-		"url" : "http://ftp.geoinfo.msl.mt.gov/data/Spatial/NonMSDI/Shapefiles/stew_ManagedAreas.zip",
-			  "filter": [
-       {
-           "expression": "match",
-           "key": "INSTTYPE",
-           "value": "State"
-       }
-     ]
+	"filetype" : "shp",
+	"url" : "http://ftp.geoinfo.msl.mt.gov/data/Spatial/NonMSDI/Shapefiles/stew_ManagedAreas.zip",
+		"filter": [
+      		{
+           	"expression": "match",
+           	"key": "INSTTYPE",
+           	"value": "State"
+       		}
+     	]
 }

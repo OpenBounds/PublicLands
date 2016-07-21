@@ -4,17 +4,47 @@
 	"properties" : {
 		"adminAgency" : {"static" : "Ohio Department of Natural Resources"},
 		"name" : "NAME",
-		"type" : "PROP_TYPE",
+		"type" : {
+			"key" : "PROP_TYPE",
+				"mapping" : {
+					"ACCESS" : "other",
+					"CONS" : "conservation area",
+					"DED NAT PRES" : "preserve",
+					"DIST OFF" : "other",
+					"ED AREA" : "other",
+					"EXP FOREST" : "forest",
+					"FISH ACCESS" : "other",
+					"FISH HATCH" : "fish hatchery",
+					"FISH UNIT" : "other",
+					"FOREST" : "forest",
+					"FOREST OFF": "forest",
+					"FOREST RES" : "reserve",
+					"HQ" : "other",
+					"HUNT AREA" : "other",
+					"NON-DED NAT AREA" : "natural area",
+					"NURSERY" : "other",
+					"OFFICE" : "other",
+					"OTHER" : "other",
+					"PARK" : "park",
+					"PRES" : "preserve",
+					"REFUGE" : "wildlife refuge",
+					"SR" : "other",
+					"SR ACCESS" : "other",
+					"SR AREA" : "other",
+					"WA" : "other",
+					"Other" : "other"	
+				}
+		},		
 		"division" : "Division",
 		"adminLevel" : {"static" : "state"}
 		},
 		"filetype" : "shp",
 		"url" : "http://apps.ohiodnr.gov/geodata/Statewide/DNR_Lands_2014.zip",
 			  "filter": [
-       {
-           "expression": "!=",
-           "key": "OWN_TYPE",
-           "value": "(ConservEase|Easement|FlowageEasement)"
-       }
-     ]
+       			{
+           			"expression": "!=",
+           			"key": "OWN_TYPE",
+           			"value": "(ConservEase|Easement|FlowageEasement)"
+       			}
+     		]
 }

@@ -4,7 +4,7 @@
 	"properties" : {
 		"adminAgency" : {"static" : "Kentucky Department of Parks"},
 		"name" : "PUBLIC_NAM",
-		"type" : {"static" : "State Park"},
+		"type" : {"static" : "park"},
 		"adminLevel" : {"static" : "state"}
 		},
 		"filetype" : "shp",

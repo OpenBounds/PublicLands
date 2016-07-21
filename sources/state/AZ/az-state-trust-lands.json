@@ -3,18 +3,17 @@
   "attribution": "U.S. Bureau of Land Management",
   "properties": {
     "type": "DESC_",
-    "adminAgency": {
-      "static": "State of Arizona"
-    },
-	"adminLevel": {"static": "state"}
+    "adminAgency": {"static": "State of Arizona"},
+	"adminLevel": {"static": "state"},
+	"type" : {"static" : "trust land"}		
   },
   "filetype": "shp",
   "url": "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
   "filter": [
     {
       "expression": "match",
-      "key": "CATEGORY",
-      "value": "State"
+      "key": "DESC_",
+      "value": "State Trust Land"
     }
   ]
 }

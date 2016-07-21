@@ -4,10 +4,11 @@
 	"properties" : {
 		"adminAgency" : {"static" : "Illinois Department of Natural Resources"},
 		"name" : "NAME",
-		"adminLevel" : {"static" : "state"}
+		"adminLevel" : {"static" : "state"},
+		"type" : {"static" : "wildlife area"}
 		},
-		"filetype" : "shp",
-		"url" : "http://www.greenmapping.org/data/esri/STFWA-esri.zip",
+	"filetype" : "shp",
+	"url" : "http://www.greenmapping.org/data/esri/STFWA-esri.zip",
 	  "filter": [
        {
            "expression": "!=",
@@ -15,6 +16,4 @@
            "value": "Ten Mile Creek (TVA)"
        }
      ]
-
-
 }

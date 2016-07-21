@@ -3,7 +3,7 @@
 	"attribution" : "Missouri Department of Natural Resources",
 	"properties" : {
 		"adminAgency" : {"static" : "Missouri Department of Natural Resources"},
-		"name" : "WA_NAME",
+		"name" : "AREA_NAME",
 		"type" : {"static" : "recreation area"},
 		"adminLevel" : {"static" : "state"}
 		},

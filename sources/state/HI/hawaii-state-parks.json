@@ -4,11 +4,35 @@
   "properties": {
     "adminAgency": "OWN",
     "name": "NAME",
-    "type": "TYPE",
+    "type": {
+    	"key" : "TYPE",
+    		"mapping" : {
+    			"state" : "unknown",
+    			"State" : "unknown",
+    			"beach" : "beach",
+    			"NULL" : "unknown",
+    			"recreation area" : "recreation area",
+    			"wayside" : "wayside",
+    			"monument" : "monument",
+    			"community" : "park",
+    			"botanical garden" : "other",
+    			"regional/cultural" : "park",
+    			"regional" : "park",
+    			"neighborhood" : "park",
+    			"road" : "beach",
+    			"district" : "park",
+    			"12" : "other",
+    			"sq/ente/tri/prom" : "park",
+    			"mini" : "park",
+    			"golf course" : "other",
+    			"natural area reserve" : "reserve"
+    		}
+    },		
 	"adminLevel": {"static": "state"}
   },
   "filetype": "shp",
   "url": "http://files.hawaii.gov/dbedt/op/gis/data/parkplys_n83.shp.zip",
+ "filenameInZip" : "parkplys_n83.shp",
   "filter": [
     {
       "expression": "match",

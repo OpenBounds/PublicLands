@@ -3,10 +3,26 @@
   "attribution": "Connecticut Department of Environmental Protection",
   "properties": {
     "name": "PROPERTY",
-    "type": "IMS_LEGEND",
-    "adminAgency": {
-      "static": "Connecticut Department of Environmental Protection"
-    },
+    "type": {
+    	"key" : "AV_LEGEND",
+    	"mapping" : {
+    		"DEP Owned Waterbody" : "other",
+    		"Fish Hatchery" : "fish hatchery",
+    		"Flood Control" : "other",
+    		"Historic Preserve" : "historic site",
+    		"Natural Area Preserve" : "natural area",
+    		"Natural Areas Preserve" : "natural area",
+    		"Other" : "other",
+    		"State Forest" : "forest",
+    		"State Park" : "park",
+    		"State Park Scenic Reserve" : "reserve",
+    		"State Park Trail" : "trail",
+    		"Water Access" : "other",
+    		"Wildlife Area" : "wildlife area",
+    		"Wildlife Sanctuary" : "sanctuary"
+    	}
+    },	
+    "adminAgency": {"static": "Connecticut Department of Environmental Protection"},
 	"adminLevel": {"static": "state"}
   },
   "filetype": "gdb",
