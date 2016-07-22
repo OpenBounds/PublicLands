@@ -15,7 +15,8 @@
 					"33050" : "Army"
 				}
 		},
-		"adminLevel" : {"static" : "federal"}
+		"adminLevel" : {"static" : "federal"},
+		"type" : {"static" : "other"}
 		},
 	"filetype" : "shp",
 	"url" : "http://maps.vcgi.vermont.gov/gisdata/vcgi/packaged_zips/CadastralPublands_CONSPUB.zip",
@@ -24,6 +25,11 @@
            "expression": "match",
            "key": "PPAGENCY",
            "value": "(^30|^31|^32|^33)"
+       },
+       {
+           "expression": "!=",
+           "key": "PPAGENCY",
+           "value": "(.*REFUGE|.*WILDLIFE MANAGEMENT|.*NATIONALPARK|.*FOREST|.*RECREATION AREA)"
        }
      ]
      

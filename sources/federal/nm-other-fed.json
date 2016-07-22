@@ -3,11 +3,12 @@
 	"attribution" : "Bureau of Land Management",
 	"properties" : {
 		"adminAgency" : {"static" : "Federal Government"},
-		"adminLevel" : {"static" : "federal"}
+		"adminLevel" : {"static" : "federal"},
+		"type" : {"static" : "unknown"}
 		},
-		"filetype" : "shp",
-		"url" : "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
-		    "filter": [
+	"filetype" : "shp",
+	"url" : "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
+	"filter": [
        {
            "expression": "match",
            "key": "own",
