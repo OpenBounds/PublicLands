@@ -3,7 +3,8 @@
 	"attribution" : "Bureau of Land Management",
 	"properties" : {
 		"adminAgency" : {"static" : "Bureau of Land Management"},
-		"adminLevel" : {"static" : "federal"}
+		"adminLevel" : {"static" : "federal"},
+		"type" : {"static" : "unknown"}
 		},
 		"filetype" : "gdb",
 		"url" : "http://www.blm.gov/ca/gis/GeodatabasesZIP/LandStatus_v10.gdb.zip",

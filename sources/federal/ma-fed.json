@@ -16,7 +16,9 @@
 				}
 		},
 		"name" : "SITE_NAME",
-		"adminLevel" : {"static" : "federal"}
+		"adminLevel" : {"static" : "federal"},
+		"access" : "PUB_ACCESS",
+		"type" : {"static" : "unknown"}
 		},
 		"filetype" : "shp",
 		"url" : "http://wsgw.mass.gov/data/gispub/shape/open_spc/openspace.zip",

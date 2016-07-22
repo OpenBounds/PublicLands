@@ -16,19 +16,18 @@
 					"NPS" : "National Park Service",
 					"NWR" : "Fish & Wildlife Service",
 					"USFS" : "Forest Service"
-					},
-		"adminLevel" : {"static" : "federal"}
-				},	
+					}
 		},
+		"adminLevel" : {"static" : "federal"},
+		"type" : {"static" : "unknown"}	
+	},
 		"filetype" : "shp",
 		"url" : "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/blm/RLTY_SMA_PUB_24K_POLY.shp",
-	  "filter": [
-       {
-           "expression": "!=",
-           "key": "AGNCY_NAME",
-           "value": "(HSTRCWTR|IR|PRIVATE|STATE|STATEFG|STATEPR|BIA)"
-       }
-     ]
-
-
+	  	"filter": [
+       		{
+           	"expression": "!=",
+           	"key": "AGNCY_NAME",
+           	"value": "(HSTRCWTR|IR|PRIVATE|STATE|STATEFG|STATEPR|BIA)"
+       		}
+     	]
 }

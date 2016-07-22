@@ -10,16 +10,22 @@
 				}
 			},	
 		"name" : "SITE_NAME",
-		"type" : "CATEGORY",
+		"type" : {
+			"key" : "CATEGORY",
+				"mapping" : {
+					"Federal Land" : "unknown",
+					"National Tallgrass Prairie" : "other"
+				}
+		},		
 		"adminLevel" : {"static" : "federal"}
-		},
-		"filetype" : "shp",
-		"url" : "http://www.greenmapping.org/data/esri/GLIN_Managed_Lands-esri.zip",
+	},
+	"filetype" : "shp",
+	"url" : "http://www.greenmapping.org/data/esri/GLIN_Managed_Lands-esri.zip",
 	  "filter": [
-       {
+       	{
            "expression": "match",
            "key": "MANAG_AGEN",
            "value": ".*U.S."
-       }
+       	}
      ]
 }

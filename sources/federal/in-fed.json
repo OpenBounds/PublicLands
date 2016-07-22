@@ -15,21 +15,42 @@
 				}
 			},
 		"name" : "UNITNAME",
-		"access" : {"static" : "yes"},
-		"adminLevel" : {"static" : "federal"}
-		},
+		"access" : "ACCESS_",
+		"adminLevel" : {"static" : "federal"},
+		"type" : {
+			"key" : "SUBUNIT",
+				"mapping" : {
+					"George Roger Clark National Historic Park" : "park",
+					"Indiana Dunes National Lakeshore" : "other",
+					"IDNL - Usx Transfer Site" : "other",
+					"Mississinewa Spillway" : "other",
+					"Uniontown Locks And Dam" : "other",
+					"Mississinewa Dam" : "other",
+					"Jefferson Proving Ground" : "other",
+					"Patoka National Wildlife Refuge" : "refuge",
+					"Muscatatuck Acid Seep Spring Rna" : "other",
+					"Cane Ridge Wildlife Management Area" : "wildlife management area",
+					"Muscatatuck National Wildlife Refuge" : "refuge",
+					"Big Oaks National Wildlife Refuge" : "refuge",
+					"Slackwater Bottoms Nature Preserve" : "preserve",
+					"Hoosier National Forest" : "forest",
+					"Peter Cave Hollow" : "other",
+					"Pioneer Mothers Memorial Forest" : "forest",
+					"Wesselman National Natural Landmark" : "other",
+					"Lincoln's Cabin National Historic Site" : "historic site",
+					"Gaylor Butterfly Tract" : "other",
+					"Harrison Spring National Natural Landmark" : "other",
+					"Hobart Prairie Grove" : "other"
+				}
+		}
+	},
 		"filetype" : "shp",
 		"url" : "http://maps.indiana.edu/download/Environment/Managed_Lands_IDNR.zip",
-	  "filter": [
-       {
-           "expression": "match",
-           "key": "ACCESS_",
-           "value": "OPEN PER REGULATIONS"
-       },
-       {
-           "expression": "match",
-           "key": "MANAGER",
-           "value": "U.S."
-       }
-     ]
+	  	"filter": [
+       		{
+           	"expression": "match",
+           	"key": "MANAGER",
+           	"value": "U.S."
+       		}
+     	]
 }

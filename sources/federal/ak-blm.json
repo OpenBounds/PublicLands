@@ -3,7 +3,8 @@
 	"attribution" : "Bureau of Land Management",
 	"properties" : {
 		"adminAgency" : {"static" : "Bureau of Land Management"},
-		"adminLevel" : {"static" : "federal"}
+		"adminLevel" : {"static" : "federal"},
+		"type" : {"static" : "unknown"}
 		},
 		"filetype" : "shp",
 		"url" : "http://sdms.ak.blm.gov/download/landstatus/genstat.zip",
@@ -14,5 +15,4 @@
            "value": "Bureau of Land Management"
        }
    ]
-
 }
