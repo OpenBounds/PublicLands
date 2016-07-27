@@ -14,12 +14,33 @@
 				"USFWS" : "Fish & Wildlife Service"
 			}
 		},	
-		"type" : "DESIG",
+		"type" : {
+			"key": "DESIG",
+				"mapping" : {
+					"Bankhead Jones" : "grassland",
+					"N/A" : "unknown",
+					"National Monument" : "monument",
+					"National Recreation Area" : "recreation area",
+					"Primitive Area" : "area",
+					"Public Water Reserve" : "other",
+					"Wilderness" : "wilderness area",
+					"Reclamation Withdrawal" : "other",
+					"Military" : "military installation",
+					"Repository" : "other",
+					"National Historic Site" : "historic site",
+					"National Park" : "park",
+					"Wildlife Reserve/Management Area" : "wildlife management area",
+					"National Forest" : "forest",
+					"Other" : "other",
+					"National Wildlife Refuge" : "refuge",
+					"Parks and Recreation" : "park"
+				}	
+		},		
 		"adminLevel" : {"static" : "federal"}
-		},
-		"filetype" : "gdb",
-		"url" : "http://www.blm.gov/style/medialib/blm/ut/support_services_uso.Par.58040.File.dat/LandOwnership_20160601.zip",
-		    "filter": [
+	},
+	"filetype" : "gdb",
+	"url" : "http://www.blm.gov/style/medialib/blm/ut/support_services_uso.Par.58040.File.dat/LandOwnership_20160601.zip",
+	"filter": [
        {
            "expression": "match",
            "key": "ADMIN",

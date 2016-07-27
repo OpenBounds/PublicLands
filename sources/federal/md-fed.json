@@ -31,10 +31,11 @@
 				"mapping" : {
 					"U.S. Military" : "military installation",
 					"Non-Military" : "unknown"
-				},
+				}
+		},		
 		"url" : "WebLink",
 		"adminLevel" : {"static" : "federal"}
-		},
+	},
 	"filetype" : "shp",
 	"url" : "http://data.imap.maryland.gov/datasets/e8c94de89d6f4319bef28897c6a89581_0.zip"
 }

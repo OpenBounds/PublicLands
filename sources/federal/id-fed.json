@@ -15,7 +15,8 @@
 					"MIL": "Department of Defense",
 					"NPS" : "National Park Service",
 					"NWR" : "Fish & Wildlife Service",
-					"USFS" : "Forest Service"
+					"USFS" : "Forest Service",
+					"DOE" : "Department of Energy"
 					}
 		},
 		"adminLevel" : {"static" : "federal"},

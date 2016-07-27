@@ -17,7 +17,8 @@
 				"US DEPT. OF THE INTERIOR, NATIONAL PARK SERVICE" : "National Park Service",
 				"US DEPT. OF AGRICULTURE, NATURAL RESOURCES CONSERVATION SERVICE" : "Department of Agriculture",
 				"US DEPT. OF DEFENSE, NAVY" : "Navy"
-				},
+			}
+		},		
 		"type" : {
 			"key" : "MATYPE",
 				"mapping" : {
@@ -53,9 +54,9 @@
 		},		
 	"adminLevel" : {"static" : "federal"}
 	},	
-		"filetype" : "shp",
-		"url" : "ftp://ftp.fgdl.org/pub/state/flma_mar16.zip",
-    	"filter": [
+	"filetype" : "shp",
+	"url" : "ftp://ftp.fgdl.org/pub/state/flma_mar16.zip",
+    "filter": [
        {
            "expression": "match",
            "key": "MATYPE2",
@@ -67,5 +68,4 @@
            "value": "(.*TRACT|.*EASEMENT)"
        }
    ]
-
 }

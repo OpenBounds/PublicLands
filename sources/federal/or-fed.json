@@ -19,15 +19,16 @@
 					"DOD" : "Department of Defense"
 				}
 		},
-		"adminLevel" : {"static" : "federal"}
+		"adminLevel" : {"static" : "federal"},
+		"type" : {"static" : "unknown"}
 	},
-		"filetype" : "gdb",
-		"url" : "http://www.odf.state.or.us/gis/data/Ownership/2015_LandManagementDraft.gdb.zip",
-				"filter" : [
-       				{
-           			"expression": "match",
-           			"key": "LandManager",
-           			"value": "(BLM|BPA|DOD|DOE|USFS|FAA|FWS|GSA|USACE|USBR|USCG|USDA)"
-       				}
-     			]
+	"filetype" : "gdb",
+	"url" : "http://www.odf.state.or.us/gis/data/Ownership/2015_LandManagementDraft.gdb.zip",
+		"filter" : [
+       		{
+           		"expression": "match",
+           		"key": "LandManager",
+           		"value": "(BLM|BPA|DOD|DOE|USFS|FAA|FWS|GSA|USACE|USBR|USCG|USDA)"
+       		}
+     	]
 }
