@@ -16,7 +16,9 @@
 					"NPS" : "National Park Service",
 					"NWR" : "Fish & Wildlife Service",
 					"USFS" : "Forest Service",
-					"DOE" : "Department of Energy"
+					"DOE" : "Department of Energy",
+					"LU_DOI" : "Bureau of Land Management",
+					"LU_USDA" : "Forest Service"
 					}
 		},
 		"adminLevel" : {"static" : "federal"},
