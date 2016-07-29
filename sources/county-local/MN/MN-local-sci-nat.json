@@ -1,0 +1,20 @@
+{
+  "name": "Locally-Managed Scientific and Natural Areas in Minnesota",
+  "attribution": "Minnesota Department of Natural Resources",
+  "properties": {
+    "name" : "NAME",
+    "adminAgency": "OWN_DESC",
+    "adminLevel": {"static": "local"},
+    "type": {"static" : "scientific and natural area"}
+	},	
+  "filetype": "shp",
+  "url": "ftp://ftp.gisdata.mn.gov/pub/gdrs/data/pub/us_mn_state_dnr/bdry_scientific_and_nat_areas/shp_bdry_scientific_and_nat_areas.zip",
+  "filenameInZip" : "scientific_and_natural_area_boundaries.shp",
+  "filter" : [
+  	{
+  	"expression" : "match",
+  	"key" : "OWN_DESC",
+  	"value" : ".*Airports"
+  	}
+  ]
+}
