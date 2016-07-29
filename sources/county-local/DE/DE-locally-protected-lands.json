@@ -1,10 +1,10 @@
 {
-  "name": "County-Protected Public Lands in Delaware",
+  "name": "Locally-Protected Public Lands in Delaware",
   "attribution": "Delaware State Parks",
   "properties": {
     "adminAgency": "MANAGEMENT",
     "name": "NAME",
-   "type": {
+    "type": {
     	"key" : "USE",
     		"mapping" : {
     			"Park" : "park",
@@ -15,10 +15,11 @@
     			"Boat Ramp" : "other",
     			"Wildlife Area" : "wildlife area",
     			"Pier or Dock" : "other",
-    			"Golf Course" : "other"
+    			"Golf Course" : "other",
+    			"Mitigation" : "other"
     		}
-    },	
-    "adminLevel": {"static": "county"}
+    },		
+    "adminLevel": {"static": "local"}
   },
   "filetype": "shp",
   "url": "http://opendata.firstmap.delaware.gov/datasets/8fb7b97cc9484bd8bc30795f7f551b35_0.zip",
@@ -26,7 +27,7 @@
     {
       "expression": "match",
       "key": "MANAGING_A",
-      "value": "County"
+      "value": "Municipal"
     }
   ]
 }
