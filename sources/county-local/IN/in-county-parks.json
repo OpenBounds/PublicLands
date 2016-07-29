@@ -1,0 +1,30 @@
+{
+  "name": "County Parks in Indiana",
+  "attribution": "Indiana Natural Heritage Data Center, Indiana Department of Natural Resources",
+  "properties": {
+    "name" : "UNITNAME",
+    "adminAgency": "MANAGER",
+    "type": {"static" : "park"},
+    "access" : "ACCESS_",
+    "adminLevel": {"static": "county"}
+    },	
+  "filetype": "shp",
+  "url": "http://maps.indiana.edu/download/Environment/Managed_Lands_IDNR.zip",
+  "filter" : [
+  	{
+  	"expression" : "match",
+  	"key" : "MANAGER",
+  	"value" : "(.*COUNTY|.*CO.)"
+  	},
+  	{
+  	"expression" : "match",
+  	"key" : "UNITNAME",
+  	"value" : ".*Park"
+  	},
+  	  	{
+  	"expression" : "!=",
+  	"key" : "MANAGER",
+  	"value" : "(.*COUNTRY CLUB|.*ACRES, INC.|.*ASSOCIATION|.*LAND TRUST|.*CONSERVANCY|.*DAUGHTERS|.*DNR|.*EARLHAM COLLEGE|.*INCORPORATED|.*CORPORATION|.*FOUNDATION|.*LEAGUE|.*GIRL SCOUTS|GOSHEN COLLEGE|.*HAMMOND MULTI|.*CHRISTIAN|.*HILLTOP|.*INDY PARKS|.*GOLF|.*COMPANY|.*LLC|.*143|.*CONSERVATION TRUST|.*CHURCH|.*NICKEL|.*INC.|.*PRIVATE|.*SAVE THE DUNES|.*SHIRLEY HEINZE|.*RESOURCE CONSERVATION|THE NATURE CONSERVANCY|.*U.S.|.*U. S.|.*WABASH|.*PROFESSIONAL VILLAGE|.*FOUNDATION|.*YWCA)"
+  	}
+  ]
+}
