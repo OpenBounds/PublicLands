@@ -19,6 +19,6 @@
       "expression": "match",
       "key": "DESC_",
       "value": "(.*SP|.*SHP)"
-    },
+    }
   ]
 }

@@ -3,7 +3,7 @@
 	"attribution" : "U.S. Bureau of Land Management",
 	"properties" : {
 		"adminAgency" : {"static" : "State of New Mexico"},
-		"adminLevel" : {"static" : "state"}
+		"adminLevel" : {"static" : "state"},
 		"type" : {"static" : "unknown"}
 		},
 	"filetype" : "shp",
