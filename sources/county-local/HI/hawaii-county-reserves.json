@@ -1,0 +1,18 @@
+{
+  "name": "County Reserves in Hawaii",
+  "attribution": "Hawaii Division of Forestry and Wildlife, DLNR",
+  "properties": {
+    "adminAgency": "MANAGEDBY",
+    "type": {"static" : "reserve"},
+    "adminLevel": {"static": "county"}
+    },		
+  "filetype": "shp",
+  "url": "http://files.hawaii.gov/dbedt/op/gis/data/reserves.shp.zip",
+  "filter" : [
+  	{
+  		"expression" : "match",
+  		"key" : "MANAGEDBY",
+  		"value" : "Maui County"
+  	}
+  ]
+}  

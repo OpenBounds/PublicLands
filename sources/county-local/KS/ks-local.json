@@ -1,0 +1,30 @@
+{
+  "name": "Locally-Conserved Areas in Kansas",
+  "attribution": "Kansas Natural Heritage Inventory",
+  "properties": {
+    "name" : "AREA_NAME",
+    "adminAgency": "MANAGER",
+    "owner" : "OWNER",
+    "adminLevel": {"static": "local"},
+    "type": {
+    	"key" : "AREA_NAME",
+    		"mapping" : {
+				"SPRING CREEK PARK" : "park",
+				"CHISHOLM CREEK PARK" : "park",
+				"SAPPA PARK" : "park",
+				"LAKEWOOD PARK NATURAL AREA" : "natural area",
+				"OVERLAND PARK ARBORETUM AND BOTANICAL GARDENS" :  "other",
+				"ARKALON PARK" : "park"
+    		}
+    	}
+	},	
+  "filetype": "shp",
+  "url": "http://data.kansasgis.org/environmental_resources/shp/protected_areas/protected_areas.zip",
+  "filter" : [
+  	{
+  	"expression" : "match",
+  	"key" : "MANAGER",
+  	"value" : "(^City|.*Town|^Salina)"
+  	}
+  ]
+}
