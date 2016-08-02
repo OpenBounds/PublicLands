@@ -1,0 +1,24 @@
+{
+  "name": "State Reserves in Kansas",
+  "attribution": "Kansas Natural Heritage Inventory",
+  "properties": {
+    "adminAgency": "MANAGER",
+    "name": "AREA_NAME",
+    "adminLevel": {"static": "state"},
+    "type" : {"static": "reserve"}
+  },
+  "filetype": "shp",
+  "url": "http://data.kansasgis.org/environmental_resources/shp/protected_areas/protected_areas.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "MANAGER",
+      "value": "(Kansas State University|Emporia State University|Washburn University)"
+    },
+    {
+      "expression": "match",
+      "key": "AREA_NAME",
+      "value": ".*RESERVATION"
+    }
+  ]
+}

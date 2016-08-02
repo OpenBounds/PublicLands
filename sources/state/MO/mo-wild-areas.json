@@ -1,0 +1,12 @@
+{
+	"name" : "Missouri Wild Areas",
+	"attribution" : "Missouri Department of Natural Resources",
+	"properties" : {
+		"adminAgency" : {"static" : "Missouri Department of Natural Resources"},
+		"name" : "WA_NAME",
+		"type" : {"static" : "wilderness area"},
+		"adminLevel" : {"static" : "state"}
+		},
+	"filetype" : "shp",
+	"url" : "ftp://msdis.missouri.edu/pub/Environment_Conservation/MO_2010_Department_of_Natural_Resources_Wild_Areas_shp.zip"
+}

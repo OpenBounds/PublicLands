@@ -1,28 +1,25 @@
 {
-  "name": "State-Managed Lands in Indiana",
+  "name": "Other State-Managed Lands in Indiana",
   "attribution": "Indiana Natural Heritage Data Center, Indiana Department of Natural Resources",
   "properties": {
     "adminAgency": "MANAGER",
     "name": "UNITNAME",
-    "access": {
-      "static": "yes"
-    },
-    "adminLevel": {
-      "static": "state"
-    }
+    "access": "ACCESS_",
+    "adminLevel": {"static": "state"},
+    "type" : {"static" : "other"}
   },
   "filetype": "shp",
   "url": "http://maps.indiana.edu/download/Environment/Managed_Lands_IDNR.zip",
   "filter": [
     {
       "expression": "match",
-      "key": "ACCESS_",
-      "value": "OPEN PER REGULATIONS"
+      "key": "MANAGER",
+      "value": "(DNR FISH AND WILDLIFE|DNR FORESTRY|DNR NATURE PRESERVES|DNR NATURE PRESERVES/NRDA|DNR OUTDOOR RECREATION|DNR STATE PARKS|DNR WATER|INDIANA|INDY PARKS|STATE)"
     },
     {
-      "expression": "match",
-      "key": "MANAGER",
-      "value": "(.*DNR|INDIANA|INDY PARKS|STATE)"
+      "expression": "!=",
+      "key": "UNITNAME",
+      "value": "(.*Wildlife Area|.*Wildlife Management Area|.*Game Management Area|.*Recreation Area|.*Conservation Area|.*Wildlife Refuge|.*Sanctuary|.*Habitat Area)"
     }
   ]
 }

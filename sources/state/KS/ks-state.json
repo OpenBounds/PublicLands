@@ -1,12 +1,11 @@
 {
-  "name": "State-Managed Areas in Kansas",
+  "name": "Other State-Managed Areas in Kansas",
   "attribution": "Kansas Natural Heritage Inventory",
   "properties": {
     "adminAgency": "MANAGER",
     "name": "AREA_NAME",
-    "adminLevel": {
-      "static": "state"
-    }
+    "adminLevel": {"static": "state"},
+    "type" : {"static": "other"}
   },
   "filetype": "shp",
   "url": "http://data.kansasgis.org/environmental_resources/shp/protected_areas/protected_areas.zip",
@@ -15,6 +14,11 @@
       "expression": "match",
       "key": "MANAGER",
       "value": "(Emporia State University|.*Kansas Dept.|.*Kansas Dept|.*State|University of Kansas|Washburn University)"
+    },
+    {
+      "expression": "!=",
+      "key": "AREA_NAME",
+      "value": "(.*PRESERVE|.*REFUGE|.*WILDLIFE AREA|.*NATURAL AREA|.*RESERVATION|.*CONSERVATION POOL|.*STATE PARK)"
     }
   ]
 }

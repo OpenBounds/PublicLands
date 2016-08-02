@@ -1,0 +1,12 @@
+{
+	"name" : "Pennsylvania State Forests",
+	"attribution" : "Pennsylvania Department of Conservation and Natural Resources",
+	"properties" : {
+		"adminAgency" : {"static" : "Pennsylvania Department of Conservation and Natural Resources"},
+		"name" : "SF_Name",
+		"type" : {"static" : "forest"},
+		"adminLevel" : {"static" : "state"}
+		},
+		"filetype" : "shp",
+		"url" : "http://www.pasda.psu.edu/data/dcnr/DCNR_BOF_StateForests201511.zip"
+}

@@ -2,18 +2,24 @@
   "name": "State-Managed Lands in Idaho",
   "attribution": "Bureau of Land Management (BLM), Idaho State Office",
   "properties": {
-    "adminAgency": "AGNCY_NAME",
-    "adminLevel": {
-      "static": "state"
-    }
-  },
+    "adminAgency": {
+    	"key" : "AGNCY_NAME",
+    	"mapping" : {
+    		"STATEFG" : "Idaho Department of Fish and Game",
+    		"STATE" : "State of Idaho",
+    		"STATEPR" : "Idaho Department of Parks and Recreation"
+    	}
+    },	
+	"adminLevel": {"static": "state"},
+	"type" : {"static" : "unknown"}
+	  },
   "filetype": "shp",
   "url": "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/blm/RLTY_SMA_PUB_24K_POLY.shp",
   "filter": [
-    {
+    	{
       "expression": "match",
       "key": "AGNCY_NAME",
-      "value": "(STATE|STATEFG|STATEPR|IR)"
-    }
-  ]
+      "value": "(STATE|STATEFG|STATEPR)"
+    	}
+  	]
 }

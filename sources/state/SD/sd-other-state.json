@@ -1,0 +1,19 @@
+{
+	"name" : "Other State Lands in South Dakota",
+	"attribution" : "South Dakota Game, Fish and Parks",
+	"properties" : {
+		"adminAgency" : {"static" : "South Dakota Game, Fish and Parks"},
+		"name" : "TRACTNO",
+		"type" : {"static" : "unknown"},
+		"adminLevel" : {"static" : "state"}
+		},
+	"filetype" : "shp",
+	"url" : "http://arcgis2.sd.gov/server/data/sd_Parks.zip",
+	"filter": [
+       {
+           "expression": "!=",
+           "key": "TRACTNO",
+           "value": "(.*SP|.*RA|.*LUA|.*NatureArea)"
+       }
+     ]
+}

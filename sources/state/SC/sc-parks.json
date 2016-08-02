@@ -4,12 +4,12 @@
 	"properties" : {
 		"adminAgency" : {"static" : "South Carolina Department of Parks, Recreation & Tourism"},
 		"name" : "PRKNAME",
-		"type" : {"static" : "State Park"},
+		"type" : {"static" : "park"},
 		"adminLevel" : {"static" : "state"}
 		},
-		"filetype" : "shp",
-		"url" : "ftp://ftpdata.dnr.sc.gov/gisdata/prk/DLG_Park.zip",
-					  "filter": [
+	"filetype" : "shp",
+	"url" : "ftp://ftpdata.dnr.sc.gov/gisdata/prk/DLG_Park.zip",
+	"filter": [
        {
            "expression": "match",
            "key": "PRKTYPE",

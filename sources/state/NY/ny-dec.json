@@ -1,0 +1,40 @@
+{
+	"name" : "New York Department of Environmental Conservation Lands",
+	"attribution" : "New York Department of Environmental Conservation",
+	"properties" : {
+		"adminAgency" : {"static" : "New York Department of Environmental Conservation"},
+		"name" : "FACILITY",
+		"type" : {
+			"key" : "CATEGORY",
+				"mapping" : {
+					"FOR PRES DET PAR" : "preserve",
+					"ADMINISTRATIVE" : "other",
+					"EDUCATIONAL" : "other",
+					"FISHING ACCESS" : "other",
+					"FOREST PRESERVE" : "preserve",
+					"FRESHWATER WETLAND" : "other",
+					"LAND ACCESS" : "other",
+					"LEASED ACCESS" : "other",
+					"MULTIPLE USE AREA" : "other",
+					"NRA" : "natural resources management area",
+					"OPEN SPACE" : "open space",
+					"RESTRICTED" : "other",
+					"SCENIC RESOURCE" : "other",
+					"SHORELINE PROTECTION" : "other",
+					"SPECIAL USE" : "other",
+					"STATE FOREST" : "forest",
+					"TIDAL WETLAND" : "other",
+					"TRAILWAY" : "trail",
+					"UNCLASSIFIED" : "undesignated",
+					"UNIQUE AREA" : "other",
+					"WATERWAY ACCESS" : "other",
+					"WILDLIFE MANAGEMENT" : "wildlife management area"
+				}		
+		},
+		"access" : {"static" : "yes"},
+		"url" : "URL",
+		"adminLevel" : {"static" : "state"}
+		},
+	"filetype" : "shp",
+	"url" : "http://gis.ny.gov/gisdata/data/ds_1114/DEC_lands.zip"
+}

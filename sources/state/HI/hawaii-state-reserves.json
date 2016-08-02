@@ -4,17 +4,48 @@
   "properties": {
     "adminAgency": "MANAGEDBY",
     "name": "NAME",
-    "adminLevel": {
-      "static": "state"
-    }
+	"adminLevel": {"static": "state"},
+	"type" : {
+		"key" : "TYPE",
+			"mapping" : {
+				"bs" : "sanctuary",
+				"xxx" : "other",
+				"mlcd" : "other",
+				"fr" : "forest",
+				"ws" : "sanctuary",
+				"nar" : "natural area",
+				"ps" : "sanctuary",
+				"fr-ps" : "forest",
+				"xs" : "sanctuary",
+				"fr-p" : "forest",
+				"fr-sm" : "forest",
+				"fr-gm" : "forest",
+				"fr-sr" : "forest",
+				"fr-ml" : "fr",
+				"sw" : "wayside",
+				"sra" : "recreation area",
+				"shs" : "historic site",
+				"sp" : "park",
+				"shp" : "park",
+				"sm" : "monument",
+				"sss" : "other",
+				"sxp" : "park",
+				"p" : "preserve"
+			}
+	}
   },
   "filetype": "shp",
   "url": "http://files.hawaii.gov/dbedt/op/gis/data/reserves.shp.zip",
   "filter": [
     {
-      "expression": "match",
+      "expression": "!=",
       "key": "MANAGEDBY",
-      "value": "(.*DOFAW|DOFAW/USArmy|DOSP|DOD(State)|DOFAW/|DOFAW/DOSP|DOAR|DOFAW/OHA|DOFAW/Private|DOFAW/US Military|DOSP/DOFAW|Historic Preservation Division)"
+      "value": "(^US|^Maui|Private|TNC|National Audubon Society|NULL)"
+    },
+    {
+      "expression": "!=",
+      "key": "TYPE",
+      "value": "(gma|nhp)"
     }
   ]
 }

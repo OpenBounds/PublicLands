@@ -1,0 +1,13 @@
+{
+	"name" : "Pennsylvania State Parks",
+	"attribution" : "Pennsylvania Department of Conservation and Natural Resources",
+	"properties" : {
+		"adminAgency" : {"static" : "Pennsylvania Department of Conservation and Natural Resources"},
+		"name" : "PARK_NAME",
+		"type" : {"static" : "park"},
+		"url" : "WEBLINK",
+		"adminLevel" : {"static" : "state"}
+		},
+	"filetype" : "shp",
+	"url" : "http://www.pasda.psu.edu/data/dcnr/DCNR_StateParks201511.zip"
+}

@@ -4,7 +4,8 @@
 	"properties" : {
 		"name" : "DESC_",
 		"adminAgency" : {"static" : "Arizona Game and Fish Department"},
-		"adminLevel" : {"static" : "state"}
+		"adminLevel" : {"static" : "state"},
+		"type" : {"static" : "wildlife area"}
 		},
 		"filetype" : "shp",
 		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",

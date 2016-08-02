@@ -1,0 +1,19 @@
+{
+	"name" : "New Jersey State Parks",
+	"attribution" : "New Jersey Department of Environmental Protection",
+	"properties" : {
+		"adminAgency" : {"static" : "New Jersey Department of Environmental Protection, Division of Parks and Forestry"},
+		"name" : "MAP_LABEL",
+		"type" : "USE_LABEL",
+		"adminLevel" : {"static" : "state"}
+		},
+		"filetype" : "shp",
+		"url" : "http://njogis.newjersey.opendata.arcgis.com/datasets/b75fe11ed90543c1b4ee87e66af63b8b_1.zip",
+	  "filter": [
+       {
+           "expression": "match",
+           "key": "USE",
+           "value": "SP"
+       }
+     ]
+}

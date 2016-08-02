@@ -1,0 +1,34 @@
+{
+  "name": "State Wildlife Sanctuaries in Massachusetts",
+  "attribution": "Massachusetts Dept. of Fish and Game",
+  "properties": {
+    "adminAgency": "FEE_OWNER",
+    "name": "SITE_NAME",
+    "adminLevel": {"static": "state"},
+    "access" : {
+    	"key" : "PUB_ACCESS",
+    		"mapping" : {
+    			"Y" : "full public access",
+    			"N" : "no public access",
+    			"L" : "limited public access",
+    			"X" : "unknown"
+    		}
+    	},
+    "type" : {"static" : "sanctuary"}		
+  },
+  "filetype": "shp",
+  "url": "http://wsgw.mass.gov/data/gispub/shape/open_spc/openspace.zip",
+  "filenameInZip": "OPENSPACE_POLY.shp",
+  	"filter": [
+    	{
+      	"expression": "match",
+      	"key": "OWNER_TYPE",
+      	"value": "(S|NULL|3)"
+    	},
+    	{
+      	"expression": "match",
+      	"key": "SITE_NAME",
+      	"value": ".*Sanctuary"
+    	}
+  	]
+}

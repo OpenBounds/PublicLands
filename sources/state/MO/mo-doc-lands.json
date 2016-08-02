@@ -1,0 +1,19 @@
+{
+	"name" : "Other Missouri Department of Conservation Lands",
+	"attribution" : "Missouri Department of Conservation",
+	"properties" : {
+		"adminAgency" : {"static" : "Missouri Department of Conservation"},
+		"name" : "AREA_NAME",
+		"adminLevel" : {"static" : "state"},
+		"type" : {"static" : "other"}
+		},
+	"filetype" : "shp",
+	"url" : "ftp://msdis.missouri.edu/pub/Environment_Conservation/MO_2011_Department_of_Conservation_Lands_shp.zip",
+	 "filter": [
+    	{
+      	"expression": "!=",
+      	"key": "UNITNAME",
+      	"value": "(.*CA||.*C.A.|.*PARK|.*HATCHERY|.*NA|.*SF|.*FOREST|.*TRAIL|.*WA|.*RECREATION)"
+    	}
+  	]
+}

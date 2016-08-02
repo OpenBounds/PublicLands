@@ -1,0 +1,12 @@
+{
+	"name" : "Illinois State Parks",
+	"attribution" : "Illinois Department of Natural Resources",
+	"properties" : {
+		"adminAgency" : {"static" : "Illinois Department of Natural Resources"},
+		"name" : "NAME",
+		"type" : {"static" : "park"},
+		"adminLevel" : {"static" : "state"}
+		},
+		"filetype" : "shp",
+		"url" : "http://www.greenmapping.org/data/esri/STPARKS-esri.zip"
+}
