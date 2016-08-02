@@ -1,19 +1,24 @@
 {
-	"name" : "Department of Defense-Owned Lands in Nevada",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"adminAgency" : {"static": "Department of Defense"},
-		"adminLevel" : {"static" : "federal"},
-		"type" : {"static" : "military installation"}
-		},
-		"filetype" : "shp",
-		"url" : "http://www.blm.gov/style/medialib/blm/nv/gis/shp_files.Par.56125.File.dat/NV_Land_Ownership_shp.zip",
-    "filter": [
-       {
-           "expression": "match",
-           "key": "ABBR",
-           "value": "DOD"
-       }
-   ]
-
+  "name": "Department of Defense-Owned Lands in Nevada",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "static": "Department of Defense"
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "static": "military installation"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.blm.gov/style/medialib/blm/nv/gis/shp_files.Par.56125.File.dat/NV_Land_Ownership_shp.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "ABBR",
+      "value": "DOD"
+    }
+  ]
 }

@@ -3,9 +3,15 @@
   "attribution": "U.S. Bureau of Land Management",
   "properties": {
     "name": "DESC_",
-    "type": {"static" : "natural area"},
-    "adminAgency": {"static": "Arizona Game and Fish Department"},
-    "adminLevel": {"static": "state"}
+    "type": {
+      "static": "natural area"
+    },
+    "adminAgency": {
+      "static": "Arizona Game and Fish Department"
+    },
+    "adminLevel": {
+      "static": "state"
+    }
   },
   "filetype": "shp",
   "url": "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",

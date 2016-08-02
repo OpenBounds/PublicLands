@@ -5,21 +5,23 @@
     "adminAgency": "MANAGEMENT",
     "name": "NAME",
     "type": {
-    	"key" : "USE",
-    		"mapping" : {
-    			"Park" : "park",
-    			"Open Space" : "open space",
-    			"Historical Site" : "historic site",
-    			"Active Recreation" : "recreation area",
-    			"Natural Area" : "natural area",
-    			"Boat Ramp" : "other",
-    			"Wildlife Area" : "wildlife area",
-    			"Pier or Dock" : "other",
-    			"Golf Course" : "other",
-    			"Mitigation" : "other"
-    		}
-    },		
-    "adminLevel": {"static": "local"}
+      "key": "USE",
+      "mapping": {
+        "Park": "park",
+        "Open Space": "open space",
+        "Historical Site": "historic site",
+        "Active Recreation": "recreation area",
+        "Natural Area": "natural area",
+        "Boat Ramp": "other",
+        "Wildlife Area": "wildlife area",
+        "Pier or Dock": "other",
+        "Golf Course": "other",
+        "Mitigation": "other"
+      }
+    },
+    "adminLevel": {
+      "static": "local"
+    }
   },
   "filetype": "shp",
   "url": "http://opendata.firstmap.delaware.gov/datasets/8fb7b97cc9484bd8bc30795f7f551b35_0.zip",

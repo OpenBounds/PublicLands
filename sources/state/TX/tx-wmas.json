@@ -1,28 +1,32 @@
 {
-	"name" : "State Wildlife Management Areas in Texas",
-	"attribution" : "Texas Parks & Wildlife",
-	"properties" : {
-		"adminAgency" : {
-			"key" : "Owner",
-				"mapping" : {
-					"TPWD" : "Texas Parks & Wildlife Division",
-					"TXDOT" : "Texas Department of Transportation",
-					"TPWD/GSU" : "Texas Parks & Wildlife Division/Gulf States Utilities",
-					"TPWD/ACND" : "Texas Parks & Wildlife Division/Aransas County Navigation District",
-					"GLO" : "Texas General Land Office"
-				}	
-			},	
-		"adminLevel" : {"static" : "state"},			
-		"name" : "Name",
-		"type" : {"static" : "wildlife management area"}
-		},
-	"filetype" : "shp",
-	"url" : "http://tpwd.texas.gov/gis/data/baselayers/wildlife-management-areas",
-	"filter": [
-       {
-           "expression": "match",
-           "key": "Owner",
-           "value": "(.*TPWD|.*TXDOT|GLO)"
-       }
-     ]
+  "name": "State Wildlife Management Areas in Texas",
+  "attribution": "Texas Parks & Wildlife",
+  "properties": {
+    "adminAgency": {
+      "key": "Owner",
+      "mapping": {
+        "TPWD": "Texas Parks & Wildlife Division",
+        "TXDOT": "Texas Department of Transportation",
+        "TPWD/GSU": "Texas Parks & Wildlife Division/Gulf States Utilities",
+        "TPWD/ACND": "Texas Parks & Wildlife Division/Aransas County Navigation District",
+        "GLO": "Texas General Land Office"
+      }
+    },
+    "adminLevel": {
+      "static": "state"
+    },
+    "name": "Name",
+    "type": {
+      "static": "wildlife management area"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://tpwd.texas.gov/gis/data/baselayers/wildlife-management-areas",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "Owner",
+      "value": "(.*TPWD|.*TXDOT|GLO)"
+    }
+  ]
 }

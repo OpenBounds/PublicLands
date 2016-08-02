@@ -1,18 +1,24 @@
 {
-	"name" : "Bureau of Land Management Lands in Alaska",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"adminAgency" : {"static" : "Bureau of Land Management"},
-		"adminLevel" : {"static" : "federal"},
-		"type" : {"static" : "unknown"}
-		},
-		"filetype" : "shp",
-		"url" : "http://sdms.ak.blm.gov/download/landstatus/genstat.zip",
-    "filter": [
-       {
-           "expression": "match",
-           "key": "STATUS_TYP",
-           "value": "Bureau of Land Management"
-       }
-   ]
+  "name": "Bureau of Land Management Lands in Alaska",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "static": "Bureau of Land Management"
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "static": "unknown"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://sdms.ak.blm.gov/download/landstatus/genstat.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "STATUS_TYP",
+      "value": "Bureau of Land Management"
+    }
+  ]
 }

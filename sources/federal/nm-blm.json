@@ -1,18 +1,24 @@
 {
-	"name" : "Bureau of Land Management Lands in New Mexico",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"adminAgency" : {"static" : "Bureau of Land Management"},
-		"adminLevel" : {"static" : "federal"},
-		"type" : {"static" : "unknown"}
-		},
-	"filetype" : "shp",
-	"url" : "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
-		"filter": [
-       		{
-           	"expression": "match",
-           	"key": "own",
-           	"value": "BLM"
-       		}
-   		]
+  "name": "Bureau of Land Management Lands in New Mexico",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "static": "Bureau of Land Management"
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "static": "unknown"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "own",
+      "value": "BLM"
+    }
+  ]
 }

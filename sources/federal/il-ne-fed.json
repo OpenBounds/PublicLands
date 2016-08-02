@@ -1,31 +1,33 @@
 {
-	"name" : "Federal Lands in NE Illinois",
-	"attribution" : "Great Lakes Information Network",
-	"properties" : {
-		"adminAgency" : {
-			"key" : "MANAG_AGEN",
-				"mapping" : {
-					"U.S. Department of Energy" : "Department of Energy",			
-					"U.S. Forest Service" : "Forest Service"
-				}
-			},	
-		"name" : "SITE_NAME",
-		"type" : {
-			"key" : "CATEGORY",
-				"mapping" : {
-					"Federal Land" : "unknown",
-					"National Tallgrass Prairie" : "other"
-				}
-		},		
-		"adminLevel" : {"static" : "federal"}
-	},
-	"filetype" : "shp",
-	"url" : "http://www.greenmapping.org/data/esri/GLIN_Managed_Lands-esri.zip",
-	  "filter": [
-       	{
-           "expression": "match",
-           "key": "MANAG_AGEN",
-           "value": ".*U.S."
-       	}
-     ]
+  "name": "Federal Lands in NE Illinois",
+  "attribution": "Great Lakes Information Network",
+  "properties": {
+    "adminAgency": {
+      "key": "MANAG_AGEN",
+      "mapping": {
+        "U.S. Department of Energy": "Department of Energy",
+        "U.S. Forest Service": "Forest Service"
+      }
+    },
+    "name": "SITE_NAME",
+    "type": {
+      "key": "CATEGORY",
+      "mapping": {
+        "Federal Land": "unknown",
+        "National Tallgrass Prairie": "other"
+      }
+    },
+    "adminLevel": {
+      "static": "federal"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.greenmapping.org/data/esri/GLIN_Managed_Lands-esri.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "MANAG_AGEN",
+      "value": ".*U.S."
+    }
+  ]
 }

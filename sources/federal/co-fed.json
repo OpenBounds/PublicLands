@@ -1,30 +1,34 @@
 {
-	"name" : "Federally Managed Lands in Colorado",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"adminAgency" : {
-			"key" : "adm_manage",
-				"mapping" : {
-					"BOR" : "Bureau of Reclamation",
-					"BLM" : "Bureau of Land Management",
-					"DOD" : "Department of Defense",
-					"USFS" : "Forest Service",
-					"USFS_NG" : "Forest Service",
-					"USFS_LU" : "Forest Service",
-					"USFW" : "Fish & Wildlife Service"									
-				}
-			},	
-		"adminLevel" : {"static" : "federal"},
-		"type" : {"static" : "unknown"}
-	},	
-	"filetype" : "shp",
-	"url" : "http://www.blm.gov/style/medialib/blm/co/programs/geographical_sciences/gis/metadata/gislayers.Par.95180.File.dat/co_lst_03092016.zip",
-	"filenameInZip" : "co_lst_03092016.shp",
-    "filter": [
-       {
-           "expression": "match",
-           "key": "adm_manage",
-           "value": "(BOR|BLM|DOD|USFS|USFS_NG|USFW)"
-       }
-   ]
+  "name": "Federally Managed Lands in Colorado",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "key": "adm_manage",
+      "mapping": {
+        "BOR": "Bureau of Reclamation",
+        "BLM": "Bureau of Land Management",
+        "DOD": "Department of Defense",
+        "USFS": "Forest Service",
+        "USFS_NG": "Forest Service",
+        "USFS_LU": "Forest Service",
+        "USFW": "Fish & Wildlife Service"
+      }
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "static": "unknown"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.blm.gov/style/medialib/blm/co/programs/geographical_sciences/gis/metadata/gislayers.Par.95180.File.dat/co_lst_03092016.zip",
+  "filenameInZip": "co_lst_03092016.shp",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "adm_manage",
+      "value": "(BOR|BLM|DOD|USFS|USFS_NG|USFW)"
+    }
+  ]
 }

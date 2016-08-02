@@ -1,13 +1,21 @@
 {
-	"name" : "National Forests in Missouri",
-	"attribution" : "Forest Service",
-	"properties" : {
-		"name" : {"static" : "Mark Twain National Forest"},
-		"name2" : "NAME",
-		"type" : {"static" : "forest"},
-		"adminAgency" : {"static" : "Forest Service"},
-		"adminLevel" : {"static" : "federal"}
-		},
-	"filetype" : "shp",
-	"url" : "ftp://msdis.missouri.edu/pub/Environment_Conservation/MO_1986_Mark_Twain_National_Forest_Wilderness_shp.zip"
+  "name": "National Forests in Missouri",
+  "attribution": "Forest Service",
+  "properties": {
+    "name": {
+      "static": "Mark Twain National Forest"
+    },
+    "name2": "NAME",
+    "type": {
+      "static": "forest"
+    },
+    "adminAgency": {
+      "static": "Forest Service"
+    },
+    "adminLevel": {
+      "static": "federal"
+    }
+  },
+  "filetype": "shp",
+  "url": "ftp://msdis.missouri.edu/pub/Environment_Conservation/MO_1986_Mark_Twain_National_Forest_Wilderness_shp.zip"
 }

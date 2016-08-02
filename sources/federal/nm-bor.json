@@ -1,18 +1,24 @@
 {
-	"name" : "Bureau of Reclamation Lands in New Mexico",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"adminAgency" : {"static" : "Bureau of Reclamation"},
-		"adminLevel" : {"static" : "federal"},
-		"type" : {"static" : "unknown"}
-		},
-		"filetype" : "shp",
-		"url" : "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
-		    "filter": [
-       {
-           "expression": "match",
-           "key": "own",
-           "value": "BOR"
-       }
-   ]
+  "name": "Bureau of Reclamation Lands in New Mexico",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "static": "Bureau of Reclamation"
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "static": "unknown"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "own",
+      "value": "BOR"
+    }
+  ]
 }

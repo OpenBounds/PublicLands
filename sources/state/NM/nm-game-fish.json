@@ -1,18 +1,24 @@
 {
-	"name" : "New Mexico Department of Game and Fish Lands",
-	"attribution" : "U.S. Bureau of Land Management",
-	"properties" : {
-		"adminAgency" : {"static" : "New Mexico Department of Game and Fish"},
-		"adminLevel" : {"static" : "state"},
-		"type" : {"static" : "unknown"}
-		},
-		"filetype" : "shp",
-		"url" : "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
-    	"filter": [
-       		{
-           	"expression": "match",
-           	"key": "own",
-           	"value": "SGF"
-       		}
-   		]
+  "name": "New Mexico Department of Game and Fish Lands",
+  "attribution": "U.S. Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "static": "New Mexico Department of Game and Fish"
+    },
+    "adminLevel": {
+      "static": "state"
+    },
+    "type": {
+      "static": "unknown"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "own",
+      "value": "SGF"
+    }
+  ]
 }

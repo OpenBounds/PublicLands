@@ -1,19 +1,25 @@
 {
-	"name" : "Other Lands Owned by the Wisconsin Department of Natural Resources",
-	"attribution" : "Wisconsin Department of Natural Resources",
-	"properties" : {
-		"adminAgency" : {"static" : "Wisconsin Department of Natural Resources"},
-		"adminLevel" : {"static" : "state"},
-		"name" : "PROP_NAME",
-		"type" : {"static" : "other"}
-		},
-	"filetype" : "shp",
-	"url" : "ftp://ftp.wi.gov/DNR/public/Lands/DNR_PROPERTY_06_2016_EXT.zip",
-	"filter": [
-       {
-           "expression": "!=",
-           "key": "PROP_NAME",
-           "value": "(.*STATE PARK|.*STATE FOREST|.*NATURAL AREA)"
-       }
-     ]
+  "name": "Other Lands Owned by the Wisconsin Department of Natural Resources",
+  "attribution": "Wisconsin Department of Natural Resources",
+  "properties": {
+    "adminAgency": {
+      "static": "Wisconsin Department of Natural Resources"
+    },
+    "adminLevel": {
+      "static": "state"
+    },
+    "name": "PROP_NAME",
+    "type": {
+      "static": "other"
+    }
+  },
+  "filetype": "shp",
+  "url": "ftp://ftp.wi.gov/DNR/public/Lands/DNR_PROPERTY_06_2016_EXT.zip",
+  "filter": [
+    {
+      "expression": "!=",
+      "key": "PROP_NAME",
+      "value": "(.*STATE PARK|.*STATE FOREST|.*NATURAL AREA)"
+    }
+  ]
 }

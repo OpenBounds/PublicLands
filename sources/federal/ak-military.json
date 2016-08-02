@@ -1,19 +1,24 @@
 {
-	"name" : "Military-Owned Lands in Alaska",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"adminAgency" : {"static" : "Department of Defense"},
-		"adminLevel" : {"static" : "federal"},
-		"type" : {"static" : "military installation"}
-		},
-		"filetype" : "shp",
-		"url" : "http://sdms.ak.blm.gov/download/landstatus/genstat.zip",
-    	"filter": [
-       	{
-           "expression": "match",
-           "key": "STATUS_TYP",
-           "value": "Military"
-       	}
-   ]
-
+  "name": "Military-Owned Lands in Alaska",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "static": "Department of Defense"
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "static": "military installation"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://sdms.ak.blm.gov/download/landstatus/genstat.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "STATUS_TYP",
+      "value": "Military"
+    }
+  ]
 }

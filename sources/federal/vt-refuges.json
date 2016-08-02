@@ -1,23 +1,29 @@
 {
-	"name" : "Federal Wildlife Refuges in Vermont",
-	"attribution" : "University of Vermont, Spatial Analysis Lab",
-	"properties" : {
-		"adminAgency" : {"static" : "Fish & Wildlife Service"},
-		"adminLevel" : {"static" : "federal"},
-		"type" : {"static" : "refuge"}
-		},
-	"filetype" : "shp",
-	"url" : "http://maps.vcgi.vermont.gov/gisdata/vcgi/packaged_zips/CadastralPublands_CONSPUB.zip",
-    "filter": [
-       {
-           "expression": "match",
-           "key": "PPAGENCY",
-           "value": "31000"
-       },
-       {
-           "expression": "match",
-           "key": "NAME",
-           "value": ".*REFUGE"
-       }
-     ]
+  "name": "Federal Wildlife Refuges in Vermont",
+  "attribution": "University of Vermont, Spatial Analysis Lab",
+  "properties": {
+    "adminAgency": {
+      "static": "Fish & Wildlife Service"
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "static": "refuge"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://maps.vcgi.vermont.gov/gisdata/vcgi/packaged_zips/CadastralPublands_CONSPUB.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "PPAGENCY",
+      "value": "31000"
+    },
+    {
+      "expression": "match",
+      "key": "NAME",
+      "value": ".*REFUGE"
+    }
+  ]
 }

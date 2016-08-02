@@ -2,10 +2,16 @@
   "name": "New Mexico State Parks",
   "attribution": "U.S. Bureau of Land Management",
   "properties": {
-    "adminAgency": {"static": "State Parks Division"},
-    "adminLevel": {"static": "state"},
-    "type" : {"static" : "park"}
-  	},
+    "adminAgency": {
+      "static": "State Parks Division"
+    },
+    "adminLevel": {
+      "static": "state"
+    },
+    "type": {
+      "static": "park"
+    }
+  },
   "filetype": "shp",
   "url": "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
   "filter": [

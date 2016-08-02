@@ -1,19 +1,25 @@
 {
-	"name" : "South Carolina State Parks",
-	"attribution" : "South Carolina Department of Natural Resources and U.S. Geological Survey",
-	"properties" : {
-		"adminAgency" : {"static" : "South Carolina Department of Parks, Recreation & Tourism"},
-		"name" : "PRKNAME",
-		"type" : {"static" : "park"},
-		"adminLevel" : {"static" : "state"}
-		},
-	"filetype" : "shp",
-	"url" : "ftp://ftpdata.dnr.sc.gov/gisdata/prk/DLG_Park.zip",
-	"filter": [
-       {
-           "expression": "match",
-           "key": "PRKTYPE",
-           "value": "STATE"
-       }
-     ]
+  "name": "South Carolina State Parks",
+  "attribution": "South Carolina Department of Natural Resources and U.S. Geological Survey",
+  "properties": {
+    "adminAgency": {
+      "static": "South Carolina Department of Parks, Recreation & Tourism"
+    },
+    "name": "PRKNAME",
+    "type": {
+      "static": "park"
+    },
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "ftp://ftpdata.dnr.sc.gov/gisdata/prk/DLG_Park.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "PRKTYPE",
+      "value": "STATE"
+    }
+  ]
 }

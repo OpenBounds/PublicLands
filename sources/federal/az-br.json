@@ -1,18 +1,24 @@
 {
-	"name" : "Bureau of Reclamation Lands in Arizona",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"adminAgency" : {"static" : "Bureau of Reclamation"},
-		"adminLevel" : {"static" : "federal"},
-		"type" : {"static" : "unknown"}
-		},
-		"filetype" : "shp",
-		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
-    "filter": [
-       {
-           "expression": "match",
-           "key": "CATEGORY",
-           "value": "BR"
-       }
-   ]
+  "name": "Bureau of Reclamation Lands in Arizona",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "static": "Bureau of Reclamation"
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "static": "unknown"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "CATEGORY",
+      "value": "BR"
+    }
+  ]
 }

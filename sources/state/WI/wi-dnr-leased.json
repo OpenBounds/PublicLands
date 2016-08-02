@@ -1,19 +1,25 @@
 {
-	"name" : "Lands Leased by the Wisconsin Department of Natural Resources",
-	"attribution" : "Wisconsin Department of Natural Resources",
-	"properties" : {
-		"adminAgency" : {"static" : "Wisconsin Department of Natural Resources"},
-		"adminLevel" : {"static" : "state"},
-		"name" : "PROP_NAME",
-		"type" : {"static" : "unknown"}
-		},
-	"filetype" : "shp",
-	"url" : "ftp://ftp.wi.gov/DNR/public/Lands/LeasedLand.zip",
-	"filter": [
-       {
-           "expression": "!=",
-           "key": "PROP_NAME",
-           "value": "NO ASSOCIATED DNR PROPERTY"
-       }
-     ]
+  "name": "Lands Leased by the Wisconsin Department of Natural Resources",
+  "attribution": "Wisconsin Department of Natural Resources",
+  "properties": {
+    "adminAgency": {
+      "static": "Wisconsin Department of Natural Resources"
+    },
+    "adminLevel": {
+      "static": "state"
+    },
+    "name": "PROP_NAME",
+    "type": {
+      "static": "unknown"
+    }
+  },
+  "filetype": "shp",
+  "url": "ftp://ftp.wi.gov/DNR/public/Lands/LeasedLand.zip",
+  "filter": [
+    {
+      "expression": "!=",
+      "key": "PROP_NAME",
+      "value": "NO ASSOCIATED DNR PROPERTY"
+    }
+  ]
 }

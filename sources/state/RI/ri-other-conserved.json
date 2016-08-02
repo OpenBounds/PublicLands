@@ -1,20 +1,26 @@
 {
-	"name" : "Other State-Conserved Lands in Rhode Island",
-	"attribution" : "Rhode Island Department of Environmental Management",
-	"properties" : {
-		"adminAgency" : {"static" : "Rhode Island Department of Environmental Management, Division of Fish & Wildlife"},
-		"name" : "NAME",
-		"access" : "Pub_Access",
-		"adminLevel" : {"static" : "state"},
-		"type" : {"static" : "other"}
-		},
-	"filetype" : "shp",
-	"url" : "http://www.rigis.org/geodata/env/staCons14.zip",
-	"filter": [
-        {
-           "expression": "!=",
-           "key": "NAME",
-           "value": "(.*State Park|.*State Beach)"
-       }
-     ]
+  "name": "Other State-Conserved Lands in Rhode Island",
+  "attribution": "Rhode Island Department of Environmental Management",
+  "properties": {
+    "adminAgency": {
+      "static": "Rhode Island Department of Environmental Management, Division of Fish & Wildlife"
+    },
+    "name": "NAME",
+    "access": "Pub_Access",
+    "adminLevel": {
+      "static": "state"
+    },
+    "type": {
+      "static": "other"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.rigis.org/geodata/env/staCons14.zip",
+  "filter": [
+    {
+      "expression": "!=",
+      "key": "NAME",
+      "value": "(.*State Park|.*State Beach)"
+    }
+  ]
 }

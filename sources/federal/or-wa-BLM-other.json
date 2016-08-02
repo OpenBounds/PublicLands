@@ -1,25 +1,29 @@
 {
-	"name" : "Other areas in Oregon and Washington administered by the Bureau of Land Management",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"name" : "OND_NAME",
-		"adminAgency" : {"static" : "Bureau of Land Management"},
-		"adminLevel" : {"static" : "federal"},
-		"type" : {
-			"key" : "OND_NAME",
-				"mapping" : {
-					"Yaquina Head Outstanding Natural Area" : "natural area",
-					"Mt. Hood Scenic Corridor": "other",
-					"Bull Run Watershed Protection Area" : "area",
-					"Wildland Juniper Management Area" : "other",
-					"Cascade-Siskiyou National Monument" : "monument",
-					"San Juan Islands National Monument" : "monument",
-					"Steens Mountain Cooperative Management and Protection Area" : "other",
-					"Steens No Livestock Grazing Area" : "other"
-				}
-		}
-	},
-		"filetype" : "gdb",
-		"url" : "http://www.blm.gov/or/gis/files/web_corp/other_national_designations.zip",
-		"filenameInZip": "other_national_designations.gdb"
+  "name": "Other areas in Oregon and Washington administered by the Bureau of Land Management",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "name": "OND_NAME",
+    "adminAgency": {
+      "static": "Bureau of Land Management"
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "key": "OND_NAME",
+      "mapping": {
+        "Yaquina Head Outstanding Natural Area": "natural area",
+        "Mt. Hood Scenic Corridor": "other",
+        "Bull Run Watershed Protection Area": "area",
+        "Wildland Juniper Management Area": "other",
+        "Cascade-Siskiyou National Monument": "monument",
+        "San Juan Islands National Monument": "monument",
+        "Steens Mountain Cooperative Management and Protection Area": "other",
+        "Steens No Livestock Grazing Area": "other"
+      }
+    }
+  },
+  "filetype": "gdb",
+  "url": "http://www.blm.gov/or/gis/files/web_corp/other_national_designations.zip",
+  "filenameInZip": "other_national_designations.gdb"
 }

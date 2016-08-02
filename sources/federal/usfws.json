@@ -4,8 +4,12 @@
   "properties": {
     "name": "ORGNAME",
     "name2": "CMPXNAME",
-    "adminAgency": {"static": "Fish & Wildlife Service"},
-    "adminLevel" : {"static" : "federal"},
+    "adminAgency": {
+      "static": "Fish & Wildlife Service"
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
     "type": {
       "key": "RSL_TYPE",
       "mapping": {

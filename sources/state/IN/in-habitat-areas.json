@@ -5,8 +5,12 @@
     "adminAgency": "MANAGER",
     "name": "UNITNAME",
     "access": "ACCESS_",
-    "adminLevel": {"static": "state"},
-    "type" : {"static" : "habitat area"}
+    "adminLevel": {
+      "static": "state"
+    },
+    "type": {
+      "static": "habitat area"
+    }
   },
   "filetype": "shp",
   "url": "http://maps.indiana.edu/download/Environment/Managed_Lands_IDNR.zip",
@@ -16,7 +20,7 @@
       "key": "UNITNAME",
       "value": ".*Habitat Area"
     },
-     {
+    {
       "expression": "match",
       "key": "MANAGER",
       "value": "DNR FISH AND WILDLIFE"

@@ -6,8 +6,12 @@
       "static": "Kentucky Department of Fish and Wildlife Resources"
     },
     "name": "AREANAME",
-    "type": {"static": "wildlife management area"},
-	"adminLevel": {"static": "state"}
+    "type": {
+      "static": "wildlife management area"
+    },
+    "adminLevel": {
+      "static": "state"
+    }
   },
   "filetype": "shp",
   "url": "http://app.fw.ky.gov/kfwis/kygeonet/Wildlife_Management_Areas.zip"

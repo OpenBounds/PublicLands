@@ -1,29 +1,31 @@
 {
-	"name" : "National Monuments in California",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"name" : "NLCS_NAME",
-		"type" : {
-			"key" : "NLCS_TYPE",
-				"mapping" : {
-					"National Monument" : "monument",
-					"Forest Reserve" : "forest reserve",
-					"National Conservation Area" : "conservation area",
-					"Outstanding Natural Area" : "natural area"
-				}
-			},	
-		"adminAgency" : {
-			"key" : "AGENCY_CODE_ca",
-				"mapping" : {
-					"BLM" : "Bureau of Land Management",
-					"USFS" : "Forest Service",
-					"NPS" : "National Park Service"	
-				}
-			},
-		"adminLevel" : {"static" : "federal"}
-		},
-		"filetype" : "gdb",
-		"url" : "http://www.blm.gov/ca/gis/GeodatabasesZIP/nlcsNatMonuments_v10.gdb.zip",
-		"filenameInZip": "nlcsNatMonuments_v10.gdb",
-		"layerName": "nlcs_nm_nca_poly"
+  "name": "National Monuments in California",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "name": "NLCS_NAME",
+    "type": {
+      "key": "NLCS_TYPE",
+      "mapping": {
+        "National Monument": "monument",
+        "Forest Reserve": "forest reserve",
+        "National Conservation Area": "conservation area",
+        "Outstanding Natural Area": "natural area"
+      }
+    },
+    "adminAgency": {
+      "key": "AGENCY_CODE_ca",
+      "mapping": {
+        "BLM": "Bureau of Land Management",
+        "USFS": "Forest Service",
+        "NPS": "National Park Service"
+      }
+    },
+    "adminLevel": {
+      "static": "federal"
+    }
+  },
+  "filetype": "gdb",
+  "url": "http://www.blm.gov/ca/gis/GeodatabasesZIP/nlcsNatMonuments_v10.gdb.zip",
+  "filenameInZip": "nlcsNatMonuments_v10.gdb",
+  "layerName": "nlcs_nm_nca_poly"
 }

@@ -1,38 +1,42 @@
 {
-	"name" : "New Jersey Division of Parks and Forestry Lands",
-	"attribution" : "New Jersey Department of Environmental Protection",
-	"properties" : {
-		"adminAgency" : {"static" : "New Jersey Department of Environmental Protection, Division of Parks & Forestry"},
-		"name" : "MAP_LABEL",
-		"type" : {
-			"key" : "USE",
-				"mapping" : {
-					"SP" : "park",
-					"TRAIL" : "trail",
-					"SF" : "forest",
-					"MISC" : "other",
-					"NA/SP" : "natural area",
-					"HS" : "historic site",
-					"NA" : "natural area",
-					"RA" : "recreation area",
-					"MARINA" : "other",
-					"GC" : "other",
-					"NURSERY" : "other",
-					"CEMETERY" : "other",
-					"NULL" : "other",
-					"AIR FIELD" : "other",
-					"FIRE TOWER" : "other"	
-				}
-		},	
-		"adminLevel" : {"static" : "state"}
-		},
-		"filetype" : "shp",
-		"url" : "http://njogis.newjersey.opendata.arcgis.com/datasets/b75fe11ed90543c1b4ee87e66af63b8b_1.zip",
-	  "filter": [
-       {
-           "expression": "match",
-           "key": "OWNER",
-           "value": "PF"
-       }
-     ]
+  "name": "New Jersey Division of Parks and Forestry Lands",
+  "attribution": "New Jersey Department of Environmental Protection",
+  "properties": {
+    "adminAgency": {
+      "static": "New Jersey Department of Environmental Protection, Division of Parks & Forestry"
+    },
+    "name": "MAP_LABEL",
+    "type": {
+      "key": "USE",
+      "mapping": {
+        "SP": "park",
+        "TRAIL": "trail",
+        "SF": "forest",
+        "MISC": "other",
+        "NA/SP": "natural area",
+        "HS": "historic site",
+        "NA": "natural area",
+        "RA": "recreation area",
+        "MARINA": "other",
+        "GC": "other",
+        "NURSERY": "other",
+        "CEMETERY": "other",
+        "NULL": "other",
+        "AIR FIELD": "other",
+        "FIRE TOWER": "other"
+      }
+    },
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://njogis.newjersey.opendata.arcgis.com/datasets/b75fe11ed90543c1b4ee87e66af63b8b_1.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "OWNER",
+      "value": "PF"
+    }
+  ]
 }

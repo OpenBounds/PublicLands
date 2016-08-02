@@ -5,8 +5,12 @@
     "adminAgency": "MANAGER",
     "name": "UNITNAME",
     "access": "ACCESS_",
-    "adminLevel": {"static": "state"},
-    "type" : {"static" : "recreation area"}
+    "adminLevel": {
+      "static": "state"
+    },
+    "type": {
+      "static": "recreation area"
+    }
   },
   "filetype": "shp",
   "url": "http://maps.indiana.edu/download/Environment/Managed_Lands_IDNR.zip",
@@ -16,7 +20,7 @@
       "key": "UNITNAME",
       "value": ".*Recreation Area"
     },
-     {
+    {
       "expression": "match",
       "key": "MANAGER",
       "value": "^DNR"

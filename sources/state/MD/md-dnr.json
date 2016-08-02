@@ -5,30 +5,32 @@
     "adminAgency": "ManagedBy",
     "name": "DNRName",
     "type": {
-    	"key" : "Desig",
-    		"mapping" : {
-    			"CFL" : "forest",
-    			"Conservation Reserve Enhancement Program (CREP)" : "reserve",
-    			"FMA" :"wildlife management area",
-    			"FMA-PFA" :"wildlife management area",
-    			"FT" : "forest",
-    			"HCF" : "other",
-    			"MCF" : "other",
-    			"METFEE" : "other",
-    			"NEA" : "natural area",
-    			"NRMA" : "natural resources management area",
-    			"RT" : "trail",
-    			"SF" : "forest",
-    			"SFD" : "forest",
-    			"SFN" : "forest",
-    			"SP" : "park",
-    			"SP-B" : "park",
-    			"UNDESIGNATED" : "undesignated",
-    			"WMA" : "wildlife management area"	
-    		}
-    	},	
+      "key": "Desig",
+      "mapping": {
+        "CFL": "forest",
+        "Conservation Reserve Enhancement Program (CREP)": "reserve",
+        "FMA": "wildlife management area",
+        "FMA-PFA": "wildlife management area",
+        "FT": "forest",
+        "HCF": "other",
+        "MCF": "other",
+        "METFEE": "other",
+        "NEA": "natural area",
+        "NRMA": "natural resources management area",
+        "RT": "trail",
+        "SF": "forest",
+        "SFD": "forest",
+        "SFN": "forest",
+        "SP": "park",
+        "SP-B": "park",
+        "UNDESIGNATED": "undesignated",
+        "WMA": "wildlife management area"
+      }
+    },
     "url": "WebLink",
-	"adminLevel": {"static": "state"}
+    "adminLevel": {
+      "static": "state"
+    }
   },
   "filetype": "shp",
   "url": "http://data.imap.maryland.gov/datasets/a5de633b6ebf450b94dcb08b519c3414_0.zip",

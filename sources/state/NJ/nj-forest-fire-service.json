@@ -1,19 +1,25 @@
 {
-	"name" : "New Jersey State Forest Fire Service Lands",
-	"attribution" : "New Jersey Department of Environmental Protection",
-	"properties" : {
-		"adminAgency" : {"static" : "New Jersey Forest Fire Service"},
-		"name" : "MAP_LABEL",
-		"adminLevel" : {"static" : "state"},
-		"type" : {"static" : "other"}
-		},
-		"filetype" : "shp",
-		"url" : "http://njogis.newjersey.opendata.arcgis.com/datasets/b75fe11ed90543c1b4ee87e66af63b8b_1.zip",
-	  "filter": [
-       {
-           "expression": "match",
-           "key": "OWNER",
-           "value": "FF"
-       }
-     ]
+  "name": "New Jersey State Forest Fire Service Lands",
+  "attribution": "New Jersey Department of Environmental Protection",
+  "properties": {
+    "adminAgency": {
+      "static": "New Jersey Forest Fire Service"
+    },
+    "name": "MAP_LABEL",
+    "adminLevel": {
+      "static": "state"
+    },
+    "type": {
+      "static": "other"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://njogis.newjersey.opendata.arcgis.com/datasets/b75fe11ed90543c1b4ee87e66af63b8b_1.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "OWNER",
+      "value": "FF"
+    }
+  ]
 }

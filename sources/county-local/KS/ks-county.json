@@ -2,30 +2,32 @@
   "name": "County-Managed Areas in Kansas",
   "attribution": "Kansas Natural Heritage Inventory",
   "properties": {
-    "name" : "AREA_NAME",
+    "name": "AREA_NAME",
     "adminAgency": "MANAGER",
-    "owner" : "OWNER",
-    "adminLevel": {"static": "county"},
+    "owner": "OWNER",
+    "adminLevel": {
+      "static": "county"
+    },
     "type": {
-    	"key" : "AREA_NAME",
-    		"mapping" : {
-				"CARNAHAN  REEK" : "other",
-				"LINN COUNTY PARK AT LA CYGNE LAKE" : "park",
-				"KILL CREEK PARK" : "park",
-				"SUNFLOWER NATURE PARK" : "park",
-				"ERNIE MILLER PARK" : "park",
-				"IVAN L BOYD PRAIRIE PRESERVE" : "preserve",
-				"FORD STATE FISHING LAKE AND WILDLIFE AREA" : "wildlife area"
-    		}
-    	}
-	},	
+      "key": "AREA_NAME",
+      "mapping": {
+        "CARNAHAN  REEK": "other",
+        "LINN COUNTY PARK AT LA CYGNE LAKE": "park",
+        "KILL CREEK PARK": "park",
+        "SUNFLOWER NATURE PARK": "park",
+        "ERNIE MILLER PARK": "park",
+        "IVAN L BOYD PRAIRIE PRESERVE": "preserve",
+        "FORD STATE FISHING LAKE AND WILDLIFE AREA": "wildlife area"
+      }
+    }
+  },
   "filetype": "shp",
   "url": "http://data.kansasgis.org/environmental_resources/shp/protected_areas/protected_areas.zip",
-  "filter" : [
-  	{
-  	"expression" : "match",
-  	"key" : "MANAGER",
-  	"value" : "(^Count|.*Count)"
-  	}
+  "filter": [
+    {
+      "expression": "match",
+      "key": "MANAGER",
+      "value": "(^Count|.*Count)"
+    }
   ]
 }

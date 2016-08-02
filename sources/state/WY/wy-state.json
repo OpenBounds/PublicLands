@@ -2,9 +2,15 @@
   "name": "State-Owned Lands in Wyoming",
   "attribution": "U.S. Bureau of Land Management",
   "properties": {
-    "adminAgency": {"static" : "State of Wyoming"},
-    "adminLevel": {"static": "state"},
-    "type" : {"static" : "unknown"}
+    "adminAgency": {
+      "static": "State of Wyoming"
+    },
+    "adminLevel": {
+      "static": "state"
+    },
+    "type": {
+      "static": "unknown"
+    }
   },
   "filetype": "shp",
   "url": "http://pathfinder.geospatialhub.org/datasets/5bf76cf73d1c4baa8c124d60cf846d77_0.zip",

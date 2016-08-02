@@ -1,34 +1,38 @@
 {
-	"name" : "National Wilderness Study Areas in Oregon and Washington",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"name" : "WLD_NAME",
-		"adminAgency" : {"static" : "Bureau of Land Management"},
-		"adminLevel" : {"static" : "federal"},
-		"type" : {
-			"key" : "WLD_NAME",
-				"mapping" : {
-					"Hells Canyon Wilderness(blm)" : "wilderness area",
-					"Juniper Dunes Wilderness" : "wilderness area",
-					"Lower White River Wilderness" : "wilderness area",
-					"Oregon Badlands Wilderness" : "wilderness area",
-					"Soda Mountain Wilderness" : "wilderness area",
-					"Spring Basin Wilderness-Draft" : "other",
-					"Steens Mountain Wilderness" : "wilderness area",
-					"Table Rock Wilderness" : "wilderness area",
-					"Wild Rogue Wilderness" : "wilderness area"
- 				}
-		}
-	},
-	"filetype" : "gdb",
-	"url" : "http://www.blm.gov/or/gis/files/web_corp/wilderness.zip",
-	"filenameInZip": "wilderness.gdb", 
-	"layerName": "WLD_POLY",
-    "filter": [
-       {
-           "expression": "!=",
-           "key": "WLD_NAME",
-           "value": "inholding"
-       }
-   ]
+  "name": "National Wilderness Study Areas in Oregon and Washington",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "name": "WLD_NAME",
+    "adminAgency": {
+      "static": "Bureau of Land Management"
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "key": "WLD_NAME",
+      "mapping": {
+        "Hells Canyon Wilderness(blm)": "wilderness area",
+        "Juniper Dunes Wilderness": "wilderness area",
+        "Lower White River Wilderness": "wilderness area",
+        "Oregon Badlands Wilderness": "wilderness area",
+        "Soda Mountain Wilderness": "wilderness area",
+        "Spring Basin Wilderness-Draft": "other",
+        "Steens Mountain Wilderness": "wilderness area",
+        "Table Rock Wilderness": "wilderness area",
+        "Wild Rogue Wilderness": "wilderness area"
+      }
+    }
+  },
+  "filetype": "gdb",
+  "url": "http://www.blm.gov/or/gis/files/web_corp/wilderness.zip",
+  "filenameInZip": "wilderness.gdb",
+  "layerName": "WLD_POLY",
+  "filter": [
+    {
+      "expression": "!=",
+      "key": "WLD_NAME",
+      "value": "inholding"
+    }
+  ]
 }

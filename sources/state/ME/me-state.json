@@ -1,47 +1,49 @@
 {
-	"name" : "State-Conserved Lands in Maine",
-	"attribution" : "Maine Department of Agriculture, Conservation and Forestry",
-	"properties" : {
-		"adminAgency" : "HOLD1_NAME",
-		"name" : "PARCEL_NAM",
-		"type" : {
-			"key" : "DESIGNATIO",
-			"mapping" : {
-				"NULL" : "unknown",
-				"Public Land" : "unknown",
-				"Multi-use Recreational Trail" : "trail",
-				"State Wildlife Management Area" : "wildlife management area",
-				"Miscellaneous State Lands" : "other",
-				"State Park Property" : "park",
-				"Miscellaneous Municipal Lands" : "other",
-				"State Forest" : "forest",
-				"State Park" : "park",
-				"Coastal Island" : "other",
-				"State Historic Site" : "historic site",
-				"Flowage" : "other",
-				"State Ecological Reserve" : "reserve",
-				"Wildlife Protection Buffer" : "other",
-				"Other" : "other",
-				"Nature Preserve / Reserve / Sanctuary" : "preserve",
-				"Project Agreement" : "other",
-				"International Historic Site" : "historic site",
-				"Municipal Park" : "park"
-			}
-		},	
-		"adminLevel" : {"static" : "state"}
-		},
-	"filetype" : "shp",
-	"url" : "http://www.maine.gov/megis/catalog/shps/state/conserved_landss.zip",
-	  "filter": [
-       		{
-           "expression": "match",
-           "key": "DESIGNATIO",
-           "value": ".*Easement"
-       		},
-       		{
-           "expression": "match",
-           "key": "HOLD1_TYPE",
-           "value": "State"
-		}
-     ]
+  "name": "State-Conserved Lands in Maine",
+  "attribution": "Maine Department of Agriculture, Conservation and Forestry",
+  "properties": {
+    "adminAgency": "HOLD1_NAME",
+    "name": "PARCEL_NAM",
+    "type": {
+      "key": "DESIGNATIO",
+      "mapping": {
+        "NULL": "unknown",
+        "Public Land": "unknown",
+        "Multi-use Recreational Trail": "trail",
+        "State Wildlife Management Area": "wildlife management area",
+        "Miscellaneous State Lands": "other",
+        "State Park Property": "park",
+        "Miscellaneous Municipal Lands": "other",
+        "State Forest": "forest",
+        "State Park": "park",
+        "Coastal Island": "other",
+        "State Historic Site": "historic site",
+        "Flowage": "other",
+        "State Ecological Reserve": "reserve",
+        "Wildlife Protection Buffer": "other",
+        "Other": "other",
+        "Nature Preserve / Reserve / Sanctuary": "preserve",
+        "Project Agreement": "other",
+        "International Historic Site": "historic site",
+        "Municipal Park": "park"
+      }
+    },
+    "adminLevel": {
+      "static": "state"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.maine.gov/megis/catalog/shps/state/conserved_landss.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "DESIGNATIO",
+      "value": ".*Easement"
+    },
+    {
+      "expression": "match",
+      "key": "HOLD1_TYPE",
+      "value": "State"
+    }
+  ]
 }

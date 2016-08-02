@@ -4,7 +4,9 @@
   "properties": {
     "adminAgency": "FEE_OWNER",
     "name": "SITE_NAME",
-    "adminLevel": {"static": "state"}
+    "adminLevel": {
+      "static": "state"
+    }
   },
   "filetype": "shp",
   "url": "http://wsgw.mass.gov/data/gispub/shape/open_spc/openspace.zip",

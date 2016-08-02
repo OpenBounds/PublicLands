@@ -1,12 +1,18 @@
 {
-	"name" : "West Virginia State Parks",
-	"attribution" : "West Virginia University's Natural Resource Analysis Center, the West Virginia Cooperative Fish and Wildlife Research Unit, the West Virginia Division of Natural Resources, and the Biological Resources Division of the US Geological Survey",
-	"properties" : {
-		"adminAgency" : {"static" : "West Virginia Division of Natural Resources"},
-		"adminLevel" : {"static" : "state"},
-		"name" : "NAME",
-		"type" : {"static" : "park"}
-		},
-	"filetype" : "shp",
-	"url" : "ftp://ftp.wvgis.wvu.edu/pub/Clearinghouse/boundaries/stateParkBoundaries_WVDNR_2000_utm83_shp.zip"
+  "name": "West Virginia State Parks",
+  "attribution": "West Virginia University's Natural Resource Analysis Center, the West Virginia Cooperative Fish and Wildlife Research Unit, the West Virginia Division of Natural Resources, and the Biological Resources Division of the US Geological Survey",
+  "properties": {
+    "adminAgency": {
+      "static": "West Virginia Division of Natural Resources"
+    },
+    "adminLevel": {
+      "static": "state"
+    },
+    "name": "NAME",
+    "type": {
+      "static": "park"
+    }
+  },
+  "filetype": "shp",
+  "url": "ftp://ftp.wvgis.wvu.edu/pub/Clearinghouse/boundaries/stateParkBoundaries_WVDNR_2000_utm83_shp.zip"
 }

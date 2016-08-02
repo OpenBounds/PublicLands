@@ -1,18 +1,22 @@
 {
-	"name" : "State-Managed Lands in Washington",
-	"attribution" : "Washington Recreation and Conservation Office",
-	"properties" : {
-		"adminAgency" : "OwnerName",
-		"adminLevel" : {"static" : "state"},
-		"type" : {"static" : "unknown"}
-		},
-	"filetype" : "shp",
-	"url" : "http://www.rco.wa.gov/data/PublicLandsInventory/WA_PublicLandsInventory_2014_r1.1_WARCO_PublicInfo_Shapefile.zip",
-	"filter" : [
-		{
-			"expression" : "match",
-			"key" : "OwnerType",
-			"value" : "State"
-		}
-	]
+  "name": "State-Managed Lands in Washington",
+  "attribution": "Washington Recreation and Conservation Office",
+  "properties": {
+    "adminAgency": "OwnerName",
+    "adminLevel": {
+      "static": "state"
+    },
+    "type": {
+      "static": "unknown"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.rco.wa.gov/data/PublicLandsInventory/WA_PublicLandsInventory_2014_r1.1_WARCO_PublicInfo_Shapefile.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "OwnerType",
+      "value": "State"
+    }
+  ]
 }

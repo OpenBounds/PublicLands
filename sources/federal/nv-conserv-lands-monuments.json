@@ -1,18 +1,22 @@
 {
-	"name" : "National Conservation Areas and Monuments in Nevada",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"name" : "NLCS_NAME",
-		"adminAgency" : {"static" : "Bureau of Land Management"},
-		"type" : {
-			"key" : "NLCS_TYPE",
-				"mapping" : {
-					"National Conservation Area" : "conservation area",
-					"National Monument" : "monument"
-				}
-		},		
-		"adminLevel" : {"static" : "federal"}
-	},
-		"filetype" : "shp",
-		"url" : "http://www.blm.gov/style/medialib/blm/nv/gis/shp_files.Par.85819.File.dat/NV_NLCS_NM_NCA_shp.zip" 
+  "name": "National Conservation Areas and Monuments in Nevada",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "name": "NLCS_NAME",
+    "adminAgency": {
+      "static": "Bureau of Land Management"
+    },
+    "type": {
+      "key": "NLCS_TYPE",
+      "mapping": {
+        "National Conservation Area": "conservation area",
+        "National Monument": "monument"
+      }
+    },
+    "adminLevel": {
+      "static": "federal"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.blm.gov/style/medialib/blm/nv/gis/shp_files.Par.85819.File.dat/NV_NLCS_NM_NCA_shp.zip"
 }

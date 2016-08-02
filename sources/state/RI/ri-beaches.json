@@ -1,20 +1,26 @@
 {
-	"name" : "Rhode Island State Beaches",
-	"attribution" : "Rhode Island Department of Environmental Management",
-	"properties" : {
-		"adminAgency" : {"static" : "Rhode Island Division of Parks & Recreation"},
-		"name" : "NAME",
-		"type" : {"static" : "beach"},
-		"adminLevel" : {"static" : "state"},
-		"access" : "Pub_Access"
-		},
-	"filetype" : "shp",
-	"url" : "http://www.rigis.org/geodata/env/staCons14.zip",
-	"filter": [
-        {
-           "expression": "match",
-           "key": "NAME",
-           "value": ".*State Beach"
-       }
-     ]
+  "name": "Rhode Island State Beaches",
+  "attribution": "Rhode Island Department of Environmental Management",
+  "properties": {
+    "adminAgency": {
+      "static": "Rhode Island Division of Parks & Recreation"
+    },
+    "name": "NAME",
+    "type": {
+      "static": "beach"
+    },
+    "adminLevel": {
+      "static": "state"
+    },
+    "access": "Pub_Access"
+  },
+  "filetype": "shp",
+  "url": "http://www.rigis.org/geodata/env/staCons14.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "NAME",
+      "value": ".*State Beach"
+    }
+  ]
 }

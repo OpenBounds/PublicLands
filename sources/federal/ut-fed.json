@@ -1,50 +1,52 @@
 {
-	"name" : "Federal Lands in Utah",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"adminAgency" : {
-			"key" : "ADMIN",
-			"mapping" : {
-				"BLM" : "Bureau of Land Management",
-				"BR" : "Bureau of Reclamation",
-				"DOD" : "Department of Defense",
-				"DOE" : "Department of Energy",
-				"NPS" : "National Park Service",
-				"USFS" : "Forest Service",
-				"USFWS" : "Fish & Wildlife Service"
-			}
-		},	
-		"type" : {
-			"key": "DESIG",
-				"mapping" : {
-					"Bankhead Jones" : "grassland",
-					"N/A" : "unknown",
-					"National Monument" : "monument",
-					"National Recreation Area" : "recreation area",
-					"Primitive Area" : "area",
-					"Public Water Reserve" : "other",
-					"Wilderness" : "wilderness area",
-					"Reclamation Withdrawal" : "other",
-					"Military" : "military installation",
-					"Repository" : "other",
-					"National Historic Site" : "historic site",
-					"National Park" : "park",
-					"Wildlife Reserve/Management Area" : "wildlife management area",
-					"National Forest" : "forest",
-					"Other" : "other",
-					"National Wildlife Refuge" : "refuge",
-					"Parks and Recreation" : "park"
-				}	
-		},		
-		"adminLevel" : {"static" : "federal"}
-	},
-	"filetype" : "gdb",
-	"url" : "http://www.blm.gov/style/medialib/blm/ut/support_services_uso.Par.58040.File.dat/LandOwnership_20160601.zip",
-	"filter": [
-       {
-           "expression": "match",
-           "key": "ADMIN",
-           "value": "(BLM|BR|DOD|DOE|NPS|USFS|USFWS)"
-       }
-   ]
+  "name": "Federal Lands in Utah",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "key": "ADMIN",
+      "mapping": {
+        "BLM": "Bureau of Land Management",
+        "BR": "Bureau of Reclamation",
+        "DOD": "Department of Defense",
+        "DOE": "Department of Energy",
+        "NPS": "National Park Service",
+        "USFS": "Forest Service",
+        "USFWS": "Fish & Wildlife Service"
+      }
+    },
+    "type": {
+      "key": "DESIG",
+      "mapping": {
+        "Bankhead Jones": "grassland",
+        "N/A": "unknown",
+        "National Monument": "monument",
+        "National Recreation Area": "recreation area",
+        "Primitive Area": "area",
+        "Public Water Reserve": "other",
+        "Wilderness": "wilderness area",
+        "Reclamation Withdrawal": "other",
+        "Military": "military installation",
+        "Repository": "other",
+        "National Historic Site": "historic site",
+        "National Park": "park",
+        "Wildlife Reserve/Management Area": "wildlife management area",
+        "National Forest": "forest",
+        "Other": "other",
+        "National Wildlife Refuge": "refuge",
+        "Parks and Recreation": "park"
+      }
+    },
+    "adminLevel": {
+      "static": "federal"
+    }
+  },
+  "filetype": "gdb",
+  "url": "http://www.blm.gov/style/medialib/blm/ut/support_services_uso.Par.58040.File.dat/LandOwnership_20160601.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "ADMIN",
+      "value": "(BLM|BR|DOD|DOE|NPS|USFS|USFWS)"
+    }
+  ]
 }

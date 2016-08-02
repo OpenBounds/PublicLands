@@ -1,27 +1,31 @@
 {
-	"name" : "Military-Owned Lands in California",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"adminAgency" : {
-			"key" : "ADMIN_AGENCY_CODE",
-				"mapping" : {
-					"ARMY" : "Army",
-					"USAF" : "Air Force",
-					"USMC" : "Marine Corps"
-			}
-		},
-		"adminLevel" : {"static" : "federal"},
-		"type" : {"static" : "military installation"}
-		},
-		"filetype" : "gdb",
-		"url" : "http://www.blm.gov/ca/gis/GeodatabasesZIP/LandStatus_v10.gdb.zip",
-		"filenameInZip": "LandStatus_v10.gdb",
-		"layerName": "LndSurfaceEstate_SMA",
-    "filter": [
-       {
-           "expression": "match",
-           "key": "ADMIN_UNIT_TYPE",
-           "value": "(National Guard Camp|Air Force Base|Gunnery Range|Marine Corps Base|Training Center)"
-       }
-   ]
+  "name": "Military-Owned Lands in California",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "key": "ADMIN_AGENCY_CODE",
+      "mapping": {
+        "ARMY": "Army",
+        "USAF": "Air Force",
+        "USMC": "Marine Corps"
+      }
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "static": "military installation"
+    }
+  },
+  "filetype": "gdb",
+  "url": "http://www.blm.gov/ca/gis/GeodatabasesZIP/LandStatus_v10.gdb.zip",
+  "filenameInZip": "LandStatus_v10.gdb",
+  "layerName": "LndSurfaceEstate_SMA",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "ADMIN_UNIT_TYPE",
+      "value": "(National Guard Camp|Air Force Base|Gunnery Range|Marine Corps Base|Training Center)"
+    }
+  ]
 }

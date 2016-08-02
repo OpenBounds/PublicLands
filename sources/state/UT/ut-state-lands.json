@@ -3,18 +3,20 @@
   "attribution": "U.S. Bureau of Land Management",
   "properties": {
     "type": {
-    	"key" : "DESIG",
-    		"mapping" : {
-    			"N/A" : "unknown",
-    			"State Trust Land" : "trust land",
-    			"State Sovereign Land" : "other",
-    			"Conservation Lands" : "conservation area",
-    			"Wildlife Reserve/Management Area" : "reserve",
-    			"Parks and Recreation" : "park"
-    		}
-    },	
+      "key": "DESIG",
+      "mapping": {
+        "N/A": "unknown",
+        "State Trust Land": "trust land",
+        "State Sovereign Land": "other",
+        "Conservation Lands": "conservation area",
+        "Wildlife Reserve/Management Area": "reserve",
+        "Parks and Recreation": "park"
+      }
+    },
     "adminAgency": "ADMIN",
-    "adminLevel": {"static": "state"}
+    "adminLevel": {
+      "static": "state"
+    }
   },
   "filetype": "gdb",
   "url": "http://www.blm.gov/style/medialib/blm/ut/support_services_uso.Par.58040.File.datat/LandOwnership_20160601.zip",

@@ -5,8 +5,12 @@
     "adminAgency": "MANAGER",
     "name": "UNITNAME",
     "access": "ACCESS_",
-    "adminLevel": {"static": "state"},
-    "type" : {"static" : "forest"}
+    "adminLevel": {
+      "static": "state"
+    },
+    "type": {
+      "static": "forest"
+    }
   },
   "filetype": "shp",
   "url": "http://maps.indiana.edu/download/Environment/Managed_Lands_IDNR.zip",

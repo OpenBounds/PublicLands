@@ -1,18 +1,24 @@
 {
-	"name" : "Department of Energy-Owned Lands in Nevada",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"adminAgency" : {"static": "Department of Energy"},
-		"adminLevel" : {"static" : "federal"},
-		"type" : {"static" : "unknown"}
-		},
-	"filetype" : "shp",
-	"url" : "http://www.blm.gov/style/medialib/blm/nv/gis/shp_files.Par.56125.File.dat/NV_Land_Ownership_shp.zip",
-    "filter": [
-       {
-           "expression": "match",
-           "key": "ABBR",
-           "value": "DOE"
-       }
-   ]
+  "name": "Department of Energy-Owned Lands in Nevada",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "static": "Department of Energy"
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "static": "unknown"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.blm.gov/style/medialib/blm/nv/gis/shp_files.Par.56125.File.dat/NV_Land_Ownership_shp.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "ABBR",
+      "value": "DOE"
+    }
+  ]
 }

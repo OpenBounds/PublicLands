@@ -1,21 +1,26 @@
 {
-	"name" : "Bureau of Land Management Lands in California",
-	"attribution" : "Bureau of Land Management",
-	"properties" : {
-		"adminAgency" : {"static" : "Bureau of Land Management"},
-		"adminLevel" : {"static" : "federal"},
-		"type" : {"static" : "unknown"}
-		},
-		"filetype" : "gdb",
-		"url" : "http://www.blm.gov/ca/gis/GeodatabasesZIP/LandStatus_v10.gdb.zip",
-		"filenameInZip": "LandStatus_v10.gdb",
-		"layerName": "LndSurfaceEstate_SMA",
-    "filter": [
-       {
-           "expression": "match",
-           "key": "ADMIN_AGENCY_CODE",
-           "value": "BLM"
-       }
-   ]
- 
+  "name": "Bureau of Land Management Lands in California",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "static": "Bureau of Land Management"
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "static": "unknown"
+    }
+  },
+  "filetype": "gdb",
+  "url": "http://www.blm.gov/ca/gis/GeodatabasesZIP/LandStatus_v10.gdb.zip",
+  "filenameInZip": "LandStatus_v10.gdb",
+  "layerName": "LndSurfaceEstate_SMA",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "ADMIN_AGENCY_CODE",
+      "value": "BLM"
+    }
+  ]
 }

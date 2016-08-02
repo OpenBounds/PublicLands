@@ -1,19 +1,25 @@
 {
-	"name" : "State Parks in Wisconsin",
-	"attribution" : "Wisconsin Department of Natural Resources",
-	"properties" : {
-		"adminAgency" : {"static" : "Wisconsin Department of Natural Resources"},
-		"adminLevel" : {"static" : "state"},
-		"name" : "PROP_NAME",
-		"type" : {"static" : "park"}
-		},
-	"filetype" : "shp",
-	"url" : "ftp://ftp.wi.gov/DNR/public/Lands/DNR_PROPERTY_06_2016_EXT.zip",
-	"filter": [
-       {
-           "expression": "match",
-           "key": "PROP_NAME",
-           "value": ".*STATE PARK"
-       }
-     ]
+  "name": "State Parks in Wisconsin",
+  "attribution": "Wisconsin Department of Natural Resources",
+  "properties": {
+    "adminAgency": {
+      "static": "Wisconsin Department of Natural Resources"
+    },
+    "adminLevel": {
+      "static": "state"
+    },
+    "name": "PROP_NAME",
+    "type": {
+      "static": "park"
+    }
+  },
+  "filetype": "shp",
+  "url": "ftp://ftp.wi.gov/DNR/public/Lands/DNR_PROPERTY_06_2016_EXT.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "PROP_NAME",
+      "value": ".*STATE PARK"
+    }
+  ]
 }

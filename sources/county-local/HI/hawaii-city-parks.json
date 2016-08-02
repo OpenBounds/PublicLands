@@ -4,40 +4,41 @@
   "properties": {
     "adminAgency": "OWN",
     "type": {
-    	"key"  :"TYPE",
-    		"mapping" : {
-    			"NULL" : "unknown",
-    			"beach" : "beach",
-    			"park" : "park",
-    			"slide area/slope" : "other",
-    			"district" : "park",
-    			"neighborhood" : "park",
-    			"road" : "other",
-    			"community" : "park",
-    			"neighborhood" : "park",
-    			"sq/ente/tri/prom" : "park",
-    			"regional/cultural" : "park",
-    			"12" : "other",
-    			"nature preserve/marsh" : "park",
-    			"botanical garden" : "other",
-    			"golf course" : "other",
-    			"mini" : "park",
-    			"mall" : "other",
-    			"regional" : "park",
-    			"nature pres/marsh" : "preserve",
-    			"botantical garden" : "other",
-    			"community garden" : "other"
-    		}
+      "key": "TYPE",
+      "mapping": {
+        "NULL": "unknown",
+        "beach": "beach",
+        "park": "park",
+        "slide area/slope": "other",
+        "district": "park",
+        "neighborhood": "park",
+        "road": "other",
+        "community": "park",
+        "sq/ente/tri/prom": "park",
+        "regional/cultural": "park",
+        "12": "other",
+        "nature preserve/marsh": "park",
+        "botanical garden": "other",
+        "golf course": "other",
+        "mini": "park",
+        "mall": "other",
+        "regional": "park",
+        "nature pres/marsh": "preserve",
+        "botantical garden": "other",
+        "community garden": "other"
+      }
     },
-    "adminLevel": {"static": "local"}
-    },		
+    "adminLevel": {
+      "static": "local"
+    }
+  },
   "filetype": "shp",
   "url": "http://files.hawaii.gov/dbedt/op/gis/data/parkplys_n83.shp.zip",
-  "filter" : [
-  	{
-  		"expression" : "match",
-  		"key" : "OWN",
-  		"value" : "City"
-  	}
+  "filter": [
+    {
+      "expression": "match",
+      "key": "OWN",
+      "value": "City"
+    }
   ]
-}  
+}

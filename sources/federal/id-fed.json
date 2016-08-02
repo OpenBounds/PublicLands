@@ -1,36 +1,40 @@
 {
-	"name" : "Federally-Managed Lands in Idaho",
-	"attribution" : "Bureau of Land Management (BLM), Idaho State Office",
-	"properties" : {
-		"adminAgency" : {
-			"key" : "AGNCY_NAME",
-				"mapping" : {
-					"DOI" : "Department of the Interior",
-					"BLM" : "Bureau of Land Management",
-					"FAA" : "Federal Aviation Administration",
-					"FHA" : "Federal Highway Administration",
-					"USDA" : "Department of Agriculture",
-					"BOR" : "Bureau of Reclamation",
-					"COE" : "Army Corps of Engineers",
-					"MIL": "Department of Defense",
-					"NPS" : "National Park Service",
-					"NWR" : "Fish & Wildlife Service",
-					"USFS" : "Forest Service",
-					"DOE" : "Department of Energy",
-					"LU_DOI" : "Bureau of Land Management",
-					"LU_USDA" : "Forest Service"
-					}
-		},
-		"adminLevel" : {"static" : "federal"},
-		"type" : {"static" : "unknown"}	
-	},
-		"filetype" : "shp",
-		"url" : "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/blm/RLTY_SMA_PUB_24K_POLY.shp",
-	  	"filter": [
-       		{
-           	"expression": "!=",
-           	"key": "AGNCY_NAME",
-           	"value": "(HSTRCWTR|IR|PRIVATE|STATE|STATEFG|STATEPR|BIA)"
-       		}
-     	]
+  "name": "Federally-Managed Lands in Idaho",
+  "attribution": "Bureau of Land Management (BLM), Idaho State Office",
+  "properties": {
+    "adminAgency": {
+      "key": "AGNCY_NAME",
+      "mapping": {
+        "DOI": "Department of the Interior",
+        "BLM": "Bureau of Land Management",
+        "FAA": "Federal Aviation Administration",
+        "FHA": "Federal Highway Administration",
+        "USDA": "Department of Agriculture",
+        "BOR": "Bureau of Reclamation",
+        "COE": "Army Corps of Engineers",
+        "MIL": "Department of Defense",
+        "NPS": "National Park Service",
+        "NWR": "Fish & Wildlife Service",
+        "USFS": "Forest Service",
+        "DOE": "Department of Energy",
+        "LU_DOI": "Bureau of Land Management",
+        "LU_USDA": "Forest Service"
+      }
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "static": "unknown"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/blm/RLTY_SMA_PUB_24K_POLY.shp",
+  "filter": [
+    {
+      "expression": "!=",
+      "key": "AGNCY_NAME",
+      "value": "(HSTRCWTR|IR|PRIVATE|STATE|STATEFG|STATEPR|BIA)"
+    }
+  ]
 }

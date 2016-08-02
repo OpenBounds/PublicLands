@@ -3,19 +3,25 @@
   "attribution": "Connecticut Department of Environmental Protection",
   "properties": {
     "name": "PROPERTY",
-    "type": {"static" : "park"},	
-    "adminAgency": {"static": "Connecticut Department of Environmental Protection"},
-	"adminLevel": {"static": "state"}
+    "type": {
+      "static": "park"
+    },
+    "adminAgency": {
+      "static": "Connecticut Department of Environmental Protection"
+    },
+    "adminLevel": {
+      "static": "state"
+    }
   },
   "filetype": "gdb",
   "url": "ftp://ftp.state.ct.us/pub/dep/gis/geodatabase_format_zip/Property_gdb.zip",
   "filenameInZip": "Property.gdb",
   "layerName": "DEP_PROPERTY",
-  "filter" : [
-  	{
-  		"expression" : "match",
-  		"key" : "PROPERTY",
-  		"value" : "(.*State Park)"
-  	}
+  "filter": [
+    {
+      "expression": "match",
+      "key": "PROPERTY",
+      "value": "(.*State Park)"
+    }
   ]
 }

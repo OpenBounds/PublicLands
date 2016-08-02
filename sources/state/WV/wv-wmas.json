@@ -1,12 +1,16 @@
 {
-	"name" : "West Virginia Wildlife Management Areas",
-	"attribution" : "West Virginia Department of Natural Resources",
-	"properties" : {
-		"adminAgency" : "Contact",
-		"adminLevel" : {"static" : "state"},
-		"name" : "NAME",
-		"type" : {"static" : "wildlife management area"}
-		},
-	"filetype" : "shp",
-	"url" : "ftp://ftp.wvgis.wvu.edu/pub/Clearinghouse/boundaries/wildlifeManagementAreas/wvdnrManagedLands_wvdnr_10092015_utm83_shp.zip"
+  "name": "West Virginia Wildlife Management Areas",
+  "attribution": "West Virginia Department of Natural Resources",
+  "properties": {
+    "adminAgency": "Contact",
+    "adminLevel": {
+      "static": "state"
+    },
+    "name": "NAME",
+    "type": {
+      "static": "wildlife management area"
+    }
+  },
+  "filetype": "shp",
+  "url": "ftp://ftp.wvgis.wvu.edu/pub/Clearinghouse/boundaries/wildlifeManagementAreas/wvdnrManagedLands_wvdnr_10092015_utm83_shp.zip"
 }

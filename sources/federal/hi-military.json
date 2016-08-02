@@ -1,25 +1,29 @@
 {
-	"name" : "Military-Owned Reserves in Hawaii",
-	"attribution" : "Hawaii Division of Forestry and Wildlife, DLNR",
-	"properties" : {
-		"adminAgency" : {
-			"key" : "MANAGEDBY",
-				"mapping" : {
-					"US Army" : "Army",
-					"US Military" : "Department of Defense"
-					}
-				},	
-		"name" : "NAME",
-		"type" : {"static" : "military installation"},
-		"adminLevel" : {"static" : "federal"}
-		},
-		"filetype" : "shp",
-		"url" : "http://files.hawaii.gov/dbedt/op/gis/data/reserves.shp.zip",
-    	"filter": [
-       	{
-           "expression": "match",
-           "key": "MANAGEDBY",
-           "value": "(US Army|US Military)"
-       }
-   ]
+  "name": "Military-Owned Reserves in Hawaii",
+  "attribution": "Hawaii Division of Forestry and Wildlife, DLNR",
+  "properties": {
+    "adminAgency": {
+      "key": "MANAGEDBY",
+      "mapping": {
+        "US Army": "Army",
+        "US Military": "Department of Defense"
+      }
+    },
+    "name": "NAME",
+    "type": {
+      "static": "military installation"
+    },
+    "adminLevel": {
+      "static": "federal"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://files.hawaii.gov/dbedt/op/gis/data/reserves.shp.zip",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "MANAGEDBY",
+      "value": "(US Army|US Military)"
+    }
+  ]
 }

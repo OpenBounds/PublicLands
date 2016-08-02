@@ -1,39 +1,42 @@
 {
-	"name" : "Federally-Protected and Recreational Open Space in Massachusetts",
-	"attribution" : "Massachusetts Dept. of Fish and Game",
-	"properties" : {
-		"adminAgency" : {
-			"key" : "MANAGER",
-				"mapping" : {
-					"United States Coast Guard" : "Coast Guard",
-					"United States Fish and Wildlife Service" : "Fish & Wildlife Service",
-					"United States Department of Defense" : "Department of Defense",
-					"United States Air Force" : "Air Force",
-					"United StatesDepartment of the Interior" : "Department of the Interior",
-					"UNITED STATES DEPARTMENT OF VETERANS ADMINISTRATION" : "Department of Veterans Affairs",
-					"NMFS" : "National Marine Fisheries Service",
-					"National Park Service" : "National Park Service"
-				}
-		},
-		"name" : "SITE_NAME",
-		"adminLevel" : {"static" : "federal"},
-		"access" : "PUB_ACCESS",
-		"type" : {"static" : "unknown"}
-		},
-		"filetype" : "shp",
-		"url" : "http://wsgw.mass.gov/data/gispub/shape/open_spc/openspace.zip",
-		"filenameInZip" : "OPENSPACE_POLY.shp",
-			  "filter": [
-       {
-           "expression": "match",
-           "key": "MANAGER",
-           "value": "(.*United States|.*National)"
-       },
-       {
-           "expression": "!=",
-           "key": "MANAGER",
-           "value": "NULL"
-       }
-     ]
-
+  "name": "Federally-Protected and Recreational Open Space in Massachusetts",
+  "attribution": "Massachusetts Dept. of Fish and Game",
+  "properties": {
+    "adminAgency": {
+      "key": "MANAGER",
+      "mapping": {
+        "United States Coast Guard": "Coast Guard",
+        "United States Fish and Wildlife Service": "Fish & Wildlife Service",
+        "United States Department of Defense": "Department of Defense",
+        "United States Air Force": "Air Force",
+        "United StatesDepartment of the Interior": "Department of the Interior",
+        "UNITED STATES DEPARTMENT OF VETERANS ADMINISTRATION": "Department of Veterans Affairs",
+        "NMFS": "National Marine Fisheries Service",
+        "National Park Service": "National Park Service"
+      }
+    },
+    "name": "SITE_NAME",
+    "adminLevel": {
+      "static": "federal"
+    },
+    "access": "PUB_ACCESS",
+    "type": {
+      "static": "unknown"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://wsgw.mass.gov/data/gispub/shape/open_spc/openspace.zip",
+  "filenameInZip": "OPENSPACE_POLY.shp",
+  "filter": [
+    {
+      "expression": "match",
+      "key": "MANAGER",
+      "value": "(.*United States|.*National)"
+    },
+    {
+      "expression": "!=",
+      "key": "MANAGER",
+      "value": "NULL"
+    }
+  ]
 }
