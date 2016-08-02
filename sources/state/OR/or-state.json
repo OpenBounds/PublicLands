@@ -1,0 +1,28 @@
+{
+	"name" : "State-Managed Lands in Oregon",
+	"attribution" : "Bureau of Land Management",
+	"properties" : {
+		"adminAgency" : {
+			"key" : "LandManager",
+				"mapping" : {
+					"ODF" : "Oregon Department of Forestry",
+					"ODFW" : "Oregon Department of Fish & Wildlife",
+					"ODOT" : "Oregon Department of Transportation",
+					"ODSL" : "Oregon Department of State Lands",
+					"OPRD" : "Oregon Parks and Recreation Department",
+					"OR" : "State of Oregon",	
+					"OSU" :	"Oregon State University"
+				}
+		},	
+		"adminLevel" : {"static" : "state"}
+		},
+		"filetype" : "gdb",
+		"url" : "http://www.odf.state.or.us/gis/data/Ownership/2015_LandManagementDraft.gdb.zip",
+			  "filter": [
+       			{
+           		"expression": "match",
+           		"key": "LandManager",
+           		"value": "(ODF|ODFW|ODOT|ODSL|OPRD|OR|OSU)"
+       			}
+     			]
+}

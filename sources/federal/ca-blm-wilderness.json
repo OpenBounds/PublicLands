@@ -1,20 +1,14 @@
 {
-  "name": "Wilderness Areas in California",
-  "attribution": "U.S. Bureau of Land Management",
-  "properties": {
-    "name": "NLCS_NAME",
-    "type": {
-      "static": "Wilderness Area"
-    },
-    "adminAgency": {
-      "static": "U.S. Bureau of Land Management"
-    },
-    "adminLevel": {
-      "static": "federal"
-    }
-  },
-  "filetype": "gdb",
-  "url": "http://www.blm.gov/ca/gis/GeodatabasesZIP/nlcsWilderness_v10.gdb.zip",
-  "filenameInZip": "nlcsWilderness_v10.gdb",
-  "layerName": "nlcs_wld_poly"
+	"name" : "Wilderness Areas in California",
+	"attribution" : "Bureau of Land Management",
+	"properties" : {
+		"name" : "NLCS_NAME",
+		"type" : {"static" : "wilderness area"},
+		"adminAgency" : {"static" : "Bureau of Land Management"},
+		"adminLevel" : {"static" : "federal"}
+		},
+		"filetype" : "gdb",
+		"url" : "http://www.blm.gov/ca/gis/GeodatabasesZIP/nlcsWilderness_v10.gdb.zip",
+		"filenameInZip": "nlcsWilderness_v10.gdb",
+		"layerName": "nlcs_wld_poly"
 }

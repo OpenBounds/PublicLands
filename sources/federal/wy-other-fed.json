@@ -1,0 +1,34 @@
+{
+	"name" : "Other Federal Lands in Wyoming",
+	"attribution" : "Bureau of Land Management",
+	"properties" : {
+		"adminAgency" : {
+			"key" : "SURFACE",
+				"mapping" :	{
+					"Corps of Engineers" : "Army Corps of Engineers",
+					"Fish & Wildlife" : "Fish & Wildlife Service",
+					"National Grasslands" : "Forest Service",
+					"Bankhead Jones" : "Forest Service",
+					"Bureau of Land Management" : "Bureau of Land Management",
+					"Bureau of Reclamation" : "Bureau of Reclamation",
+					"Department of Agriculture" : "Department of Agriculture",
+					"Department of Defense" : "Department of Defense",
+					"Department of Energy" : "Department of Energy",
+					"Department of Veterans Affairs" : "Department of Veterans Affairs",
+					"Forest Service" : "Forest Service",
+					"National Park Service" : "National Park Service"			
+				}						
+			},
+		"adminLevel" : {"static" : "federal"},
+		"type" : {"static" : "unknown"}
+		},
+	"filetype" : "shp",
+	"url" : "http://pathfinder.geospatialhub.org/datasets/5bf76cf73d1c4baa8c124d60cf846d77_0.zip",
+    	"filter": [
+       		{
+           "expression": "match",
+           "key": "SURFACE",
+           "value": "(Bureau of Land Management|Bureau of Reclamation|Corps of Engineers|Department of Agriculture|Department of Defense|Department of Energy|Department of Veterans Affairs|Fish & Wildlife|Forest Service|National Grasslands|Bankhead Jones|National Park Service)"
+       		}
+     	]
+}

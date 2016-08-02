@@ -1,26 +1,57 @@
 {
-  "name": "Federal Lands in Indiana",
-  "attribution": "Indiana Natural Heritage Data Center, Indiana Department of Natural Resources",
-  "properties": {
-    "adminAgency": "MANAGER",
-    "name": "UNITNAME",
-    "access": {
-      "static": "yes"
-    }
-  },
-  "adminLevel": "federal",
-  "filetype": "shp",
-  "url": "http://maps.indiana.edu/download/Environment/Managed_Lands_IDNR.zip",
-  "filter": [
-    {
-      "expression": "match",
-      "key": "ACCESS_",
-      "value": "OPEN PER REGULATIONS"
-    },
-    {
-      "expression": "match",
-      "key": "MANAGER",
-      "value": ".*U.S."
-    }
-  ]
+	"name" : "Federal Lands in Indiana",
+	"attribution" : "Indiana Natural Heritage Data Center, Indiana Department of Natural Resources",
+	"properties" : {
+		"adminAgency" : {
+			"key" : "MANAGER",
+			"mapping" : {
+				"U.S. NATIONAL PARK SERVICE/GRC" : "National Park Service",
+				"U.S. NATIONAL PARK SERVICE/IDNL" : "National Park Service",
+				"U.S. ARMY CORPS OF ENGINEERS" : "Army Corps of Engineers",
+				"U.S. DEPT. OF DEFENSE" : "Department of Defense",
+				"U.S. FISH AND WILDLIFE SERVICE" : "Fish & Wildlife Service",
+				"U.S. FOREST SERVICE" : "Forest Service",
+				"U.S. NATIONAL PARK SERVICE" : "National Park Service"
+				}
+			},
+		"name" : "UNITNAME",
+		"access" : "ACCESS_",
+		"adminLevel" : {"static" : "federal"},
+		"type" : {
+			"key" : "SUBUNIT",
+				"mapping" : {
+					"George Roger Clark National Historic Park" : "park",
+					"Indiana Dunes National Lakeshore" : "other",
+					"IDNL - Usx Transfer Site" : "other",
+					"Mississinewa Spillway" : "other",
+					"Uniontown Locks And Dam" : "other",
+					"Mississinewa Dam" : "other",
+					"Jefferson Proving Ground" : "other",
+					"Patoka National Wildlife Refuge" : "refuge",
+					"Muscatatuck Acid Seep Spring Rna" : "other",
+					"Cane Ridge Wildlife Management Area" : "wildlife management area",
+					"Muscatatuck National Wildlife Refuge" : "refuge",
+					"Big Oaks National Wildlife Refuge" : "refuge",
+					"Slackwater Bottoms Nature Preserve" : "preserve",
+					"Hoosier National Forest" : "forest",
+					"Peter Cave Hollow" : "other",
+					"Pioneer Mothers Memorial Forest" : "forest",
+					"Wesselman National Natural Landmark" : "other",
+					"Lincoln's Cabin National Historic Site" : "historic site",
+					"Gaylor Butterfly Tract" : "other",
+					"Harrison Spring National Natural Landmark" : "other",
+					"Hobart Prairie Grove" : "other",
+					"Gaylord Butterfly Tract" : "other"
+				}
+		}
+	},
+		"filetype" : "shp",
+		"url" : "http://maps.indiana.edu/download/Environment/Managed_Lands_IDNR.zip",
+	  	"filter": [
+       		{
+           	"expression": "match",
+           	"key": "MANAGER",
+           	"value": "U.S."
+       		}
+     	]
 }

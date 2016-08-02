@@ -1,0 +1,19 @@
+{
+	"name" : "State Wildlife Areas in Arizona",
+	"attribution" : "U.S. Bureau of Land Management",
+	"properties" : {
+		"name" : "DESC_",
+		"adminAgency" : {"static" : "Arizona Game and Fish Department"},
+		"adminLevel" : {"static" : "state"}
+		},
+		"filetype" : "shp",
+		"url" : "http://www.blm.gov/az/GIS/shape_files/az_surf_mgmt.zip",
+    "filter": [
+       {
+           "expression": "match",
+           "key": "CATEGORY",
+           "value": "State Wildlife Area"
+       }
+   ]
+
+}

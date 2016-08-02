@@ -1,21 +1,18 @@
 {
-  "name": "U.S. Department of Defense Lands in New Mexico",
-  "attribution": "U.S. Bureau of Land Management",
-  "properties": {
-    "adminAgency": {
-      "static": "U.S. Department of Defense"
-    },
-    "adminLevel": {
-      "static": "federal"
-    }
-  },
-  "filetype": "shp",
-  "url": "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
-  "filter": [
-    {
-      "expression": "match",
-      "key": "own",
-      "value": "DOD"
-    }
-  ]
+	"name" : "Department of Defense Lands in New Mexico",
+	"attribution" : "Bureau of Land Management",
+	"properties" : {
+		"adminAgency" : {"static" : "Department of Defense"},
+		"adminLevel" : {"static" : "federal"},
+		"type" : {"static" : "military installation"}
+		},
+		"filetype" : "shp",
+		"url" : "http://www.nm.blm.gov/shapeFiles/state_wide/SURFACE_OWN.zip",
+		    "filter": [
+       {
+           "expression": "match",
+           "key": "own",
+           "value": "DOD"
+       }
+   ]
 }

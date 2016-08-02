@@ -1,12 +1,11 @@
 {
-  "name": "U.S. Fish and Wildlife Service",
-  "attribution": "U.S. Fish and Wildlife Service",
+  "name": "Fish and Wildlife Service Lands",
+  "attribution": "Fish & Wildlife Service",
   "properties": {
     "name": "ORGNAME",
     "name2": "CMPXNAME",
-    "adminAgency": {
-      "static": "U.S. Fish and Wildlife Service"
-    },
+    "adminAgency": {"static": "Fish & Wildlife Service"},
+    "adminLevel" : {"static" : "federal"},
     "type": {
       "key": "RSL_TYPE",
       "mapping": {
@@ -14,9 +13,6 @@
         "WMA": "wildlife management area",
         "WPA": "waterfowl production area"
       }
-    },
-    "adminLevel": {
-      "static": "federal"
     }
   },
   "filetype": "gdb",

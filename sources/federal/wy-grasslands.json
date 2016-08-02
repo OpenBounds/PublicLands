@@ -1,23 +1,19 @@
 {
-  "name": "National Grasslands in Wyoming",
-  "attribution": "U.S. Bureau of Land Management",
-  "properties": {
-    "adminAgency": "HOLDAGENCY",
-    "name": "SURFACE",
-    "type": {
-      "static": "National Grassland"
-    },
-    "adminLevel": {
-      "static": "federal"
-    }
-  },
-  "filetype": "shp",
-  "url": "http://pathfinder.geospatialhub.org/datasets/5bf76cf73d1c4baa8c124d60cf846d77_0.zip",
-  "filter": [
-    {
-      "expression": "match",
-      "key": "SURFACE",
-      "value": "Bankhead Jones"
-    }
-  ]
+	"name" : "National Grasslands in Wyoming",
+	"attribution" : "Bureau of Land Management",
+	"properties" : {
+		"adminAgency" : {"static" : "Forest Service"},
+		"name" : {"static" : "Bankhead Jones National Grassland"},
+		"type" : {"static" : "grassland"},
+		"adminLevel" : {"static" : "federal"}
+		},
+	"filetype" : "shp",
+	"url" : "http://pathfinder.geospatialhub.org/datasets/5bf76cf73d1c4baa8c124d60cf846d77_0.zip",
+    	"filter": [
+       	{
+           "expression": "match",
+           "key": "SURFACE",
+           "value": "Bankhead Jones"
+       	}
+     ]
 }

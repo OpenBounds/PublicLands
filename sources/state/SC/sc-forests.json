@@ -1,0 +1,19 @@
+{
+	"name" : "South Carolina State Forests",
+	"attribution" : "South Carolina Department of Natural Resources and U.S. Geological Survey",
+	"properties" : {
+		"adminAgency" : {"static" : "South Carolina Forestry Commission"},
+		"name" : "FORNAME",
+		"type" : {"static" : "State Forest"},
+		"adminLevel" : {"static" : "state"}
+		},
+		"filetype" : "shp",
+		"url" : "ftp://ftpdata.dnr.sc.gov/gisdata/for/DLG_Forest.zip",
+					  "filter": [
+       {
+           "expression": "match",
+           "key": "FORNAME",
+           "value": ".*STATE FOREST"
+       }
+     ]
+}

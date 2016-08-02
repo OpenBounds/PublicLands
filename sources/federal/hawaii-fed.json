@@ -1,0 +1,18 @@
+{
+  "name": "Federally-Owned Lands in Hawaii",
+  "attribution": "Statewide GIS Program, Office of Planning, State of Hawaii",
+  "properties": {
+    "adminAgency": {"static" : "Federal Government"},
+    "type": {"static" : "unknown"},
+    "adminLevel": {"static": "federal"}
+    },		
+  "filetype": "shp",
+  "url": "http://files.hawaii.gov/dbedt/op/gis/data/gov_own.shp.zip",
+    "filter" : [
+  	{
+  		"expression" : "match",
+  		"key" : "Type",
+  		"value" : "Public-Federal"
+  	}
+  ]
+}
