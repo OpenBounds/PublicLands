@@ -19,7 +19,7 @@
         "name2": {
           "$ref": "#/definitions/propertyMapping"
         },
-        "featureType": {
+        "type": {
           "$ref": "#/definitions/propertyMapping"
         },
         "adminAgency": {
@@ -27,8 +27,12 @@
         },
         "adminAgency2": {
           "$ref": "#/definitions/propertyMapping"
+        },
+        "adminLevel": {
+          "$ref": "#/definitions/propertyMapping"
         }
-      }
+      },
+      "required": ["adminLevel"]
     },
     "filetype": {
       "type": "string",
