@@ -29,9 +29,9 @@
 				"47000" : "Vermont Housing and Conservation Board", 
 				"48000" : "Vermont Department Buildings and General Services", 
 				"49000" : "Vermont Department of the Military"
-				},
-				"type" : {"static" : "Natural Area"}
+				}
 			},
+        "type" : {"static" : "Natural Area"},
 		"adminLevel" : {"static" : "state"},
 		"name" : "NAME"
 		},
