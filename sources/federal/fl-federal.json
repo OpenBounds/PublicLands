@@ -14,7 +14,6 @@
         "US DEPT. OF AGRICULTURE, FOREST SERVICE": "Forest Service",
         "US DEPT. OF THE INTERIOR, FISH AND WILDLIFE SERVICE": "Fish & Wildlife Service",
         "US DEPT. OF DEFENSE, MARINE CORPS": "Marine Corps",
-        "US DEPT. OF THE INTERIOR, NATIONAL PARK SERVICE": "National Park Service",
         "US DEPT. OF AGRICULTURE, NATURAL RESOURCES CONSERVATION SERVICE": "Department of Agriculture",
         "US DEPT. OF DEFENSE, NAVY": "Navy"
       }
@@ -65,9 +64,14 @@
       "value": "F"
     },
     {
-      "expression": "!=",
+      "expression": "not match",
       "key": "MANAME",
       "value": "(.*TRACT|.*EASEMENT)"
+    },
+    {
+      "expression": "not match",
+      "key": "MATYPE",
+      "value": "^FNPN."
     }
   ]
 }
