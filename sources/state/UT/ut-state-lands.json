@@ -8,6 +8,7 @@
         "N/A": "unknown",
         "State Trust Land": "trust land",
         "State Sovereign Land": "other",
+        "Other": "Other",
         "Conservation Lands": "conservation area",
         "Wildlife Reserve/Management Area": "reserve",
         "Parks and Recreation": "park"
