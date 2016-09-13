@@ -7,7 +7,9 @@
       "mapping": {
         "ARMY": "Army",
         "USAF": "Air Force",
-        "USMC": "Marine Corps"
+        "USMC": "Marine Corps",
+        "DOD": "Department of Defense",
+        "NAVY": "Navy"
       }
     },
     "adminLevel": {
@@ -23,9 +25,14 @@
   "layerName": "LndSurfaceEstate_SMA",
   "filter": [
     {
-      "expression": "match",
-      "key": "ADMIN_UNIT_TYPE",
-      "value": "(National Guard Camp|Air Force Base|Gunnery Range|Marine Corps Base|Training Center)"
+      "expression": "=",
+      "key": "ADMIN_DEPT_CODE",
+      "value": "DOD"
+    },
+    {
+      "expression": "!=",
+      "key": "ADMIN_AGENCY_CODE",
+      "value": "USACE"
     }
   ]
 }
