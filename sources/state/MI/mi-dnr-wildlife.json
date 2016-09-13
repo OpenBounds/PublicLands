@@ -5,7 +5,7 @@
     "adminAgency": {
       "static": "Michigan Department of Natural Resources, Wildlife Division"
     },
-    "name": "UNITNAME",
+    "name": "UNIT_NAME",
     "adminLevel": {
       "static": "state"
     }
@@ -15,7 +15,7 @@
   "filter": [
     {
       "expression": "match",
-      "key": "MANAGEMENT",
+      "key": "MANAGMEN_1",
       "value": "Wildlife"
     }
   ]
