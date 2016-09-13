@@ -18,7 +18,8 @@
         "USFS": "Forest Service",
         "DOE": "Department of Energy",
         "LU_DOI": "Bureau of Land Management",
-        "LU_USDA": "Forest Service"
+        "LU_USDA": "Forest Service",
+        "GSA": "General Services Administration"
       }
     },
     "adminLevel": {
@@ -32,7 +33,7 @@
   "url": "http://cloud.insideidaho.org/webApps/util/zip.ashx?fn=http://cloud.insideidaho.org/data/blm/RLTY_SMA_PUB_24K_POLY.shp",
   "filter": [
     {
-      "expression": "!=",
+      "expression": "not match",
       "key": "AGNCY_NAME",
       "value": "(HSTRCWTR|IR|PRIVATE|STATE|STATEFG|STATEPR|BIA)"
     }
