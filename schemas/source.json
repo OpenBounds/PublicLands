@@ -75,7 +75,8 @@
               "not null",
               "=",
               "!=",
-              "match"
+              "match",
+              "not match"
             ]
           },
           "key": {
