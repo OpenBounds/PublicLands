@@ -1,0 +1,49 @@
+{
+  "name": "California Protected Areas",
+  "attribution": "California Protected Areas Database",
+  "properties": {
+    "name": "LABEL_NAME",
+    "type": {
+      "static": "other"
+    },
+    "adminAgency": {
+      "static": "MNG_AGENCY"
+    },
+    "adminLevel": {
+      "key": "MNG_AG_LEV",
+      "mapping": {
+        "City": "local",
+        "County": "county",
+        "State": "state",
+        "Special District": "local",
+        "Joint": "local"
+      }
+    },
+    "url": "PARK_URL"
+  },
+  "filenameInZip": "CPAD_2016a/CPAD_2016a_SuperUnits.shp",
+  "filetype": "shp",
+  "url": "http://atlas.ca.gov/casil/planning/Land_Ownership/GreenInfoNetworkProject/CPAD-2016a-June2016/CPAD_2016a.zip",
+  "filter": [
+    {
+      "expression": "!=",
+      "key": "MNG_AG_LEV",
+      "value": "Private"
+    },
+    {
+      "expression": "!=",
+      "key": "MNG_AG_LEV",
+      "value": "Federal"
+    },
+    {
+      "expression": "!=",
+      "key": "MNG_AG_LEV",
+      "value": "Non Profit"
+    },
+    {
+      "expression": "=",
+      "key": "ACCESS_TYP",
+      "value": "Open Access"
+    }
+  ]
+}
