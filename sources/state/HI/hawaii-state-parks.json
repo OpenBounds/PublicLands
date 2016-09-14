@@ -10,7 +10,7 @@
         "state": "unknown",
         "State": "unknown",
         "beach": "beach",
-        "NULL": "unknown",
+        "null": "unknown",
         "recreation area": "recreation area",
         "wayside": "wayside",
         "monument": "monument",
@@ -25,11 +25,22 @@
         "sq/ente/tri/prom": "park",
         "mini": "park",
         "golf course": "other",
-        "natural area reserve": "reserve"
+        "natural area reserve": "reserve",
+        "botantical garden": "park",
+        "nature pres/marsh": "preserve",
+        "slide area/slope": "other",
+        "mall": "other",
+        "community garden": "other"
       }
     },
     "adminLevel": {
-      "static": "state"
+      "key": "OWN",
+      "mapping": {
+        "City": "local",
+        "State": "state",
+        "County": "county",
+        "Federal": "federal"
+      }
     }
   },
   "filetype": "shp",
@@ -39,7 +50,12 @@
     {
       "expression": "match",
       "key": "OWN",
-      "value": "(State|State DHHL)"
+      "value": "^(City|State|County|Federal)$"
+    },
+    {
+      "expression": "!=",
+      "key": "TYPE",
+      "value": "national"
     }
   ]
 }
