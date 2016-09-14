@@ -5,17 +5,18 @@
     "adminAgency": {
       "key": "SURFACE",
       "mapping": {
-        "Corps of Engineers": "Army Corps of Engineers",
-        "Fish & Wildlife": "Fish & Wildlife Service",
-        "National Grasslands": "Forest Service",
-        "Bankhead Jones": "Forest Service",
         "Bureau of Land Management": "Bureau of Land Management",
         "Bureau of Reclamation": "Bureau of Reclamation",
+        "Corps of Engineers": "Army Corps of Engineers",
         "Department of Agriculture": "Department of Agriculture",
         "Department of Defense": "Department of Defense",
         "Department of Energy": "Department of Energy",
         "Department of Veterans Affairs": "Department of Veterans Affairs",
+        "Federal Aviation Administration": "Federal Aviation Administration",
+        "Fish & Wildlife Service": "Fish & Wildlife Service",
+        "Fish & Wildlife": "Fish & Wildlife Service",
         "Forest Service": "Forest Service",
+        "National Grasslands": "Forest Service",
         "National Park Service": "National Park Service"
       }
     },
@@ -27,12 +28,18 @@
     }
   },
   "filetype": "shp",
-  "url": "http://pathfinder.geospatialhub.org/datasets/5bf76cf73d1c4baa8c124d60cf846d77_0.zip",
+  "filenameInZip": "SMA.shp",
+  "url": "http://data.openbounds.org/publiclands/sources/wyoming_sma.zip",
   "filter": [
     {
-      "expression": "match",
+      "expression": "not match",
       "key": "SURFACE",
-      "value": "(Bureau of Land Management|Bureau of Reclamation|Corps of Engineers|Department of Agriculture|Department of Defense|Department of Energy|Department of Veterans Affairs|Fish & Wildlife|Forest Service|National Grasslands|Bankhead Jones|National Park Service)"
+      "value": "^(Bankhead Jones|National Park Service|Water|Local Government|State|Private|Wind River Indian Reservation)$"
+    },
+    {
+      "expression": "not match",
+      "key": "SURFACE",
+      "value": "^State.*"
     }
   ]
 }

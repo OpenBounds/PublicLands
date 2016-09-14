@@ -1,0 +1,32 @@
+{
+  "name": "Wyoming Bankhead Jones Lands",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "key": "HOLDAGENCY",
+      "mapping": {
+        "Bureau of Land Management": "Bureau of Land Management",
+        "National Grasslands": "Forest Service"
+      }
+    },
+    "name": {
+      "static": "Bankhead Jones Lands"
+    },
+    "type": {
+      "static": "grassland"
+    },
+    "adminLevel": {
+      "static": "federal"
+    }
+  },
+  "filetype": "shp",
+  "filenameInZip": "SMA.shp",
+  "url": "http://data.openbounds.org/publiclands/sources/wyoming_sma.zip",
+  "filter": [
+    {
+      "expression": "=",
+      "key": "SURFACE",
+      "value": "Bankhead Jones"
+    }
+  ]
+}
