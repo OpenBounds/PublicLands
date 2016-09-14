@@ -32,7 +32,10 @@
         "sm": "monument",
         "sss": "other",
         "sxp": "park",
-        "p": "preserve"
+        "p": "preserve",
+        "srp": "other",
+        "hp": "historic site",
+        "swp": "park"
       }
     }
   },
@@ -40,14 +43,14 @@
   "url": "http://files.hawaii.gov/dbedt/op/gis/data/reserves.shp.zip",
   "filter": [
     {
-      "expression": "!=",
+      "expression": "not match",
       "key": "MANAGEDBY",
-      "value": "(^US|^Maui|Private|TNC|National Audubon Society|NULL)"
+      "value": "^(US|Maui|Private|TNC|National Audubon Society|NULL)"
     },
     {
-      "expression": "!=",
+      "expression": "not match",
       "key": "TYPE",
-      "value": "(gma|nhp)"
+      "value": "^(gma|nhp)$"
     }
   ]
 }
