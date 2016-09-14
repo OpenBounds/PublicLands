@@ -39,7 +39,7 @@
     }
   },
   "filetype": "shp",
-  "url": "ftp://ftp.fgdl.org/pub/state/gc_parksbnd_oct15.zip",
+  "url": "ftp://ftp.fgdl.org/pub/state/gc_parksbnd_jul16.zip",
   "filter": [
     {
       "expression": "match",
