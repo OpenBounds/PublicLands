@@ -36,9 +36,9 @@
   "url": "http://www.maine.gov/megis/catalog/shps/state/conserved_landss.zip",
   "filter": [
     {
-      "expression": "match",
-      "key": "DESIGNATIO",
-      "value": ".*Easement"
+      "expression": "not match",
+      "key": "CONS1_TYPE",
+      "value": "Easement"
     },
     {
       "expression": "match",
