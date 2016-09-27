@@ -1,0 +1,24 @@
+{
+  "name": "National Wilderness Preservation System",
+  "attribution": "The Wilderness Institute",
+  "properties": {
+    "adminAgency": {
+      "key": "AGBUR",
+      "mapping": {
+        "BLM": "Bureau of Land Management",
+        "FS": "Forest Service",
+        "FWS": "Fish & Wildlife Service",
+        "NPS": "National Park Service"
+      }
+    },
+    "name": "NAME",
+    "type": {
+      "static": "wilderness area"
+    },
+    "adminLevel": {
+      "static": "federal"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.wilderness.net/GIS/Wilderness_Areas.zip"
+}

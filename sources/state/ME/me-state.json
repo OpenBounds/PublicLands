@@ -25,7 +25,8 @@
         "Nature Preserve / Reserve / Sanctuary": "preserve",
         "Project Agreement": "other",
         "International Historic Site": "historic site",
-        "Municipal Park": "park"
+        "Municipal Park": "park",
+        "null": "other"
       }
     },
     "adminLevel": {
@@ -37,8 +38,18 @@
   "filter": [
     {
       "expression": "not match",
+      "key": "DESIGNATIO",
+      "value": ".*Easement"
+    },
+    {
+      "expression": "!=",
       "key": "CONS1_TYPE",
       "value": "Easement"
+    },
+    {
+      "expression": "!=",
+      "key": "DESIGNATIO",
+      "value": "Not Available"
     },
     {
       "expression": "match",

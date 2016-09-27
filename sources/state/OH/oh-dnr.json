@@ -34,7 +34,8 @@
         "SR ACCESS": "other",
         "SR AREA": "other",
         "WA": "other",
-        "Other": "other"
+        "Other": "other",
+        "Wildlife Area": "wildlife management area"
       }
     },
     "division": "Division",
@@ -43,10 +44,10 @@
     }
   },
   "filetype": "shp",
-  "url": "http://apps.ohiodnr.gov/geodata/Statewide/DNR_Lands_2014.zip",
+  "url": "http://apps.ohiodnr.gov/geodata/Statewide/DNR_Lands_2016.zip",
   "filter": [
     {
-      "expression": "!=",
+      "expression": "not match",
       "key": "OWN_TYPE",
       "value": "(ConservEase|Easement|FlowageEasement)"
     }
