@@ -1,17 +1,23 @@
 {
   "name": "U.S. Forest Service National Forest System Land Units",
-  "attribution": "U.S. Forest Service",
+  "attribution": "Forest Service",
   "properties": {
-	"name": "NFSLANDU_2",
     "adminAgency": {
-      "static": "U.S. Forest Service"
+      "static": "Forest Service"
     },
-    "type": "NFSLANDU_1",
+    "type": {
+		"static" : "forest"
+	},
     "adminLevel": {
       "static": "federal"
     }
   },
   "filetype": "shp",
-  "url": "http://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.NFSLandUnit.zip"
+  "url": "http://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.SurfaceOwnership.zip",
+	"filter": [{
+		"expression": "match",
+		"key": "OWNERCLASS",
+		"value": "USDA FOREST SERVICE"
+	}]
 }
 
