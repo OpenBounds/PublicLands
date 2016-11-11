@@ -5,6 +5,7 @@
     "adminAgency": {
       "static": "Forest Service"
     },
+    "name": "FORESTNAME",
     "type": {
 		"static" : "forest"
 	},
@@ -13,11 +14,11 @@
     }
   },
   "filetype": "shp",
-  "url": "http://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.SurfaceOwnership.zip",
+  "url": "https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.BasicOwnership.zip",
 	"filter": [{
-		"expression": "match",
+		"expression": "not match",
 		"key": "OWNERCLASS",
-		"value": "USDA FOREST SERVICE"
+		"value": "NON-FS"
 	}]
 }
 
