@@ -1,0 +1,17 @@
+{
+  "name": "Bureau of Land Management Pastures in New Mexico",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "static": "Bureau of Land Management"
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "static": "other"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.nm.blm.gov/shapeFiles/state_wide/GRAZING_ALLOTMENT_PASTURES.zip"
+}
