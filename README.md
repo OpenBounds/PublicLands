@@ -1,3 +1,11 @@
+# No Longer maintained
+This project is no longer maintained. Use [PAD-US](https://gapanalysis.usgs.gov/padus/) instead.
+
+
+
+
+
+
 [![Build Status](https://travis-ci.org/OpenBounds/PublicLands.svg?branch=master)](https://travis-ci.org/OpenBounds/PublicLands) 
 
 # PublicLands
