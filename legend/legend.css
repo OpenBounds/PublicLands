@@ -1,0 +1,28 @@
+.legend {
+	width: 10%;
+	border: 1px solid black; 
+	padding-left: 5px; 
+	border-collapse: collapse;
+}
+
+.legend th, td {
+	border: 1px solid black; 
+	padding: 5px; 
+	border-collapse: collapse;
+}
+
+.symbol {
+	text-align: center;
+}
+
+.column-name {
+	border: 1px solid black; 
+	padding-left: 5px; 
+	border-collapse: collapse;
+}
+
+.column-features {
+	border: 1px solid black; 
+	padding-left: 5px; 
+	border-collapse: collapse;
+}
