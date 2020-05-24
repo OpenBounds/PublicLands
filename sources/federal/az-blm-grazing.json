@@ -1,0 +1,17 @@
+{
+  "name": "BLM Grazing Allotments in Arizona",
+  "attribution": "Bureau of Land Management",
+  "properties": {
+    "adminAgency": {
+      "static": "Bureau of Land Management"
+    },
+    "adminLevel": {
+      "static": "federal"
+    },
+    "type": {
+      "static": "other"
+    }
+  },
+  "filetype": "shp",
+  "url": "http://www.blm.gov/az/GIS/shape_files/az_graz_allots.zip"
+}
